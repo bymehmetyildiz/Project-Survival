@@ -1,0 +1,1790 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'tr' Physical Memory: 32621 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Mehmet" at "2025-12-10T05:43:11.8742785Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-10T05:43:11Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.62f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Github/Project Survivor
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53069
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Github/Project Survivor
+D:/Github/Project Survivor
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19304]  Target information:
+
+Player connection [19304]  * "[IP] 10.0.1.102 [Port] 0 [Flags] 2 [Guid] 1984851403 [EditorId] 1984851403 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P02AFH1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19304] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19304] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 23036, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              26ce143882aa47d1b40b575882d47f5c
+  Correlation Id:          b892b66f59b6c351cac6ecf01cd75b7d
+  External correlation Id: 2718125832237639018
+  Machine Id:              zsDTylX/wbsPzAhj9VZkiZ+wIzE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Mehmet" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Mehmet-notifications" at "2025-12-10T05:43:11.9031505Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.62f1 (f99f05b3e950)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Github/Project Survivor/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
+    VRAM:     8042 MB
+    Driver:   32.0.15.8157
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002249 seconds.
+- Loaded All Assemblies, in  0.273 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.223 seconds
+Domain Reload Profiling: 494ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (86ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (101ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (223ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (195ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18966783445336-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.421 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.454 seconds
+Domain Reload Profiling: 874ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (92ms)
+			BuildScriptInfoCaches (18ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (454ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (384ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3847 unused Assets / (1.4 MB). Loaded Objects now: 4335.
+Memory consumption went from 84.8 MB to 83.4 MB.
+Total: 4.477500 ms (FindLiveObjects: 0.246800 ms CreateObjectMapping: 0.108800 ms MarkObjects: 2.816000 ms  DeleteObjects: 1.305400 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.383 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.465 seconds
+Domain Reload Profiling: 849ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (91ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (80ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (465ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (392ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3856 unused Assets / (1.0 MB). Loaded Objects now: 4348.
+Memory consumption went from 85.1 MB to 84.0 MB.
+Total: 4.138100 ms (FindLiveObjects: 0.212300 ms CreateObjectMapping: 0.151600 ms MarkObjects: 3.147300 ms  DeleteObjects: 0.626000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.381 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.464 seconds
+Domain Reload Profiling: 845ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (180ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (78ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (465ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (391ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3856 unused Assets / (1.1 MB). Loaded Objects now: 4349.
+Memory consumption went from 85.1 MB to 84.0 MB.
+Total: 4.091200 ms (FindLiveObjects: 0.227700 ms CreateObjectMapping: 0.105800 ms MarkObjects: 3.101400 ms  DeleteObjects: 0.655600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.383 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.437 seconds
+Domain Reload Profiling: 820ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (178ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (79ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3856 unused Assets / (1.1 MB). Loaded Objects now: 4350.
+Memory consumption went from 85.1 MB to 83.9 MB.
+Total: 4.150700 ms (FindLiveObjects: 0.240300 ms CreateObjectMapping: 0.106400 ms MarkObjects: 3.072100 ms  DeleteObjects: 0.731100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4800.437908 seconds.
+  path: Assets/Adventurers/Assets/obj/axe_2handed_Large.obj
+  artifactKey: Guid(5a2ee6d27705eeb45a88594615b6b60c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/axe_2handed_Large.obj using Guid(5a2ee6d27705eeb45a88594615b6b60c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '764232d408f682fd5a7bdbfcf76f31a2') in 0.1136343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Adventurers/Assets/fbx/axe_1handed_Large.fbx
+  artifactKey: Guid(95a73365ed8ea084cbea010c078f530d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/axe_1handed_Large.fbx using Guid(95a73365ed8ea084cbea010c078f530d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30161872e59724ab9573520621f4f18c') in 0.019753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Adventurers/Assets/gltf/quiver.bin
+  artifactKey: Guid(540fd987f84679a4f926ac7342e2cf59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/quiver.bin using Guid(540fd987f84679a4f926ac7342e2cf59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b480afa19245f695d00103e03b3ad5f') in 0.0029348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Adventurers/Assets/fbx/shield_round_barbarian.fbx
+  artifactKey: Guid(744448997ba266f4184b1cb8befa9622) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/shield_round_barbarian.fbx using Guid(744448997ba266f4184b1cb8befa9622) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba3d546ac74cdedde584f169afb0932d') in 0.0122459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Adventurers/Assets/obj/ammo_crate_withLid.obj
+  artifactKey: Guid(950d723bcfef7f548aae882b3447ace4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/ammo_crate_withLid.obj using Guid(950d723bcfef7f548aae882b3447ace4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8491b59d58fe13b5ac1f9180f3ed5e47') in 0.008323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Adventurers/Assets/fbx/shield_spikes_color.fbx
+  artifactKey: Guid(5363ba1adefd41c45af4a9ec1e49800e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/shield_spikes_color.fbx using Guid(5363ba1adefd41c45af4a9ec1e49800e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33e8253a172ad3d278575bf0c8ce85f4') in 0.0096869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Adventurers/Assets/gltf/shield_spikes_color.gltf
+  artifactKey: Guid(393596661805588419a611432d1a00cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/shield_spikes_color.gltf using Guid(393596661805588419a611432d1a00cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8f9c27cc5b593389ae5f29128f14e53') in 0.0025452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Adventurers/Assets/fbx/axe_2handed.fbx
+  artifactKey: Guid(0ba79826cac86aa439f62d431052b2df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/axe_2handed.fbx using Guid(0ba79826cac86aa439f62d431052b2df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b23c729c2a62702cb9332e17f5440936') in 0.0094011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Adventurers/Assets/obj/axe_2handed_Large.mtl
+  artifactKey: Guid(5921611b39373004080a8df3271a1e75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/axe_2handed_Large.mtl using Guid(5921611b39373004080a8df3271a1e75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a88e0f0528c8c5922a31d44e3a2ac32') in 0.0018609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Adventurers/Assets/obj
+  artifactKey: Guid(194e667281a8de94e8f49ab379588aee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj using Guid(194e667281a8de94e8f49ab379588aee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '807efeea339dc8d7d3e9a0fd35390715') in 0.0018201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Adventurers/Textures/rogue_texture_alt_B.png
+  artifactKey: Guid(987f72f599df6f2499ad823fb665de39) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Textures/rogue_texture_alt_B.png using Guid(987f72f599df6f2499ad823fb665de39) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3995fac35018f6871e4651cd3d593990') in 0.0235475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Adventurers/Characters/gltf/Barbarian_Large.glb
+  artifactKey: Guid(8bbab12c65df4f64cb94e11937afbb19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Characters/gltf/Barbarian_Large.glb using Guid(8bbab12c65df4f64cb94e11937afbb19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '246231e388aba00dacf514e673e29edb') in 0.002185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Adventurers/Assets/gltf/potion_medium_red.gltf
+  artifactKey: Guid(06e299f4baf4c084294b86b011f801c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/potion_medium_red.gltf using Guid(06e299f4baf4c084294b86b011f801c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7af80e229a5d860d552df0f7cd26e42b') in 0.0020604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Adventurers/Assets/gltf/arrow_bow.gltf
+  artifactKey: Guid(8dd55ec1d1562f84db3a5db8156f3623) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/arrow_bow.gltf using Guid(8dd55ec1d1562f84db3a5db8156f3623) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce884839cd79074e1dee863cf01762ea') in 0.0021897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Adventurers/Assets/obj/potion_medium_blue.mtl
+  artifactKey: Guid(27958a21afa4f4b4f89abca54495179a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/potion_medium_blue.mtl using Guid(27958a21afa4f4b4f89abca54495179a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c626fb8587b037dd70542d2857b5d317') in 0.0023338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Adventurers/Assets/fbx/ammo_crate.fbx
+  artifactKey: Guid(41b2ed55938ebc94fa04ec757eab60c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/ammo_crate.fbx using Guid(41b2ed55938ebc94fa04ec757eab60c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a62b645316eae0ebb11065e7bce836a2') in 0.0121202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Adventurers/Assets/obj/arrow_crossbow_bundle.mtl
+  artifactKey: Guid(2c381df849c28ec459ac62f323d88bc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/arrow_crossbow_bundle.mtl using Guid(2c381df849c28ec459ac62f323d88bc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a78c2653294fbff47fb43e29874a2809') in 0.0023707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Adventurers/Characters
+  artifactKey: Guid(c4fbf616b6191274e92d5bc6ab7bf4ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Characters using Guid(c4fbf616b6191274e92d5bc6ab7bf4ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14dc7e03b5f2d17837a99f761bc89c43') in 0.0017212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Adventurers/Assets/gltf/shotgun.gltf
+  artifactKey: Guid(7684bdf74c111824eb54d71575a45013) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/shotgun.gltf using Guid(7684bdf74c111824eb54d71575a45013) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c3c3c78cd3bf0f77b79d10e005a989d') in 0.002019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Adventurers/Assets/obj/mug_full_Large.mtl
+  artifactKey: Guid(318fd2fb02d2e75449692c8ebfa7087d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/mug_full_Large.mtl using Guid(318fd2fb02d2e75449692c8ebfa7087d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '519782521654bedb3c82d78933918a7c') in 0.0020804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Adventurers/Textures/engineer_texture_alt_A.png
+  artifactKey: Guid(573942afcc609d14d8840501d9fd636f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Textures/engineer_texture_alt_A.png using Guid(573942afcc609d14d8840501d9fd636f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd177e6aa1802c7a5339275d066c22e07') in 0.0072936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Adventurers/Textures/barbarian_texture_alt_A.png
+  artifactKey: Guid(44ae50fc3b30ebc47bbff7f9fa442fe8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Textures/barbarian_texture_alt_A.png using Guid(44ae50fc3b30ebc47bbff7f9fa442fe8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7958cd33b7b7dad697290c80b1ec447b') in 0.0084354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Adventurers/Assets/gltf/potion_large_red.gltf
+  artifactKey: Guid(749bce5477544ee42932cc2ab3cc3fe6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/potion_large_red.gltf using Guid(749bce5477544ee42932cc2ab3cc3fe6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd643ac246587baaa5087771a8dab3cb8') in 0.0018881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Adventurers/Assets/fbx/shield_round_color.fbx
+  artifactKey: Guid(400420d8c5e8ac94c9b52094f806e654) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/shield_round_color.fbx using Guid(400420d8c5e8ac94c9b52094f806e654) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6fc6c811619acc52ed7b11bcbfcaa3be') in 0.0115746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Adventurers/Characters/fbx/Barbarian.fbx
+  artifactKey: Guid(09b8dd4880b7b724db8597f8617905c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Characters/fbx/Barbarian.fbx using Guid(09b8dd4880b7b724db8597f8617905c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '203a22b6e80194349844295920eb4a69') in 0.018105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Adventurers/Assets/obj/potion_large_orange.obj
+  artifactKey: Guid(4bde1bb763d9328438fdd0759db25aa0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/potion_large_orange.obj using Guid(4bde1bb763d9328438fdd0759db25aa0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b91ebf8df809b9061d2bb74722647e3') in 0.037405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Adventurers/Assets/fbx/engineer_texture.png
+  artifactKey: Guid(043f621217c397a4eb66efc139f2043a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/engineer_texture.png using Guid(043f621217c397a4eb66efc139f2043a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9dd3868f626889fc2aafd85d3b67eb2f') in 0.0067879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Adventurers/Assets/obj/arrow_crossbow_bundle.obj
+  artifactKey: Guid(beb177a1c3079c24d84287323ea8b4e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/arrow_crossbow_bundle.obj using Guid(beb177a1c3079c24d84287323ea8b4e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '664e3012867665417ef0bc92d677a5cb') in 0.0084361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Adventurers/Textures/knight_texture_alt_B.png
+  artifactKey: Guid(f45b6d16e91bbd74390b9fb0fc9d8bd2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Textures/knight_texture_alt_B.png using Guid(f45b6d16e91bbd74390b9fb0fc9d8bd2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1513343a31e779d5810274c0db4a2fd1') in 0.0065869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Adventurers/Samples/rogue.png
+  artifactKey: Guid(4642d7e817befd345896958be2e0500e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Samples/rogue.png using Guid(4642d7e817befd345896958be2e0500e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '975c2fa3d61e3781c0da647ec8d249d6') in 0.0073779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/axe_2handed_Large.fbx
+  artifactKey: Guid(a4a01803b0307d141810ea1307392554) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/axe_2handed_Large.fbx using Guid(a4a01803b0307d141810ea1307392554) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a935081f356d39e571a356b848c18348') in 0.011652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Adventurers/Characters/gltf/Knight.glb
+  artifactKey: Guid(cd6952d7b2876ed41877f03c4e49ee2d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Characters/gltf/Knight.glb using Guid(cd6952d7b2876ed41877f03c4e49ee2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7e7a260dfff4f366af31c17541b0cc7') in 0.0022533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Adventurers/Assets/gltf/engineer_texture.png
+  artifactKey: Guid(f7ce5d4f4846ca2498affdfa88acedfa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/engineer_texture.png using Guid(f7ce5d4f4846ca2498affdfa88acedfa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35cc623dbc25826c9b139da0dfa50b62') in 0.0078062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Adventurers/Assets/gltf/arrow_crossbow.gltf
+  artifactKey: Guid(e493641199d73934dade0d01f59088e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/arrow_crossbow.gltf using Guid(e493641199d73934dade0d01f59088e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f232de915abe547fdb5b8bc5f3a72518') in 0.0021577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Adventurers/Textures/mage_texture_alt_B.png
+  artifactKey: Guid(d4718540d3afcc64096202d93c449d17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Textures/mage_texture_alt_B.png using Guid(d4718540d3afcc64096202d93c449d17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b091eade0ac33aabd8d07d3b2976dde5') in 0.0074062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Adventurers/Assets/fbx/arrow_bow.fbx
+  artifactKey: Guid(c7931236f31a47041bb2425c921218f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/arrow_bow.fbx using Guid(c7931236f31a47041bb2425c921218f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6402c950d68b5ae37344f7323b1339de') in 0.0118288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Adventurers/Samples/barbarian_Large.png
+  artifactKey: Guid(2ec19caf77267684599654b65c1050d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Samples/barbarian_Large.png using Guid(2ec19caf77267684599654b65c1050d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c495ccc25a4c54dc4e1d117177b7b924') in 0.008204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Adventurers/Assets/gltf/ammo_crate_withLid.gltf
+  artifactKey: Guid(e3ed4c36c9ca12e44b50b2f0e3e2971e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/ammo_crate_withLid.gltf using Guid(e3ed4c36c9ca12e44b50b2f0e3e2971e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f4dbeb53eb08e190e409e283f7fa3b3') in 0.0035637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Adventurers/Assets/gltf/quiver.gltf
+  artifactKey: Guid(cdd85c85bc26cb648870042e30beb3e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/quiver.gltf using Guid(cdd85c85bc26cb648870042e30beb3e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b83fc8ddb43cff27f0ffd0f602076ca9') in 0.0022831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Adventurers/Assets/gltf/mug_full_Large.gltf
+  artifactKey: Guid(8d74ee785795e74439d64ed6f3974ce0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/mug_full_Large.gltf using Guid(8d74ee785795e74439d64ed6f3974ce0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e95d20cab233c1e10594f133fef322d') in 0.0020774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Adventurers/Assets/fbx/shield_spikes.fbx
+  artifactKey: Guid(6fd3924216fdd844b97e9509f9202aa6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/shield_spikes.fbx using Guid(6fd3924216fdd844b97e9509f9202aa6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e84e9739aa41bd388431b0a5f0aff2a') in 0.0107028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Adventurers/Assets/obj/shield_spikes_color.obj
+  artifactKey: Guid(b841f591096bf084fb87128a45923539) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/shield_spikes_color.obj using Guid(b841f591096bf084fb87128a45923539) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1defae89232593b53d00824e7d175fa8') in 0.0099356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Adventurers/Assets/fbx/potion_large_blue.fbx
+  artifactKey: Guid(7f755bda3e339944a8b18d6d6b18b6d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/potion_large_blue.fbx using Guid(7f755bda3e339944a8b18d6d6b18b6d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43a3465aff9e3fbabdfd3fc5c25aabd6') in 0.0089019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Adventurers/Assets/fbx/axe_2handed_Large.fbx
+  artifactKey: Guid(f37d2bc6f3f07704e800289a67828348) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/axe_2handed_Large.fbx using Guid(f37d2bc6f3f07704e800289a67828348) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2eaab86fe567eb143bffb1c5682817d') in 0.0124398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Adventurers/Animations/fbx/Rig_Large/Rig_Large_General.fbx
+  artifactKey: Guid(57f320200705a484989932a058ddaac8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Animations/fbx/Rig_Large/Rig_Large_General.fbx using Guid(57f320200705a484989932a058ddaac8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f7560a97a302fbe6c377230bce364c2') in 0.0222089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072369 seconds.
+  path: Assets/Adventurers/Characters/gltf/Ranger.glb
+  artifactKey: Guid(9d8e990a828799249b8264147a420138) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Characters/gltf/Ranger.glb using Guid(9d8e990a828799249b8264147a420138) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24d507df684e286ee2179cb06c69f4b5') in 0.0021152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Adventurers/Assets/gltf/shield_spikes.gltf
+  artifactKey: Guid(d3a93c84423876b47b1d8fd6497189bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/shield_spikes.gltf using Guid(d3a93c84423876b47b1d8fd6497189bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '018d7fdddfa28bfce667d689ca628060') in 0.0024292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Adventurers/Assets/obj/potion_medium_red.mtl
+  artifactKey: Guid(38113fb73fa05e94bbf0958cd331046c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/potion_medium_red.mtl using Guid(38113fb73fa05e94bbf0958cd331046c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23cee31c25a22ee2817d782702b21c28') in 0.0020516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Adventurers/Assets/gltf/potion_small_green.bin
+  artifactKey: Guid(37a3dec9a173cc14691af869d2213fb3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/potion_small_green.bin using Guid(37a3dec9a173cc14691af869d2213fb3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd218bd29d04e3a724b9174379cbf1607') in 0.0022376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Adventurers/Animations/Click here for more Free Animations.url
+  artifactKey: Guid(4df8b181d823482498a2cb70567ab348) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Animations/Click here for more Free Animations.url using Guid(4df8b181d823482498a2cb70567ab348) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f716475d4f4328dae2cba62a8c59e95') in 0.0020012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Adventurers/Assets/gltf/potion_medium_green.gltf
+  artifactKey: Guid(f567fe8555c9053488e31306a169a734) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/potion_medium_green.gltf using Guid(f567fe8555c9053488e31306a169a734) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24f5ac9219e9de9183c3e004d570ea7c') in 0.001935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Adventurers/Assets/gltf/knight_texture.png
+  artifactKey: Guid(4dcac676311ef0f4da11a87767da6ce3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/knight_texture.png using Guid(4dcac676311ef0f4da11a87767da6ce3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d693a7d9fbffb305f609534c6e352fc') in 0.0075197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/druid_texture.png
+  artifactKey: Guid(5448c890e14d7854bb3aec45ad9a76e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/druid_texture.png using Guid(5448c890e14d7854bb3aec45ad9a76e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '814244e5b8dd6212c8eb627c61bd8ce6') in 0.0719412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/crossbow_1handed.fbx
+  artifactKey: Guid(b9a81e4020f7342428d72b461d604633) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/crossbow_1handed.fbx using Guid(b9a81e4020f7342428d72b461d604633) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8ed351b7e7f2eae2870426d2035058d') in 0.0081678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Adventurers/Assets/obj/arrow_bow_bundle.obj
+  artifactKey: Guid(e9c350d97558f964c96377ef1812d358) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/arrow_bow_bundle.obj using Guid(e9c350d97558f964c96377ef1812d358) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a0b5be82c40f5ea1eb6e01027fede03') in 0.0069267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Adventurers/Assets/obj/potion_small_orange.obj
+  artifactKey: Guid(fc057b46223bb024daa12f3c25aa4b5b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/potion_small_orange.obj using Guid(fc057b46223bb024daa12f3c25aa4b5b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '197ea54b651ee57ce3e9d2ccac281722') in 0.0111246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Adventurers/Assets/gltf/druid_texture.png
+  artifactKey: Guid(be16bcce0d49a034184da9d0c7ad9e8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/druid_texture.png using Guid(be16bcce0d49a034184da9d0c7ad9e8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f291d9ff3a92ecac2864cda40cf033bf') in 0.0056913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Adventurers/Assets/gltf/crossbow_1handed.gltf
+  artifactKey: Guid(65ca8c399222e4b4195ec1dd56b8da86) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/crossbow_1handed.gltf using Guid(65ca8c399222e4b4195ec1dd56b8da86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c53c528030e52270a565309165404547') in 0.0023427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/barbarian_texture.png
+  artifactKey: Guid(6cf87f740ae2b9e4da4f59e5cee111b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/barbarian_texture.png using Guid(6cf87f740ae2b9e4da4f59e5cee111b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f6fd56d6f428ca1157b65cbfdd45484') in 0.0086684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Adventurers/Assets/obj/engineer_Wrench.obj
+  artifactKey: Guid(52334c480705aee41ab80d5779e1477d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/engineer_Wrench.obj using Guid(52334c480705aee41ab80d5779e1477d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'edeeff58d5166b28ab47e214017b3a99') in 0.0066791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Adventurers/Assets/gltf/axe_1handed_Large.bin
+  artifactKey: Guid(a80032a7d88e9af43acb22de66cdbd12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/axe_1handed_Large.bin using Guid(a80032a7d88e9af43acb22de66cdbd12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d269e70c51abfdd28dae8fe8c71d566') in 0.0017517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Adventurers/Assets/obj/crossbow_1handed.mtl
+  artifactKey: Guid(9c0fc60422f62bf45a68cb9ee38faf73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/crossbow_1handed.mtl using Guid(9c0fc60422f62bf45a68cb9ee38faf73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb9455c7f278b81165b78b0affd8c526') in 0.0016536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Adventurers/Assets/obj/shield_round_color.mtl
+  artifactKey: Guid(7e95db8a3eeafb9409e36ad542aac0e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/shield_round_color.mtl using Guid(7e95db8a3eeafb9409e36ad542aac0e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e476c31b42c0716cf0231765b6bd587d') in 0.001472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Adventurers/Assets/obj/bow_withString.mtl
+  artifactKey: Guid(19f9e12d6263c4d49bee8c73f1b1f410) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/bow_withString.mtl using Guid(19f9e12d6263c4d49bee8c73f1b1f410) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33ed88d5d6d4b403379d4ab6fdca0379') in 0.0027149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/potion_huge_blue.fbx
+  artifactKey: Guid(a9abef7a67a52e44cad7cf6ae885078d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/potion_huge_blue.fbx using Guid(a9abef7a67a52e44cad7cf6ae885078d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f200c812daad2974bfcd8913d76ac7e') in 0.008548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Adventurers/Assets/obj/mug_empty.mtl
+  artifactKey: Guid(446d50c4ae0fc1c4cb5cbf461f5e11ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/mug_empty.mtl using Guid(446d50c4ae0fc1c4cb5cbf461f5e11ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c84984e5b0fd2349864eb961ba0e5d38') in 0.0017727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Adventurers/Assets/fbx/arrow_crossbow.fbx
+  artifactKey: Guid(52392493051c25747b26c70e3d613dc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/arrow_crossbow.fbx using Guid(52392493051c25747b26c70e3d613dc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bd8059c90b8ef2e011f236aa8eabedb') in 0.0083367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/arrow_crossbow.fbx
+  artifactKey: Guid(b7f7d0084a8aec44da5241afa0d84b7a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/arrow_crossbow.fbx using Guid(b7f7d0084a8aec44da5241afa0d84b7a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb0c4dde9f6b1fd26775cedbaf612a76') in 0.0091714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Adventurers/Characters/gltf/ranger_texture.png
+  artifactKey: Guid(8dc460bc444a2774882b014942cffbd3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Characters/gltf/ranger_texture.png using Guid(8dc460bc444a2774882b014942cffbd3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e6b78b6afd247aeebe8834c62475cda') in 0.0176632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Adventurers/Assets/fbx/potion_large_red.fbx
+  artifactKey: Guid(d767eb83f1b8e094a89e64781525442a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/potion_large_red.fbx using Guid(d767eb83f1b8e094a89e64781525442a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89675348afa524425f795cb68420d381') in 0.011295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Adventurers/Samples/druid.png
+  artifactKey: Guid(c240c2e320d6ea94aa89bbca58357689) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Samples/druid.png using Guid(c240c2e320d6ea94aa89bbca58357689) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7033f36637480d1d206eefa38e16db6') in 0.008018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Adventurers/Assets/fbx/druid_staff.fbx
+  artifactKey: Guid(1c089f14936873e4eaa86de14873cb24) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/druid_staff.fbx using Guid(1c089f14936873e4eaa86de14873cb24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e57fe778c8f7401a7c3f9a508ab0267a') in 0.0098834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Adventurers/Textures/druid_texture_alt_A.png
+  artifactKey: Guid(6c8a47546fe61ab4298ab996cda7aedb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Textures/druid_texture_alt_A.png using Guid(6c8a47546fe61ab4298ab996cda7aedb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b55992556cac70fe3a4e3372641b6d3') in 0.0062372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Adventurers/Assets/gltf/turret_base.gltf
+  artifactKey: Guid(e306860241ee0bc41b5159d173cd9935) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/turret_base.gltf using Guid(e306860241ee0bc41b5159d173cd9935) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65083df16e07d3060f215f159b459126') in 0.001863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Adventurers/Characters/gltf/barbarian_texture.png
+  artifactKey: Guid(ba4d5683b0d0f32499d3abcc61f9fa95) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Characters/gltf/barbarian_texture.png using Guid(ba4d5683b0d0f32499d3abcc61f9fa95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e2225354baa9944042ffe12d87c1a96') in 0.0087742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Adventurers/Assets/gltf/shield_round_barbarian_Large.bin
+  artifactKey: Guid(14b2296471c4974409c2c0042a332ff6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/shield_round_barbarian_Large.bin using Guid(14b2296471c4974409c2c0042a332ff6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c98294560a22221ae4eb7cf0501abcc1') in 0.0027421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Adventurers/Assets/obj/turret_base_turret_gun.obj
+  artifactKey: Guid(ef1890b145efd234eb5c8f3c3b437c48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/turret_base_turret_gun.obj using Guid(ef1890b145efd234eb5c8f3c3b437c48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce737abd8220c32048765ffed80d59ea') in 0.0081611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Adventurers/Textures
+  artifactKey: Guid(3e192a6cbd795f34593691955de5a3ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Textures using Guid(3e192a6cbd795f34593691955de5a3ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c17a61c89ea1acb5e4be66ebcd743d13') in 0.0020724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Adventurers/Animations/gltf
+  artifactKey: Guid(15d0a7cf699471849a15ac3afeb8befd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Animations/gltf using Guid(15d0a7cf699471849a15ac3afeb8befd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc181f02d371f24fb9487ba1671aeec3') in 0.0225058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Adventurers/Assets/obj/shotgun.mtl
+  artifactKey: Guid(de1e9dedf1b9c3b4e9cb5f85041a3233) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/shotgun.mtl using Guid(de1e9dedf1b9c3b4e9cb5f85041a3233) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8d5b9832fc19c77fe813a58439600c4') in 0.0035496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/potion_small_green.fbx
+  artifactKey: Guid(64b1c9d72b2071c49a1cd3e6ad83a47a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/potion_small_green.fbx using Guid(64b1c9d72b2071c49a1cd3e6ad83a47a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5289888caf49011846effe8565cc5f46') in 0.0133692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Adventurers/Characters/fbx/Ranger.fbx
+  artifactKey: Guid(7c94609a90e9cdf4caac243a4c75aab2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Characters/fbx/Ranger.fbx using Guid(7c94609a90e9cdf4caac243a4c75aab2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb3be5340143e70785970c9a46438fa4') in 0.0143481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 86
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Adventurers/Assets/gltf/potion_huge_green.gltf
+  artifactKey: Guid(878e7c2ee81adea45b17931ebef1a4b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/potion_huge_green.gltf using Guid(878e7c2ee81adea45b17931ebef1a4b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74a426817ac2de7c4ddcf84bdbe68df5') in 0.0027724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Adventurers/Assets/obj/potion_medium_red.obj
+  artifactKey: Guid(548f59cac8a34d14bb03e7d567388bbe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/potion_medium_red.obj using Guid(548f59cac8a34d14bb03e7d567388bbe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3765c616f51d8c3f277db32c93dacd49') in 0.0102407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/potion_small_orange.fbx
+  artifactKey: Guid(d146f3f842f74574d8c3c49efea7d861) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/potion_small_orange.fbx using Guid(d146f3f842f74574d8c3c49efea7d861) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1851783029c3479793c710419c3dcf0d') in 0.0086688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/knight_texture.png
+  artifactKey: Guid(3b3433332a379164e818e3c1a3dec92e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/knight_texture.png using Guid(3b3433332a379164e818e3c1a3dec92e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a922dde1e154a7839e32024ca408d2df') in 0.0058446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Adventurers/Assets/gltf/sword_1handed.bin
+  artifactKey: Guid(32bd537d21f418a43ace96230b6096ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/sword_1handed.bin using Guid(32bd537d21f418a43ace96230b6096ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2036ba31feb2045f58dfa7a56547425') in 0.0018191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Adventurers/Assets/gltf/crossbow_2handed.gltf
+  artifactKey: Guid(a305d5b958bc90447ad86baba4256ef4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/crossbow_2handed.gltf using Guid(a305d5b958bc90447ad86baba4256ef4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '783db03011ba007a1f47aaa83b0cbcf4') in 0.0200169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Adventurers/Assets/obj/wand.mtl
+  artifactKey: Guid(5a8865797faeba74db3d46af4c054145) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/wand.mtl using Guid(5a8865797faeba74db3d46af4c054145) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5513e134d79afa0eec8d80ad1c82148') in 0.0016976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/potion_large_blue.fbx
+  artifactKey: Guid(c98a79c5c7322d9409961625143ca23c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/potion_large_blue.fbx using Guid(c98a79c5c7322d9409961625143ca23c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9c2b8f675f0cc9ccc95e2a6ec15e718') in 0.0096303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Adventurers/Assets/obj/potion_large_green.obj
+  artifactKey: Guid(8d4c0f22499255142ac2ca0d167fb952) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/potion_large_green.obj using Guid(8d4c0f22499255142ac2ca0d167fb952) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa70d0974dd5d3e9daad7e275b243bff') in 0.0087538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Adventurers/Assets/obj/potion_huge_orange.mtl
+  artifactKey: Guid(9e69e0981d4abff4fa26e314e76e9e62) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/potion_huge_orange.mtl using Guid(9e69e0981d4abff4fa26e314e76e9e62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c62d48a324c06c9943952ef80b2e5831') in 0.0016347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Adventurers/Assets/gltf/axe_2handed_Large.bin
+  artifactKey: Guid(cb494a5e9f5c6bd46b874ab7c838cea8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/axe_2handed_Large.bin using Guid(cb494a5e9f5c6bd46b874ab7c838cea8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39e8d9c04f07d624971053e3a6698b5b') in 0.0032023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Adventurers/Assets/obj/potion_huge_green.mtl
+  artifactKey: Guid(f4b66212179c6264c8ee00ebc292ecc8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/potion_huge_green.mtl using Guid(f4b66212179c6264c8ee00ebc292ecc8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60e1d97f5dac1ffad861f6a40d8eafdd') in 0.0049787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Adventurers/Animations/gltf/Rig_Medium/Rig_Medium_General.glb
+  artifactKey: Guid(72df1f0adf804a44eb12140127ede0b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Animations/gltf/Rig_Medium/Rig_Medium_General.glb using Guid(72df1f0adf804a44eb12140127ede0b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e37183ef27e8c18634bedad62e4137fc') in 0.0016405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Adventurers/Assets/obj/turret_base.mtl
+  artifactKey: Guid(30f05663c4abf3b4e8c6693b478a8216) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/turret_base.mtl using Guid(30f05663c4abf3b4e8c6693b478a8216) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac9d706a77a9dd03c66ca0775bcc47ba') in 0.0015356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/sword_1handed.fbx
+  artifactKey: Guid(cab3fbf20f7c2b045a470fdb265e0b99) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/sword_1handed.fbx using Guid(cab3fbf20f7c2b045a470fdb265e0b99) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66631cdf3420572d64ce96d54caa5782') in 0.0152574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Adventurers/Samples/knight.png
+  artifactKey: Guid(8e419987534757140a4ff9fd5586b036) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Samples/knight.png using Guid(8e419987534757140a4ff9fd5586b036) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d6514549c5a9eed8b2fe5a0d9ca0751') in 0.0067864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Adventurers/Animations/fbx/Rig_Large
+  artifactKey: Guid(faabc6819e1b2ce4e94903069bf5df7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Animations/fbx/Rig_Large using Guid(faabc6819e1b2ce4e94903069bf5df7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fadccee9bb0693df85f4c28599190f79') in 0.0021716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.123691 seconds.
+  path: Assets/Adventurers/Assets/obj/potion_medium_orange.obj
+  artifactKey: Guid(b525d7eb1bf86d94cb24fc8c59965e8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/potion_medium_orange.obj using Guid(b525d7eb1bf86d94cb24fc8c59965e8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19141f0e515b5b8b09f02bddd221a7f2') in 0.0203186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Adventurers/Assets/obj/crossbow_2handed.obj
+  artifactKey: Guid(9d1961c28238e76418038d5f42b75136) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/crossbow_2handed.obj using Guid(9d1961c28238e76418038d5f42b75136) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6dff10752c78ca891d700ba49056009') in 0.010041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Adventurers/Assets/obj/shield_spikes_color.mtl
+  artifactKey: Guid(fdca83c48fba8d8468fe489460327b27) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/shield_spikes_color.mtl using Guid(fdca83c48fba8d8468fe489460327b27) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f61611cf7fa20b66f288df70dbd6d6a') in 0.0116955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Adventurers/Textures/rogue_texture.png
+  artifactKey: Guid(db76a8c3a3e5224458cf81cbb779675a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Textures/rogue_texture.png using Guid(db76a8c3a3e5224458cf81cbb779675a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa1ab396d5b1622d77818220ba0dac2a') in 0.0059661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Adventurers/Assets/obj/druid_staff.obj
+  artifactKey: Guid(c14dde38c86a9964dafc88512f4d00f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/druid_staff.obj using Guid(c14dde38c86a9964dafc88512f4d00f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9cc1dfac6ec95a38742f9a0e1b959db6') in 0.0093243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Adventurers/Characters/gltf/engineer_texture.png
+  artifactKey: Guid(0e02a6df161c6f54481af954203a6576) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Characters/gltf/engineer_texture.png using Guid(0e02a6df161c6f54481af954203a6576) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ceea4881bd3ca4247eb0154862db0b3') in 0.0066215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Adventurers/Assets/obj/ammo_crate.mtl
+  artifactKey: Guid(75be68f3891ca194caef419ed79a8368) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/ammo_crate.mtl using Guid(75be68f3891ca194caef419ed79a8368) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e5baa6dcfde57918584c6f4a4fa25d9') in 0.0021927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Adventurers/Characters/fbx/druid_texture.png
+  artifactKey: Guid(cc266b1f64d9038408dc4f14487f01a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Characters/fbx/druid_texture.png using Guid(cc266b1f64d9038408dc4f14487f01a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a75f6356275cef4fec4cf81315c9bbab') in 0.0071969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Adventurers/Assets/gltf/mug_full_Large.bin
+  artifactKey: Guid(7f939046e08a67b4fbe6a78045f0820f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/mug_full_Large.bin using Guid(7f939046e08a67b4fbe6a78045f0820f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'febf6f946ac20a4b0906bdf6ce71b948') in 0.002381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Adventurers/Assets/gltf/smokebomb.bin
+  artifactKey: Guid(79f377c633d30e4438881c18c79d758f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/smokebomb.bin using Guid(79f377c633d30e4438881c18c79d758f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94c22e94f0b0916b8c3152496c565837') in 0.0019792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Adventurers/Assets/gltf/sword_2handed_color.bin
+  artifactKey: Guid(4c9d630aef726934693462eef85a48a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/sword_2handed_color.bin using Guid(4c9d630aef726934693462eef85a48a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54c09803db3718b228f9aab60e046887') in 0.0021431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/mug_full_Large.fbx
+  artifactKey: Guid(6c018d9cc69a4aa47ba1af43a897cb10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/mug_full_Large.fbx using Guid(6c018d9cc69a4aa47ba1af43a897cb10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cadcc5403dcabf7c153a4c9f055a49a0') in 0.0096485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Adventurers/Animations
+  artifactKey: Guid(b253f2d65067b484ca27340a85393abb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Animations using Guid(b253f2d65067b484ca27340a85393abb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cd094363da9f3647e32b1e9b2e4f790') in 0.0026893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/shield_badge.fbx
+  artifactKey: Guid(ea7416041e617ec4eb570c5b3661306e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/shield_badge.fbx using Guid(ea7416041e617ec4eb570c5b3661306e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6eb0d7998309caca84071978c97a702') in 0.0085545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Adventurers/Assets/fbx/druid_texture.png
+  artifactKey: Guid(c2cd0a64b9139b3479dbf8b6abceaf03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/druid_texture.png using Guid(c2cd0a64b9139b3479dbf8b6abceaf03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b53f19d2d8070dbcc7bf63ef73a23a0') in 0.0073279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/smokebomb.fbx
+  artifactKey: Guid(1012c9c05825eaa42b0dc40fd5e44c59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/smokebomb.fbx using Guid(1012c9c05825eaa42b0dc40fd5e44c59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '405da4b8bfadfcfd8c8ffe30d4e704d1') in 0.0081164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Adventurers/Assets/obj/ammo_crate_withLid.mtl
+  artifactKey: Guid(7e726eb1f9f80314f9174a1a8fc0e9e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/ammo_crate_withLid.mtl using Guid(7e726eb1f9f80314f9174a1a8fc0e9e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5d5e1463576ae648010a669963060ed') in 0.0019626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Adventurers/Assets/fbx/turret_base.fbx
+  artifactKey: Guid(ca14c514f37c06740afdca84fc5d4fb2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/turret_base.fbx using Guid(ca14c514f37c06740afdca84fc5d4fb2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdba3f98ab7dfea44a6629cab8c5d53a') in 0.0125125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Adventurers/Assets/fbx/spellbook_open.fbx
+  artifactKey: Guid(b9bd96c3d1562294a800296f857a8cf5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/spellbook_open.fbx using Guid(b9bd96c3d1562294a800296f857a8cf5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0481181c5113768c90186db137ea973f') in 0.009891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Adventurers/Assets/fbx/quiver.fbx
+  artifactKey: Guid(551a4eb571f07554ab5319de0d9265d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/quiver.fbx using Guid(551a4eb571f07554ab5319de0d9265d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b231c70f13f9bed6d83cb5b0a17e9e9') in 0.0093074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Adventurers/Assets/obj/ammo_crate.obj
+  artifactKey: Guid(80f696bb4978c1d42827afd1f5e438aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/ammo_crate.obj using Guid(80f696bb4978c1d42827afd1f5e438aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8cf41951e9e9582a7d952764996c4d86') in 0.0076334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Adventurers/Assets/obj/sword_1handed.mtl
+  artifactKey: Guid(5034e9f2f1d001945b56ede8f348d1d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/sword_1handed.mtl using Guid(5034e9f2f1d001945b56ede8f348d1d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2c1d4eaa1040818c137884bafeb6400') in 0.0023281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Adventurers/Assets/obj/bow.obj
+  artifactKey: Guid(b4cde80ed0fb5b84282f4d19e3208295) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/bow.obj using Guid(b4cde80ed0fb5b84282f4d19e3208295) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7614f4bdfe8bce7e40e13f586d6c968c') in 0.0080766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Adventurers/Assets/obj/spellbook_closed.mtl
+  artifactKey: Guid(c49f7a992e0045a43b653a876398b032) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/spellbook_closed.mtl using Guid(c49f7a992e0045a43b653a876398b032) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91cc02a2b410f07059effff652c469c7') in 0.0025368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Adventurers/Textures/ranger_texture_alt_C.png
+  artifactKey: Guid(867146672c49212418f1a48310add6ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Textures/ranger_texture_alt_C.png using Guid(867146672c49212418f1a48310add6ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '428d6bd34b141de57fafee4ebb99176a') in 0.0068662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Adventurers/Assets/obj/sword_2handed.obj
+  artifactKey: Guid(d2e70e6631b91ef4a9d6abe584336423) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/sword_2handed.obj using Guid(d2e70e6631b91ef4a9d6abe584336423) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c0c5133846d39d70a05b206d672d840') in 0.0101524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Adventurers/Assets/fbx/wand.fbx
+  artifactKey: Guid(0598d21d3fe4e0746946e7d22ca9a656) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/wand.fbx using Guid(0598d21d3fe4e0746946e7d22ca9a656) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7294bdb523a69fdd7d60469f12cc6c5') in 0.0089112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Adventurers/Assets/obj/turret_base_turret_footA.obj
+  artifactKey: Guid(b7b13c042b74a4e4fba3f0b213318bb7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/turret_base_turret_footA.obj using Guid(b7b13c042b74a4e4fba3f0b213318bb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5669bd8962c76712c76d30abf61b65b3') in 0.0074058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Adventurers/Assets/fbx/potion_small_orange.fbx
+  artifactKey: Guid(03276cd6470714f478b45be902080c14) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/potion_small_orange.fbx using Guid(03276cd6470714f478b45be902080c14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '946ffa02d21be456ee7f9d6e4e73fb8d') in 0.0097038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/potion_medium_blue.fbx
+  artifactKey: Guid(6a0e1a0ef95b9fb4ea012803e0c023b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/potion_medium_blue.fbx using Guid(6a0e1a0ef95b9fb4ea012803e0c023b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0d3c0dc098d09dac1d9ea6f5f82eba8') in 0.0084988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Adventurers/Animations/gltf/Rig_Medium/Rig_Medium_MovementBasic.glb
+  artifactKey: Guid(c42e82657d041d441ac9ad57e19e61b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Animations/gltf/Rig_Medium/Rig_Medium_MovementBasic.glb using Guid(c42e82657d041d441ac9ad57e19e61b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae7a211116eb8b1e3344303ff15f01a3') in 0.0033498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Adventurers/Assets/gltf/axe_1handed_Large.gltf
+  artifactKey: Guid(42969df82a86a24438c6da3bda89340d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/axe_1handed_Large.gltf using Guid(42969df82a86a24438c6da3bda89340d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '777e68650de0a6ae4ded4de8142ec5f8') in 0.0020852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Adventurers/Assets/obj/shield_badge.mtl
+  artifactKey: Guid(d4f84cf99d1ef61498044f27e55ffdec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/shield_badge.mtl using Guid(d4f84cf99d1ef61498044f27e55ffdec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3810233d412605d5fe60f7adc949216') in 0.0020384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Adventurers/Assets/obj/engineer_Wrench.mtl
+  artifactKey: Guid(9cf6b7cd9ab65da4fa6cf46d9f2ce277) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/engineer_Wrench.mtl using Guid(9cf6b7cd9ab65da4fa6cf46d9f2ce277) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b036215d706e8ad93c2ffa93d3b1e28') in 0.0026719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Adventurers/Assets/obj/axe_1handed.mtl
+  artifactKey: Guid(2ae2a4772d54f3645a0c7f8599a6a0f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/axe_1handed.mtl using Guid(2ae2a4772d54f3645a0c7f8599a6a0f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86fb02eda4f9bd24aa448ef73c6bd27d') in 0.0018201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Adventurers/Assets/obj/turret_base.obj
+  artifactKey: Guid(c8c44246341e5d6499bf39dc35952bb4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/turret_base.obj using Guid(c8c44246341e5d6499bf39dc35952bb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'feee2a75e615e18ba11cafcd32192325') in 0.0079338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Adventurers/Characters/fbx/Druid.fbx
+  artifactKey: Guid(66bb55946c683834e94636c00320d855) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Characters/fbx/Druid.fbx using Guid(66bb55946c683834e94636c00320d855) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dabded07a73d2fdfc2f73a594c21dc9b') in 0.0128142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.237082 seconds.
+  path: Assets/Adventurers/Assets/obj/potion_small_red.mtl
+  artifactKey: Guid(33dcbe9de45180b4592961be73b33a7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/potion_small_red.mtl using Guid(33dcbe9de45180b4592961be73b33a7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81b281b257c3f31a961dfa8c261c1c34') in 0.0027666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Adventurers/Assets/gltf/shield_badge_color.bin
+  artifactKey: Guid(afd2ec81e0d1bbd4da9dda6e051e2e74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/shield_badge_color.bin using Guid(afd2ec81e0d1bbd4da9dda6e051e2e74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ea17aebad40109955dbeed740e36a03') in 0.0063657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Adventurers/Assets/obj/shield_round_barbarian.mtl
+  artifactKey: Guid(ff29a8ba6a730f049a4e7592a74c68a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/shield_round_barbarian.mtl using Guid(ff29a8ba6a730f049a4e7592a74c68a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d00a4c5fd790c4868221896bb47bc2d') in 0.005247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Joystick Pack/Scripts/Base/Joystick.cs
+  artifactKey: Guid(b9fca4100a7477741b3973b4ff2c405f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Scripts/Base/Joystick.cs using Guid(b9fca4100a7477741b3973b4ff2c405f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03c7ad36582fa88153fcb8de6c49043a') in 0.0047613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/shield_round_barbarian.fbx
+  artifactKey: Guid(a7c4ce9f2cff36342aa3b52229d71f3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/shield_round_barbarian.fbx using Guid(a7c4ce9f2cff36342aa3b52229d71f3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '398b68953d980f62131c21856aaa7ed0') in 0.0130362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Adventurers/Assets/obj/potion_large_red.mtl
+  artifactKey: Guid(3ef6b2b70a1a72f4993d4d6355697d3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/potion_large_red.mtl using Guid(3ef6b2b70a1a72f4993d4d6355697d3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24300de481fe90760d55bec14f3f82f0') in 0.0024883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Adventurers/Assets/obj/shield_round_barbarian_Large.mtl
+  artifactKey: Guid(b7e7057b388ea7f45bfeb076b3ebdcc1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/shield_round_barbarian_Large.mtl using Guid(b7e7057b388ea7f45bfeb076b3ebdcc1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fbabda8943b1b987333898e8fd17a58') in 0.0074985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain_Arrows.png
+  artifactKey: Guid(c8585b68a92b5d440992ddd7d1b1a3d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain_Arrows.png using Guid(c8585b68a92b5d440992ddd7d1b1a3d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e6adce72ca9a5b8f8a40868640c9ed3') in 0.0108449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Adventurers/Textures/engineer_texture.png
+  artifactKey: Guid(cd194f724a216684294d9c389b53624c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Textures/engineer_texture.png using Guid(cd194f724a216684294d9c389b53624c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2eb55421580545ba94a2ab5e4cbeda08') in 0.0087389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/potion_medium_red.fbx
+  artifactKey: Guid(6c4526a56f02ca24f98bf431e4c492d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/potion_medium_red.fbx using Guid(6c4526a56f02ca24f98bf431e4c492d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6db9dee004fa353f0b5d634d96ac9447') in 0.0086873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Adventurers/Assets/fbx/potion_huge_orange.fbx
+  artifactKey: Guid(3c6500422ffad224684697d8c1b4b4f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/potion_huge_orange.fbx using Guid(3c6500422ffad224684697d8c1b4b4f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '391e2f3ed6bc8e4ed8b4eb2dea43de4b') in 0.0081941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/mage_texture.png
+  artifactKey: Guid(19331b4eb1248e74e8b5b00ca03e2e17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/mage_texture.png using Guid(19331b4eb1248e74e8b5b00ca03e2e17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd869e939d702e27085b6ebd2250c986a') in 0.007158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Adventurers/Assets/gltf/potion_large_orange.bin
+  artifactKey: Guid(f39d580df656ec84f831811ce799251d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/potion_large_orange.bin using Guid(f39d580df656ec84f831811ce799251d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2bf33b5ce529421e15bb3a4aff234d8e') in 0.0017845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Adventurers/Assets/obj/turret_base_turret_footB.obj
+  artifactKey: Guid(2f4533879d7be014d93de5c5acc387c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/obj/turret_base_turret_footB.obj using Guid(2f4533879d7be014d93de5c5acc387c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15d7702617cbe2ff52d583e171515a90') in 0.0084797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Adventurers/Characters/fbx/engineer_texture.png
+  artifactKey: Guid(c32e5eb6ae8453d458cb868c3a8460f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Characters/fbx/engineer_texture.png using Guid(c32e5eb6ae8453d458cb868c3a8460f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb46379cbb035bc1847ee2997f006f21') in 0.0078786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Adventurers/Assets/gltf/potion_medium_blue.gltf
+  artifactKey: Guid(65569ae5cbdab4a4c89c9d9a30c75091) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/potion_medium_blue.gltf using Guid(65569ae5cbdab4a4c89c9d9a30c75091) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '561f51f42bba993c3591afeccc0174a3') in 0.002268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Adventurers/Assets/fbx/mage_texture.png
+  artifactKey: Guid(c2d4066e4f5c19a4dbffc42b4c8db626) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/mage_texture.png using Guid(c2d4066e4f5c19a4dbffc42b4c8db626) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2e99281082e1986d72b470b32d6221f') in 0.0075822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Adventurers/Assets/gltf/engineer_Wrench.bin
+  artifactKey: Guid(894e49e5d126a854194be511dce1bb0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/engineer_Wrench.bin using Guid(894e49e5d126a854194be511dce1bb0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2bb606dde1e13038b075ea947e9c73e') in 0.0023177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Joystick Pack/Scripts/Editor
+  artifactKey: Guid(8bf1b896f4e24d441975cb6f11f92e74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Scripts/Editor using Guid(8bf1b896f4e24d441975cb6f11f92e74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a98f4a026abdacf0b376bc6f8369793') in 0.0021301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Adventurers/Characters/fbx/barbarian_texture.png
+  artifactKey: Guid(de0dc775881120843bc4cb47a7a202e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Characters/fbx/barbarian_texture.png using Guid(de0dc775881120843bc4cb47a7a202e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77ebfebaa4676ac99be02696123a11ea') in 0.0083307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Adventurers/Characters/fbx/ranger_texture.png
+  artifactKey: Guid(c2a4c9c9698d6e64f8b05108c79345c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Characters/fbx/ranger_texture.png using Guid(c2a4c9c9698d6e64f8b05108c79345c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2a4202c5e6b22c2e474e1452978d817') in 0.0069765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Adventurers/Assets/fbx/mug_full.fbx
+  artifactKey: Guid(63bc9aeac543f244f904eeaa363b8d10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx/mug_full.fbx using Guid(63bc9aeac543f244f904eeaa363b8d10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f9e0bd70dc090037f8df22a5a242c56') in 0.0111221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Adventurers/Assets/fbx(unity)/spellbook_closed.fbx
+  artifactKey: Guid(f668c72ac3abadd4f841804d3945de58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/fbx(unity)/spellbook_closed.fbx using Guid(f668c72ac3abadd4f841804d3945de58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d893dfb7ba474b0addbc6915471bee2') in 0.008253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Adventurers/Textures/druid_texture_alt_C.png
+  artifactKey: Guid(901bd8eef1d9fd943bf9baa5ae4fd71c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Textures/druid_texture_alt_C.png using Guid(901bd8eef1d9fd943bf9baa5ae4fd71c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12902d3b03d84961d0d0610a64b2cee1') in 0.0075674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Adventurers/Characters/gltf/mage_texture.png
+  artifactKey: Guid(b35d660af6b0cae41ba12e8ec6db9810) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Characters/gltf/mage_texture.png using Guid(b35d660af6b0cae41ba12e8ec6db9810) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ed989768597f9af177d91d84db8d479') in 0.0061663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Adventurers/Assets/gltf/potion_medium_orange.gltf
+  artifactKey: Guid(98f3ed25cb4f84a41a73078499bc6bc3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Adventurers/Assets/gltf/potion_medium_orange.gltf using Guid(98f3ed25cb4f84a41a73078499bc6bc3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd93ba5fe6104e8f3a2a9ff70aa82bbf8') in 0.0022435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs
+  artifactKey: Guid(ba0d0e7a039f526499c356a3c5cd6d3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs using Guid(ba0d0e7a039f526499c356a3c5cd6d3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70fe9c6af461d3da79a6458c9bd808db') in 0.0043774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.321752 seconds.
+  path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png
+  artifactKey: Guid(2a1f3cba20f3e11498474a705db12fde) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png using Guid(2a1f3cba20f3e11498474a705db12fde) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14ad850b2c44cfc468b36906a8dbea4c') in 0.0110987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Joystick Pack/Examples
+  artifactKey: Guid(5a71259a40885244a8fda03175513ba5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Examples using Guid(5a71259a40885244a8fda03175513ba5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec9ce02bc2aaa8b920a13ca787f344b7') in 0.0026738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Joystick Pack/Scripts/Editor/DynamicJoystickEditor.cs
+  artifactKey: Guid(52071c88a467b46438b3cbf159bf988b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Scripts/Editor/DynamicJoystickEditor.cs using Guid(52071c88a467b46438b3cbf159bf988b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6dcb3b01cd3e717260a788b1db7c471') in 0.0021402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Joystick Pack/Examples/JoystickSetterExample.cs
+  artifactKey: Guid(3d73bf03f88f371469fd7b43fc97d77e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Examples/JoystickSetterExample.cs using Guid(3d73bf03f88f371469fd7b43fc97d77e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd192faf61983e58a4b43f4e229d17e21') in 0.0025958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Joystick Pack/Prefabs/Floating Joystick.prefab
+  artifactKey: Guid(0d230cc8be529a542a08cb878ab14b18) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Prefabs/Floating Joystick.prefab using Guid(0d230cc8be529a542a08cb878ab14b18) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3960aeb371a0220a259e50345fdfff47') in 0.0326039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png
+  artifactKey: Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png using Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e2b578f1c4d7f2908be8b93d2a14d65') in 0.0075861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3851 unused Assets / (1.1 MB). Loaded Objects now: 4353.
+Memory consumption went from 87.2 MB to 86.1 MB.
+Total: 5.490500 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.173600 ms MarkObjects: 4.254400 ms  DeleteObjects: 0.747500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.462 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.453 seconds
+Domain Reload Profiling: 915ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (86ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (454ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3857 unused Assets / (1.1 MB). Loaded Objects now: 4354.
+Memory consumption went from 86.6 MB to 85.5 MB.
+Total: 3.837900 ms (FindLiveObjects: 0.239300 ms CreateObjectMapping: 0.111500 ms MarkObjects: 2.835000 ms  DeleteObjects: 0.651300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
