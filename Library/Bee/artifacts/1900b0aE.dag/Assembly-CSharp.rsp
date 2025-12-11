@@ -411,6 +411,7 @@
 "Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/Rescource.cs"
 -langversion:9.0
 /deterministic
 /optimize+

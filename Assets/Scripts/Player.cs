@@ -5,7 +5,6 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private float turnSpeed;
     [SerializeField] private float moveSpeed;
-    private Vector3 movementDirection;
     private float verticalVelocity;
     [SerializeField] private FloatingJoystick joystick;
     private CharacterController cc;
@@ -21,11 +20,12 @@ public class Player : MonoBehaviour
     void Update()
     {
         MoveWithJoystick();
-        MoveWithInput();
-        AnimateMovement(cc.velocity.magnitude);
+        MoveWithKeyboard();
+        AnimateMovement();
     }
 
 
+    #region Movement
     private void MoveWithJoystick()
     {
         Vector3 horizontal = Vector3.zero;
@@ -60,7 +60,7 @@ public class Player : MonoBehaviour
             verticalVelocity = -0.5f;
     }
 
-    private void MoveWithInput()
+    private void MoveWithKeyboard()
     {
         Vector3 horizontal = new Vector3(Input.GetAxisRaw("Horizontal"), 0f, Input.GetAxisRaw("Vertical"));
         horizontal.Normalize();
@@ -73,17 +73,17 @@ public class Player : MonoBehaviour
 
         if (horizontal.magnitude > 0)
             transform.rotation = Quaternion.Slerp(transform.rotation, rotation, turnSpeed * Time.deltaTime);
-        
     }
 
-    private void AnimateMovement(float movement)
+    private bool IsMoving()
     {
-        //animator.SetFloat("xVelocity", x);
-        //animator.SetFloat("zVelocity", z);
-        animator.SetFloat("Movement", movement);
+        return joystick.Direction.magnitude >= 0.2f || 
+               Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0 || 
+               Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0;
     }
 
+    private void AnimateMovement() => animator.SetBool("IsMoving", IsMoving());
 
-
+    #endregion
 
 }

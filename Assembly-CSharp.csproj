@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A7EEF0DC-1E15-A57A-08FD-C5430F885BA0}</ProjectGuid>
+    <ProjectGuid>{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -70,9 +70,11 @@
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Rescource.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Adventurers\License.txt" />
+    <None Include="Assets\KayKit\Recources\License.txt" />
+    <None Include="Assets\KayKit\Adventurers\License.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
