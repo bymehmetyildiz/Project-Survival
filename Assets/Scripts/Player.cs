@@ -19,8 +19,11 @@ public class Player : MonoBehaviour
     
     void Update()
     {
-        MoveWithJoystick();
-        MoveWithKeyboard();
+        if(IsMovingWithJoystick())
+            MoveWithJoystick();
+        else
+            MoveWithKeyboard();
+
         AnimateMovement();
     }
 
@@ -69,20 +72,41 @@ public class Player : MonoBehaviour
         Vector3 finalMove = horizontal * moveSpeed + Vector3.up * verticalVelocity;
         cc.Move(finalMove * Time.deltaTime);
 
-        Quaternion rotation = Quaternion.LookRotation(horizontal);
+        if (horizontal.magnitude != 0)
+        {
+            Quaternion rotation = Quaternion.LookRotation(horizontal);
 
-        if (horizontal.magnitude > 0)
-            transform.rotation = Quaternion.Slerp(transform.rotation, rotation, turnSpeed * Time.deltaTime);
+            if (horizontal.magnitude > 0)
+                transform.rotation = Quaternion.Slerp(transform.rotation, rotation, turnSpeed * Time.deltaTime);
+        }
+
+           
     }
 
     private bool IsMoving()
     {
         return joystick.Direction.magnitude >= 0.2f || 
                Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0 || 
-               Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0;
+               Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0;        
     }
 
-    private void AnimateMovement() => animator.SetBool("IsMoving", IsMoving());
+    private bool IsMovingWithJoystick()
+    {
+        return joystick.Direction.magnitude >= 0.2f;
+    }
+
+    //private void AnimateMovement() => animator.SetBool("IsMoving", IsMoving());
+
+    private void AnimateMovement()
+    {
+        float xVelocity = Vector3.Dot(cc.velocity.normalized, transform.right);
+        float zVelocity = Vector3.Dot(cc.velocity.normalized, transform.forward);
+
+        animator.SetFloat("xVelocity", xVelocity, 0.1f, Time.deltaTime);
+        animator.SetFloat("zVelocity", zVelocity, 0.1f, Time.deltaTime);
+    }
+
+
 
     #endregion
 
