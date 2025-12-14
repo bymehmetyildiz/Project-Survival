@@ -1,0 +1,953 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16272 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme" at "2025-12-13T18:57:25.9889058Z"
+Date: 2025-12-13T18:57:25Z
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6000.0.62f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/Game Developments/GitHub/Project-Survival
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+50518
+-licensingIpc
+LicenseClient-mehme
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Game Developments/GitHub/Project-Survival
+D:/Game Developments/GitHub/Project-Survival
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16316]  Target information:
+
+Player connection [16316]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 3161965900 [EditorId] 3161965900 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16316]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 3161965900 [EditorId] 3161965900 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16316] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16316] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 14028, path: "D:/Unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              4e78c2fd0c1048378594b4d036adebcc
+  Correlation Id:          d97e96e6f8e45391fec064d94c8e24f8
+  External correlation Id: 8289350241512135040
+  Machine Id:              PxHNM7DPPf0IVXSn48G8aClcpaQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mehme" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme-notifications" at "2025-12-13T18:57:26.049681Z"
+[Licensing::Module] Licensing Background thread has ended after 0.06s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.62f1 (f99f05b3e950)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Game Developments/GitHub/Project-Survival/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   NVIDIA
+    VRAM:     6031 MB
+    Driver:   32.0.15.6603
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.0.62f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002933 seconds.
+- Loaded All Assemblies, in  0.686 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.811 seconds
+Domain Reload Profiling: 1497ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (341ms)
+		LoadAssemblies (216ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (338ms)
+			TypeCache.Refresh (335ms)
+				TypeCache.ScanAssembly (309ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (811ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (716ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (63ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-V9PX-B66Y-AC23-KYF9-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 18966783445336-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.592 seconds
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Project Survivor
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.029 seconds
+Domain Reload Profiling: 3619ms
+	BeginReloadAssembly (349ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (1035ms)
+		LoadAssemblies (597ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (616ms)
+			TypeCache.Refresh (499ms)
+				TypeCache.ScanAssembly (466ms)
+			BuildScriptInfoCaches (95ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2030ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1729ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (266ms)
+			ProcessInitializeOnLoadAttributes (1390ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4234 unused Assets / (2.9 MB). Loaded Objects now: 4721.
+Memory consumption went from 90.2 MB to 87.3 MB.
+Total: 23.037900 ms (FindLiveObjects: 0.963000 ms CreateObjectMapping: 1.377300 ms MarkObjects: 13.903800 ms  DeleteObjects: 6.791300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32494.095580 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/fbx(unity)/Copper_Bar.fbx
+  artifactKey: Guid(7aa098f1db00880429270971ec5728c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/fbx(unity)/Copper_Bar.fbx using Guid(7aa098f1db00880429270971ec5728c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49e0cda617a66c818ff4d7e0e4ceb410') in 0.433325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Iron_Nugget_Medium.gltf
+  artifactKey: Guid(cc0355d33b102f44a85dba7c723c19ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Iron_Nugget_Medium.gltf using Guid(cc0355d33b102f44a85dba7c723c19ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f27b6e32b7e5cf837db3baa16d7e6162') in 0.0193097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/gltf/axe_1handed.bin
+  artifactKey: Guid(36761be34965c7a42a3f554c9a3ccc89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/gltf/axe_1handed.bin using Guid(36761be34965c7a42a3f554c9a3ccc89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b291e1c0f0894f35d499a9569cd43b6b') in 0.0190853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/KayKit/Adventurers/Textures/knight_texture.png
+  artifactKey: Guid(ee6e584431b7b854fa38d51400af1ed0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Textures/knight_texture.png using Guid(ee6e584431b7b854fa38d51400af1ed0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '517fb797b828aad9ca9086a0afc0852a') in 0.0884404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/gltf/mallet.gltf
+  artifactKey: Guid(5aa4d92518b646a4d95aedb366b61da7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/gltf/mallet.gltf using Guid(5aa4d92518b646a4d95aedb366b61da7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0520e50b57d950824154765350c5241d') in 0.0168282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/KayKit/Adventurers/Samples/druid.png
+  artifactKey: Guid(c240c2e320d6ea94aa89bbca58357689) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Samples/druid.png using Guid(c240c2e320d6ea94aa89bbca58357689) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15cbfe5603b56f7db1717b689bb5eca3') in 0.046799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Pallet_Wood.bin
+  artifactKey: Guid(5e370e55d0fe6a445a8de89890607853) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Pallet_Wood.bin using Guid(5e370e55d0fe6a445a8de89890607853) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dca3aa939148d997b7417652a86d1ee9') in 0.0160528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/obj/potion_medium_green.mtl
+  artifactKey: Guid(9a2f7a0233a9b564ca6c28638a13a98c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/obj/potion_medium_green.mtl using Guid(9a2f7a0233a9b564ca6c28638a13a98c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd5a3a0fe4a90781f8489b3730844624') in 0.0159308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/fbx(unity)/pencil_B_short.fbx
+  artifactKey: Guid(3c01a815d92541d4e807a31bae51f5bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/fbx(unity)/pencil_B_short.fbx using Guid(3c01a815d92541d4e807a31bae51f5bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13dd75d5e2944ad34e69b1f6c040e79d') in 0.0310882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/fbx/map_rolled.fbx
+  artifactKey: Guid(84af6ecd20c1aed4ba7190bbb5ee3d8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/fbx/map_rolled.fbx using Guid(84af6ecd20c1aed4ba7190bbb5ee3d8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9266e5e34dcd250810cd799ff3736ca7') in 0.0315794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Copper_Nugget_Small.gltf
+  artifactKey: Guid(1dff0887adc10fc4b91c7f4efa4b0e8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Copper_Nugget_Small.gltf using Guid(1dff0887adc10fc4b91c7f4efa4b0e8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98e613f3e9cc11457405e4e3b51d1dc6') in 0.0158327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Gold_Bars_Stack_Large.gltf
+  artifactKey: Guid(28d60fc583f439a469fcef79979aae42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Gold_Bars_Stack_Large.gltf using Guid(28d60fc583f439a469fcef79979aae42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'baccbc307cafb5273eb0901f38cf4c05') in 0.0149348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/obj/axe_1handed_Large.mtl
+  artifactKey: Guid(24062b96b7ef77a4ea533485f64bde4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/obj/axe_1handed_Large.mtl using Guid(24062b96b7ef77a4ea533485f64bde4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01ce7c39590f608e92f9d25a05f7886b') in 0.0153675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/gltf/quiver.bin
+  artifactKey: Guid(540fd987f84679a4f926ac7342e2cf59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/gltf/quiver.bin using Guid(540fd987f84679a4f926ac7342e2cf59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b069251d7fe223d4b0077b3cb6a52986') in 0.0152127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/gltf/ranger_texture.png
+  artifactKey: Guid(a9b65386177023a438d8c889ae29ff9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/gltf/ranger_texture.png using Guid(a9b65386177023a438d8c889ae29ff9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b98e9b9a758985353e65afc0a5ec652') in 0.0296798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/gltf/shield_spikes_color.gltf
+  artifactKey: Guid(393596661805588419a611432d1a00cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/gltf/shield_spikes_color.gltf using Guid(393596661805588419a611432d1a00cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38af7b7c89afc41666937ab74338c4b7') in 0.0154136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/gltf/spellbook_open.gltf
+  artifactKey: Guid(68b37197977ad284e8c5e1ebe2aee94d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/gltf/spellbook_open.gltf using Guid(68b37197977ad284e8c5e1ebe2aee94d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8628da678e67b3ca8c3ce4bea414e478') in 0.0146253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/KayKit/Adventurers/Animations/fbx/Rig_Medium/Idle_A.anim
+  artifactKey: Guid(40ab1d260e45f5e458b55476bf08e472) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Animations/fbx/Rig_Medium/Idle_A.anim using Guid(40ab1d260e45f5e458b55476bf08e472) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21b7cf35e10ca632764ff77d8a190e83') in 0.0334087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/gltf/screw_A.gltf
+  artifactKey: Guid(695e7c08717a5cb4f9ec90c9882c2f5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/gltf/screw_A.gltf using Guid(695e7c08717a5cb4f9ec90c9882c2f5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7acb4135e49ae4d2dd152e72076f3b78') in 0.0154974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/fbx(unity)/tools_bits_map.png
+  artifactKey: Guid(215b35262b5ed314a97ebff629441839) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/fbx(unity)/tools_bits_map.png using Guid(215b35262b5ed314a97ebff629441839) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8b6ebabb844c36b21f795429feca388') in 0.0329798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/KayKit/Adventurers/Textures/barbarian_texture_alt_B.png
+  artifactKey: Guid(cf9466e5c1f664c4db1d19f14c3057c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Textures/barbarian_texture_alt_B.png using Guid(cf9466e5c1f664c4db1d19f14c3057c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9cc8f0f8590068ed8aade29f97e3e9d0') in 0.0443573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/fbx(unity)/tools_bits_texture.png
+  artifactKey: Guid(1ffa9ef6fe7c0614f9212572b1f3e93a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/fbx(unity)/tools_bits_texture.png using Guid(1ffa9ef6fe7c0614f9212572b1f3e93a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3648f57961c54426ac57ead9fd3f6bb5') in 0.0331563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/gltf/potion_large_green.gltf
+  artifactKey: Guid(5167c3d6924b493468c863f286076e8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/gltf/potion_large_green.gltf using Guid(5167c3d6924b493468c863f286076e8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f04c182a6569a5e24079a722e931eb21') in 0.0184795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/gltf/torch.gltf
+  artifactKey: Guid(95dbcd16360d88349aee0e043a3a2c89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/gltf/torch.gltf using Guid(95dbcd16360d88349aee0e043a3a2c89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d2368b9b5b338ba97f7f174ee8fb475') in 0.0164952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/gltf/engineer_Wrench.bin
+  artifactKey: Guid(894e49e5d126a854194be511dce1bb0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/gltf/engineer_Wrench.bin using Guid(894e49e5d126a854194be511dce1bb0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41ed9d26bdacf52b120a13cae53cc79d') in 0.0160951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/gltf/wand.gltf
+  artifactKey: Guid(ebcdb3a50afb1cf4facbd7c68decdc13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/gltf/wand.gltf using Guid(ebcdb3a50afb1cf4facbd7c68decdc13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '297b7e184c27ddde74702e242be5c187') in 0.0166485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Fuel_A_Barrel_Dirty.gltf
+  artifactKey: Guid(b872340768b97544da1bd42c0a1e932b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Fuel_A_Barrel_Dirty.gltf using Guid(b872340768b97544da1bd42c0a1e932b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f80aa5031f0875e426d4f0cb84edc79b') in 0.0186702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Gold_Nugget_Small.gltf
+  artifactKey: Guid(204a0167b03b0904eb4649540ebe2f64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Gold_Nugget_Small.gltf using Guid(204a0167b03b0904eb4649540ebe2f64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6adab73a8152627910534766eb86b3e5') in 0.0172982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/gltf/dagger.gltf
+  artifactKey: Guid(1800f8376c9658a4994e1b36d6b3a5e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/gltf/dagger.gltf using Guid(1800f8376c9658a4994e1b36d6b3a5e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd89f9036f56b0c70b2874a88dcdf2160') in 0.0169053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/obj/engineer_texture.png
+  artifactKey: Guid(a67e82a59e4d5904d91167445cf8da09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/obj/engineer_texture.png using Guid(a67e82a59e4d5904d91167445cf8da09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34a0a59af3aa7667bac07684bcde69c6') in 0.0287256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Pallet_Wood.gltf
+  artifactKey: Guid(1c174185ef5c79e45942c0a65744bc10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Pallet_Wood.gltf using Guid(1c174185ef5c79e45942c0a65744bc10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23df0a04826b9a4ed9a66b4e2a5c21e8') in 0.0170741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Stone_Chunks_Small.bin
+  artifactKey: Guid(655e47276acde634797d6ee03ac56597) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Stone_Chunks_Small.bin using Guid(655e47276acde634797d6ee03ac56597) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61caa19ca3aab820814fcb2f9db20f09') in 0.018693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/obj/sword_1handed.obj
+  artifactKey: Guid(e5f4d3808a0e0fa46b3200e2b30c667d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/obj/sword_1handed.obj using Guid(e5f4d3808a0e0fa46b3200e2b30c667d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85c3ecc904d1c20e2f9c23a3e9b0b3a6') in 0.0345582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/obj/shield_badge_color.obj
+  artifactKey: Guid(f7cd5e1436dbc4f429c0ff76d0a0cb0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/obj/shield_badge_color.obj using Guid(f7cd5e1436dbc4f429c0ff76d0a0cb0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2299634ad4c0e2a5b0b25e47a864a44') in 0.030074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Stone_Brick.gltf
+  artifactKey: Guid(8203e0aa5ef190b40bebf94ee9abea7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Stone_Brick.gltf using Guid(8203e0aa5ef190b40bebf94ee9abea7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5fe02f6e0831e3b07c5c3854625122ce') in 0.0167881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Wood_Log_B.gltf
+  artifactKey: Guid(2f320a5b04b7e5543bfbed6446c0b1a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Wood_Log_B.gltf using Guid(2f320a5b04b7e5543bfbed6446c0b1a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa7cd224ad72685e2e24345b8dc6a027') in 0.0158339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Copper_Bars.bin
+  artifactKey: Guid(716a64c882eeae34285b60e879fb463e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Copper_Bars.bin using Guid(716a64c882eeae34285b60e879fb463e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44ef68537f9cb1c7006154af15a7068b') in 0.0159466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Fuel_B_Barrel_Dirty.bin
+  artifactKey: Guid(a82e9b0a57718be4c85182ca434f4c5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Fuel_B_Barrel_Dirty.bin using Guid(a82e9b0a57718be4c85182ca434f4c5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abc1bb031b0e6cc40061dadb50cf9b14') in 0.0192655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Parts_Pile_Medium.bin
+  artifactKey: Guid(87436429288aee74780f2955480d31de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Parts_Pile_Medium.bin using Guid(87436429288aee74780f2955480d31de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7d01711118a7f0f13ae57ece69d0202') in 0.016167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/gltf/crossbow_1handed.gltf
+  artifactKey: Guid(65ca8c399222e4b4195ec1dd56b8da86) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/gltf/crossbow_1handed.gltf using Guid(65ca8c399222e4b4195ec1dd56b8da86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '986e7c9efccbc005aeac0205645acaf3') in 0.0156599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Textiles_A.gltf
+  artifactKey: Guid(3700349a101784d43856323a1d0eab7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Textiles_A.gltf using Guid(3700349a101784d43856323a1d0eab7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6fa7a5b428708601cad7602724e0c17') in 0.0171542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Silver_Nuggets.gltf
+  artifactKey: Guid(e1a139fa5e635f24fa7bc7b7585e7a6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Silver_Nuggets.gltf using Guid(e1a139fa5e635f24fa7bc7b7585e7a6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d69930819b2ae4bd6dae23ec5b33941') in 0.0169331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/gltf/hammer.gltf
+  artifactKey: Guid(83399169f03aad442a6706552b0c6dd7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/gltf/hammer.gltf using Guid(83399169f03aad442a6706552b0c6dd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a97669e9c36ddabd67ef37c9304fe54') in 0.0184683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/gltf/rope_bundle_B.bin
+  artifactKey: Guid(1a0b0b2818f88704398fe3b0ba76a18f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/gltf/rope_bundle_B.bin using Guid(1a0b0b2818f88704398fe3b0ba76a18f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8fb28c6921d0657a0d4b60c710c6280') in 0.0177871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/gltf/shield_round_color.bin
+  artifactKey: Guid(b75358e964d3c294d8b015c08c96a969) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/gltf/shield_round_color.bin using Guid(b75358e964d3c294d8b015c08c96a969) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5bb1b7f93ec30826e33dbca4e5b60c9c') in 0.0179365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Gold_Nuggets.gltf
+  artifactKey: Guid(d234ceb8a08dafa4eb44e571637f026a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Gold_Nuggets.gltf using Guid(d234ceb8a08dafa4eb44e571637f026a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9fff84af0de090b859fb56048983b99') in 0.0178506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/obj/knife.mtl
+  artifactKey: Guid(33244a6a881b26846b7d9d5869db6a4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/obj/knife.mtl using Guid(33244a6a881b26846b7d9d5869db6a4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a18c826462343c85288df6b86dd0c569') in 0.0195537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/gltf/bucket_metal.bin
+  artifactKey: Guid(076458b90e401314f9e1f14548ab4745) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/gltf/bucket_metal.bin using Guid(076458b90e401314f9e1f14548ab4745) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad303e436fea7a761cfeb026c6522613') in 0.0199007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/gltf/map_empty.gltf
+  artifactKey: Guid(78589df933bb9d344b1d0662fe29d39c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/gltf/map_empty.gltf using Guid(78589df933bb9d344b1d0662fe29d39c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34885ba83131421813cf558ec566cee1') in 0.0199546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/obj/pencil_A_long.mtl
+  artifactKey: Guid(a83f03f82927a1e4ebb5bce5448f5ad6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/obj/pencil_A_long.mtl using Guid(a83f03f82927a1e4ebb5bce5448f5ad6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28bf6e524c255c5f743afec6f10d2a5b') in 0.0222903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/gltf/screwdriver_B_long_color.bin
+  artifactKey: Guid(5459a8aac13fafd46945a5bf9d78614e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/gltf/screwdriver_B_long_color.bin using Guid(5459a8aac13fafd46945a5bf9d78614e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b0740bed460a3e59cb24ba8477cfc81') in 0.0187033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/KayKit/Adventurers/Samples/rogue.png
+  artifactKey: Guid(4642d7e817befd345896958be2e0500e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Samples/rogue.png using Guid(4642d7e817befd345896958be2e0500e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e53f3cdf83163e62368b1a8ac6e462a') in 0.0537601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/gltf/screwdriver_B_long_color.gltf
+  artifactKey: Guid(b53d62b90778e1e469a106e72bb905fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/gltf/screwdriver_B_long_color.gltf using Guid(b53d62b90778e1e469a106e72bb905fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1cd314d3196a06af240b17cf4da6e6d3') in 0.0191706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Silver_Nugget_Large.gltf
+  artifactKey: Guid(389e38daf3831a74490f81c3a892de2f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Silver_Nugget_Large.gltf using Guid(389e38daf3831a74490f81c3a892de2f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b92685a003d7eb16a8add3599f118763') in 0.0184565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/obj/shield_badge.mtl
+  artifactKey: Guid(d4f84cf99d1ef61498044f27e55ffdec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/obj/shield_badge.mtl using Guid(d4f84cf99d1ef61498044f27e55ffdec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1bcb6cd6f3b5d540b34865d0d091ea53') in 0.0183095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/obj/shield_round_barbarian.mtl
+  artifactKey: Guid(ff29a8ba6a730f049a4e7592a74c68a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/obj/shield_round_barbarian.mtl using Guid(ff29a8ba6a730f049a4e7592a74c68a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6edecd6b19de142a6e3214c162ce70ca') in 0.0180541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Models/KayKit/Adventurers/Textures/rogue_texture_alt_A.png
+  artifactKey: Guid(aae2a5a9fa8796f4a8997e93f089dd9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Textures/rogue_texture_alt_A.png using Guid(aae2a5a9fa8796f4a8997e93f089dd9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa64cbcb49eff3e0a308d92bcdc22661') in 0.0452046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/KayKit/Recources/contents.png
+  artifactKey: Guid(b805c8c97682af940bc22be38a7f354d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/contents.png using Guid(b805c8c97682af940bc22be38a7f354d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6520c88955e7407fb0ba8d98fcfcd94') in 0.0486867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Fuel_B_Jerrycan.gltf
+  artifactKey: Guid(febe5c3d5d1e678479c5554dec8e4626) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Fuel_B_Jerrycan.gltf using Guid(febe5c3d5d1e678479c5554dec8e4626) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f3f8d427e433f9966343fdf9965f189') in 0.0194304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/gltf/blueprint.bin
+  artifactKey: Guid(c148afbdfc7e1c34793c7d48c4bc92b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/gltf/blueprint.bin using Guid(c148afbdfc7e1c34793c7d48c4bc92b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c4d97766cb208a23af567b03371f0c4') in 0.0180168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/gltf/scissors.gltf
+  artifactKey: Guid(39d0de6d3b76eed48a40cf5cb1d46850) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/gltf/scissors.gltf using Guid(39d0de6d3b76eed48a40cf5cb1d46850) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c966a17e903d3ea8ac3010016f1ae31c') in 0.0193149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/fbx(unity)/tools_bits_map_empty.png
+  artifactKey: Guid(e288df7bbcdf497489c6a35aacf9c083) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/fbx(unity)/tools_bits_map_empty.png using Guid(e288df7bbcdf497489c6a35aacf9c083) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '134e12f5e94bef2421fd750972b0b695') in 0.033747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Wood_Log_A.bin
+  artifactKey: Guid(7d122d4e8fcc79b48aff7644d241ac74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Wood_Log_A.bin using Guid(7d122d4e8fcc79b48aff7644d241ac74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '781da6650de38f42b36cb77b9c5791b6') in 0.018791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/obj/screwdriver_A_long_color.mtl
+  artifactKey: Guid(45bb9adde282338478e32b81dcf00f68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/obj/screwdriver_A_long_color.mtl using Guid(45bb9adde282338478e32b81dcf00f68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '826ebacf9abe2c40544d80da31d94426') in 0.0175818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/gltf/pickaxe.bin
+  artifactKey: Guid(8daeaf0eb5fb1a44ca6828a434e45cd8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/gltf/pickaxe.bin using Guid(8daeaf0eb5fb1a44ca6828a434e45cd8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '036fc545db5870453936cb603a5fea9b') in 0.0180487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/obj/mage_texture.png
+  artifactKey: Guid(428c0d0c88b2f8c4d80a0d5bc12957c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/obj/mage_texture.png using Guid(428c0d0c88b2f8c4d80a0d5bc12957c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '736a6ef8c462c9685d3cb8a8377c2853') in 0.0330297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/obj/Gold_Nugget_Large.mtl
+  artifactKey: Guid(69917afb261d13d40b5f5d58c6b375d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/obj/Gold_Nugget_Large.mtl using Guid(69917afb261d13d40b5f5d58c6b375d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a552abf9fcd142406899f5bce27fb46c') in 0.0176641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/KayKit/Tools/Assets/obj/screwdriver_B_long_color.mtl
+  artifactKey: Guid(0acf72bcf72fed940901b8a8c03afa11) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Tools/Assets/obj/screwdriver_B_long_color.mtl using Guid(0acf72bcf72fed940901b8a8c03afa11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e72c683ffdc2a515778377e5e3f74ee') in 0.0190238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/gltf/shield_badge.gltf
+  artifactKey: Guid(8b5575db2c501094a9022ab51a1ce954) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/gltf/shield_badge.gltf using Guid(8b5575db2c501094a9022ab51a1ce954) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d91f9e8efb41006bdbed56e79ead009') in 0.0177085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/obj/Stone_Bricks_Stack_Medium.mtl
+  artifactKey: Guid(60290deb400bbc241a6378ace348143a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/obj/Stone_Bricks_Stack_Medium.mtl using Guid(60290deb400bbc241a6378ace348143a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98c57e43092a65002023d482b9d1cbdc') in 0.0172302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/fbx/mage_texture.png
+  artifactKey: Guid(c2d4066e4f5c19a4dbffc42b4c8db626) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/fbx/mage_texture.png using Guid(c2d4066e4f5c19a4dbffc42b4c8db626) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24fc1496fc9d8ff05947153f7f98d8ea') in 0.0315655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Models/KayKit/Adventurers/Animations/fbx/Rig_Medium/Running_Strafe_Left.anim
+  artifactKey: Guid(450cad0df10d68f438363bf93663b6ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Animations/fbx/Rig_Medium/Running_Strafe_Left.anim using Guid(450cad0df10d68f438363bf93663b6ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f835b3d31b15a8e9d61a944815d028f3') in 0.0327402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/KayKit/Adventurers/Animations/fbx/Rig_Medium/Running_B.anim
+  artifactKey: Guid(71dc5fad28a92694ab00bdea2ea9bf2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Animations/fbx/Rig_Medium/Running_B.anim using Guid(71dc5fad28a92694ab00bdea2ea9bf2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26bd8fd2a968c4ad8f5e72b7e59493fd') in 0.0354518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Iron_Bars_Stack_Medium.bin
+  artifactKey: Guid(cad863ed7a05cf741a02fa51f56eb96d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Iron_Bars_Stack_Medium.bin using Guid(cad863ed7a05cf741a02fa51f56eb96d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c91bd235387c8dbea0ba91f62e703c80') in 0.0165148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Silver_Bars_Stack_Large.bin
+  artifactKey: Guid(8e99a03d38125ed459640a7048c9b135) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Silver_Bars_Stack_Large.bin using Guid(8e99a03d38125ed459640a7048c9b135) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '362c46c1fa3369c2b721c92b3a5cc8bf') in 0.0174512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/gltf/sword_1handed.bin
+  artifactKey: Guid(32bd537d21f418a43ace96230b6096ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/gltf/sword_1handed.bin using Guid(32bd537d21f418a43ace96230b6096ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82dba591f3227d87aa2c28eafc19c275') in 0.0181133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/obj/Iron_Nuggets.mtl
+  artifactKey: Guid(29a8a8fd3a8c5d149af8e63e5c8c8b3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/obj/Iron_Nuggets.mtl using Guid(29a8a8fd3a8c5d149af8e63e5c8c8b3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d7f0f75db2c9fce862d4d3164219d77') in 0.0195399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/fbx(unity)/rogue_texture.png
+  artifactKey: Guid(d2a5ff5ece063114daa95aed203eea30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/fbx(unity)/rogue_texture.png using Guid(d2a5ff5ece063114daa95aed203eea30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0693396823acffe76d64f38bd779a4ff') in 0.0364485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Parts_Cog.bin
+  artifactKey: Guid(c6d7b4a9d510443469d4ed7ec8cdc497) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Parts_Cog.bin using Guid(c6d7b4a9d510443469d4ed7ec8cdc497) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5558e5041a7e96968f41886ce1580e14') in 0.0160301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014648 seconds.
+  path: Assets/Models/KayKit/Adventurers/Textures/knight_texture_alt_C.png
+  artifactKey: Guid(2ebe677e091cbe7478ae236f5864f409) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Textures/knight_texture_alt_C.png using Guid(2ebe677e091cbe7478ae236f5864f409) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e90f5614b6d59175e81f8b3f3a1b4a1a') in 0.0418215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/obj/Textiles_Stack_Large_Colored.mtl
+  artifactKey: Guid(6a9504cf29ceb0043a42f5c6f1b09b53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/obj/Textiles_Stack_Large_Colored.mtl using Guid(6a9504cf29ceb0043a42f5c6f1b09b53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28a2db24bfd74155eed6d47c2dce0b55') in 0.0148257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Copper_Bars_Stack_Small.gltf
+  artifactKey: Guid(8bc5683fc713e6142bdd6b6013882af0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Copper_Bars_Stack_Small.gltf using Guid(8bc5683fc713e6142bdd6b6013882af0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4db4bf9be9c5af2807427cbe0eaab65f') in 0.0150591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/obj/Copper_Bars_Stack_Small.mtl
+  artifactKey: Guid(38cce19ffd4847f41aa5fca2ac3b798d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/obj/Copper_Bars_Stack_Small.mtl using Guid(38cce19ffd4847f41aa5fca2ac3b798d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f127d539e0a914b3308fb62e19dafa8') in 0.0170159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/KayKit/Adventurers/Animations/fbx/Rig_Medium/Rig_Medium_Simulation.fbx
+  artifactKey: Guid(7dde05fe1e671f04d80d38655e31065e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Animations/fbx/Rig_Medium/Rig_Medium_Simulation.fbx using Guid(7dde05fe1e671f04d80d38655e31065e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7cf2243bb96b6f858546fb7d63280cb') in 0.1018902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Fuel_A_Barrels.gltf
+  artifactKey: Guid(986044eea97b72e49abe9963d0db1c41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Fuel_A_Barrels.gltf using Guid(986044eea97b72e49abe9963d0db1c41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f941e0c4d564c0b9020d60ab53a47027') in 0.0173087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/obj/potion_large_green.mtl
+  artifactKey: Guid(8c322bdf46a0dec4e8aa493e9a8af0f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/obj/potion_large_green.mtl using Guid(8c322bdf46a0dec4e8aa493e9a8af0f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae791fd4673c135576ac3df4732fd6d6') in 0.0186004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Iron_Nuggets.gltf
+  artifactKey: Guid(dbe5b18f914f96444b45faad377f30bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Iron_Nuggets.gltf using Guid(dbe5b18f914f96444b45faad377f30bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11394fbe77573f0f3972efddb31c0b04') in 0.017081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/obj/Wood_Log_A.mtl
+  artifactKey: Guid(4c264dafc79cfc342ae98dc6ea42abfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/obj/Wood_Log_A.mtl using Guid(4c264dafc79cfc342ae98dc6ea42abfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c4ec9a1e6463b378e6f7b3e99f1a137') in 0.0164558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Gold_Nugget_Medium.bin
+  artifactKey: Guid(a083300f8875ff545aab621232066403) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Gold_Nugget_Medium.bin using Guid(a083300f8875ff545aab621232066403) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7406d12552da0b9825aca9bc656f79d9') in 0.017234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Models/KayKit/Recources/Assets/gltf/Silver_Bars_Stack_Small.gltf
+  artifactKey: Guid(a550c4df9466c1d44a5a3a5e1ce49c02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Recources/Assets/gltf/Silver_Bars_Stack_Small.gltf using Guid(a550c4df9466c1d44a5a3a5e1ce49c02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36e42f99ae898a65d4cb3bc8657b28f7') in 0.0176556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/KayKit/Adventurers/Assets/gltf/bow.gltf
+  artifactKey: Guid(7477908f7d5be1b458beaf71f888c67e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/KayKit/Adventurers/Assets/gltf/bow.gltf using Guid(7477908f7d5be1b458beaf71f888c67e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '038905688e87f27625b414fba7555fd2') in 0.0162744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

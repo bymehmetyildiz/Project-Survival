@@ -1,33 +1,35 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'tr' Physical Memory: 32621 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16272 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme" at "2025-12-14T17:30:57.01616Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Mehmet" at "2025-12-12T08:23:22.1953406Z"
-Date: 2025-12-12T08:23:22Z
+Date: 2025-12-14T17:30:57Z
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.0.62f1\Editor\Unity.exe
+D:\Unity\6000.0.62f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker6
 -projectPath
-D:/Github/Project-Survival
+D:/Game Developments/GitHub/Project-Survival
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-50824
+49809
+-licensingIpc
+LicenseClient-mehme
 -job-worker-count
-11
+5
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: D:/Github/Project-Survival
-D:/Github/Project-Survival
+Successfully changed project path to: D:/Game Developments/GitHub/Project-Survival
+D:/Game Developments/GitHub/Project-Survival
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -63,27 +65,29 @@ D:/Github/Project-Survival
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23944]  Target information:
+Player connection [16972]  Target information:
 
-Player connection [23944]  * "[IP] 10.0.1.102 [Port] 0 [Flags] 2 [Guid] 2597772431 [EditorId] 2597772431 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P02AFH1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16972]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 3865892248 [EditorId] 3865892248 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [23944] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [23944] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 11
+Player connection [16972]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 3865892248 [EditorId] 3865892248 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16972] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16972] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 21548, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 5000, path: "D:/Unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.3+a4e98f1
-  Session Id:              66bed70e4672474c9d534ba72af305b9
-  Correlation Id:          b1e5136c79551c224fa511298a266291
-  External correlation Id: 257222585427681569
-  Machine Id:              zsDTylX/wbsPzAhj9VZkiZ+wIzE=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Mehmet" (connect: 0.00s, validation: 0.01s, handshake: 0.04s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Mehmet-notifications" at "2025-12-12T08:23:22.251769Z"
-[Licensing::Module] Licensing Background thread has ended after 0.06s
+  Version:                 1.17.4+4293ba1
+  Session Id:              20d314a1b40c4ef5aad587b5c1b3cbc8
+  Correlation Id:          6280ac9ad18700acb0d7090296c7bfed
+  External correlation Id: 1735009272012393091
+  Machine Id:              PxHNM7DPPf0IVXSn48G8aClcpaQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mehme" (connect: 0.00s, validation: 0.00s, handshake: 0.10s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme-notifications" at "2025-12-14T17:30:57.1201496Z"
+[Licensing::Module] Licensing Background thread has ended after 0.10s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -91,217 +95,316 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.62f1 (f99f05b3e950)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Github/Project-Survival/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Game Developments/GitHub/Project-Survival/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
     Vendor:   NVIDIA
-    VRAM:     8042 MB
-    Driver:   32.0.15.8157
+    VRAM:     6031 MB
+    Driver:   32.0.15.6603
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Mono path[0] = 'D:/Unity/6000.0.62f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002248 seconds.
-- Loaded All Assemblies, in  0.252 seconds
+Register platform support module: D:/Unity/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005106 seconds.
+- Loaded All Assemblies, in  0.789 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.231 seconds
-Domain Reload Profiling: 481ms
-	BeginReloadAssembly (83ms)
+- Finished resetting the current domain, in  0.803 seconds
+Domain Reload Profiling: 1591ms
+	BeginReloadAssembly (237ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (103ms)
-		LoadAssemblies (80ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (339ms)
+		LoadAssemblies (236ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (101ms)
-			TypeCache.Refresh (100ms)
-				TypeCache.ScanAssembly (90ms)
+		AnalyzeDomain (332ms)
+			TypeCache.Refresh (330ms)
+				TypeCache.ScanAssembly (305ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (231ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (804ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (206ms)
+		SetupLoadedEditorAssemblies (712ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (105ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-V9PX-B66Y-AC23-KYF9-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
 [Licensing::Module] License group:
   Id: 18966783445336-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.435 seconds
-Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.158 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Project Survivor
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.447 seconds
-Domain Reload Profiling: 881ms
-	BeginReloadAssembly (119ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (261ms)
-		LoadAssemblies (201ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (121ms)
-			TypeCache.Refresh (99ms)
-				TypeCache.ScanAssembly (90ms)
-			BuildScriptInfoCaches (17ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (448ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (379ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (298ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3862 unused Assets / (1.5 MB). Loaded Objects now: 4351.
-Memory consumption went from 88.7 MB to 87.2 MB.
-Total: 6.314200 ms (FindLiveObjects: 0.556500 ms CreateObjectMapping: 0.196400 ms MarkObjects: 4.307100 ms  DeleteObjects: 1.253200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 13518.573181 seconds.
-  path: Assets/Animations/DownloadedAnims/Movement
-  artifactKey: Guid(0794742d7d4be8242b3a0fd27cae7c13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/DownloadedAnims/Movement using Guid(0794742d7d4be8242b3a0fd27cae7c13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7117bad93fc5282eda98cdf87265f928') in 0.1164277 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Animations/DownloadedAnims/Movement/RunRight.fbx
-  artifactKey: Guid(5120a970404f418419c83af871d9a022) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/DownloadedAnims/Movement/RunRight.fbx using Guid(5120a970404f418419c83af871d9a022) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b39c8e31bb885bda03d1f88d5abf754') in 0.0677053 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 180
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.102777 seconds.
-  path: Assets/Animations/DownloadedAnims/Combat/Buff.fbx
-  artifactKey: Guid(20349140a3cb83e4d883e1456c7783d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/DownloadedAnims/Combat/Buff.fbx using Guid(20349140a3cb83e4d883e1456c7783d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df87011223d0b4978821505488ff18b0') in 0.0250373 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 180
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Animations/DownloadedAnims/Combat/MeleeAttack_TwoHanded.fbx
-  artifactKey: Guid(337a802e1a50ad746827a890f372c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/DownloadedAnims/Combat/MeleeAttack_TwoHanded.fbx using Guid(337a802e1a50ad746827a890f372c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67c48a1ec69cb159c1481c4102a0c58e') in 0.0030116 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 180
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.772172 seconds.
-  path: Assets/Animations/DownloadedAnims/Movement/RunLeft.fbx
-  artifactKey: Guid(eee239821c2dee4429fa8125a1fd6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/DownloadedAnims/Movement/RunLeft.fbx using Guid(eee239821c2dee4429fa8125a1fd6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '062a2fa3bcb75bba2b44c31040459ae5') in 0.0030441 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 180
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.465 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.549 seconds
-Domain Reload Profiling: 1014ms
-	BeginReloadAssembly (143ms)
+- Finished resetting the current domain, in  1.155 seconds
+Domain Reload Profiling: 2311ms
+	BeginReloadAssembly (314ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (268ms)
-		LoadAssemblies (238ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (678ms)
+		LoadAssemblies (480ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (103ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (88ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (549ms)
+		AnalyzeDomain (376ms)
+			TypeCache.Refresh (309ms)
+				TypeCache.ScanAssembly (290ms)
+			BuildScriptInfoCaches (54ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1155ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (468ms)
+		SetupLoadedEditorAssemblies (982ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (363ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (766ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3860 unused Assets / (0.8 MB). Loaded Objects now: 4356.
-Memory consumption went from 89.5 MB to 88.7 MB.
-Total: 4.660000 ms (FindLiveObjects: 0.369100 ms CreateObjectMapping: 0.130400 ms MarkObjects: 3.418600 ms  DeleteObjects: 0.740900 ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4608 unused Assets / (1.6 MB). Loaded Objects now: 5095.
+Memory consumption went from 92.8 MB to 91.1 MB.
+Total: 17.501800 ms (FindLiveObjects: 0.890000 ms CreateObjectMapping: 1.282000 ms MarkObjects: 12.072300 ms  DeleteObjects: 3.255700 ms)
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 37225.055116 seconds.
+  path: Assets/Models/Medieval Cute Series
+  artifactKey: Guid(ad543b577c8c597489bb3500faa62173) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series using Guid(ad543b577c8c597489bb3500faa62173) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba66f0c137a6b056f52b9d8daea55188') in 0.1166198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Medieval Cute Series/Prefabs/Rocks_3 2.prefab
+  artifactKey: Guid(d7cef5038c6b4964892e8857d1ed037f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/Prefabs/Rocks_3 2.prefab using Guid(d7cef5038c6b4964892e8857d1ed037f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43260f214f792ee8b22e1b3235ea0e1f') in 0.1444664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Medieval Cute Series/Prefabs/Hill_4.prefab
+  artifactKey: Guid(33bdca709c18ae24799bcc1ffec8d81b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/Prefabs/Hill_4.prefab using Guid(33bdca709c18ae24799bcc1ffec8d81b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17cab6f03ffe49a1db21c95c5462bedb') in 0.0284055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Medieval Cute Series/3D Models/Hill_4.fbx
+  artifactKey: Guid(216faa67db4a80d4bbc5309279d7dc11) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/3D Models/Hill_4.fbx using Guid(216faa67db4a80d4bbc5309279d7dc11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ace2438044de196f62184eead9377927') in 0.0692438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Medieval Cute Series/3D Models/GrassPlane_2.fbx
+  artifactKey: Guid(c5308a11a477a9547a0ee6fe7730000c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/3D Models/GrassPlane_2.fbx using Guid(c5308a11a477a9547a0ee6fe7730000c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '395d48ef88b8084b37f5935e3188adb3') in 0.0336887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Medieval Cute Series/Prefabs/Wall_2.prefab
+  artifactKey: Guid(f1a1ae97339552c4c9c015fae45a824e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/Prefabs/Wall_2.prefab using Guid(f1a1ae97339552c4c9c015fae45a824e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99648dd413526b2c02e27359952f54ed') in 0.0302269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Medieval Cute Series/Materials/Ground 1.mat
+  artifactKey: Guid(90de9a6704b09f44ca57256a6e7cf534) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/Materials/Ground 1.mat using Guid(90de9a6704b09f44ca57256a6e7cf534) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7bb874cf4e86228dcdb65ddb54a46553') in 0.028478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/Medieval Cute Series/3D Models/Building_2.fbx
+  artifactKey: Guid(d46a3bc37d4cc5d489a828a8f3ffe72e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/3D Models/Building_2.fbx using Guid(d46a3bc37d4cc5d489a828a8f3ffe72e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d606e07ddd248d26abbb43db7c73882') in 0.0431198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Medieval Cute Series/Materials/Wood 2.mat
+  artifactKey: Guid(c6c488a6f520c8847b916fdc4e80c114) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/Materials/Wood 2.mat using Guid(c6c488a6f520c8847b916fdc4e80c114) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdf6bdc484e67123b0a4bf8ee515497a') in 0.0195489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Medieval Cute Series/Prefabs/Hill_2.prefab
+  artifactKey: Guid(e9955c83737550c4cafee69abb75bd13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/Prefabs/Hill_2.prefab using Guid(e9955c83737550c4cafee69abb75bd13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '252f5ef5c9928eec300c93499f1f277a') in 0.0282001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Medieval Cute Series/Prefabs/Platform_F_2.prefab
+  artifactKey: Guid(50b7571ebf12fcb4e88cda68699eb7a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/Prefabs/Platform_F_2.prefab using Guid(50b7571ebf12fcb4e88cda68699eb7a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5803081ee645e99af975c408cd9914ec') in 0.0273445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Medieval Cute Series/3D Models/Bush_2.fbx
+  artifactKey: Guid(5bf04b8f6af6e9448874866b7ffe8040) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/3D Models/Bush_2.fbx using Guid(5bf04b8f6af6e9448874866b7ffe8040) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a81c7508dc02068897bdf9c325021d08') in 0.0357338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Medieval Cute Series/Prefabs/Platform_W_2.prefab
+  artifactKey: Guid(697df22b95c3f5d418ec7c395b3c12b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/Prefabs/Platform_W_2.prefab using Guid(697df22b95c3f5d418ec7c395b3c12b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b402e16b88318e72bf85f30a62d3500') in 0.0276057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Medieval Cute Series/Prefabs/Archer Shield 1.prefab
+  artifactKey: Guid(891ac91ec462c694ea0e971f547ed0bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/Prefabs/Archer Shield 1.prefab using Guid(891ac91ec462c694ea0e971f547ed0bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87e9f89c395e0c4390736f27a2faf5cd') in 0.0261959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Medieval Cute Series/Prefabs/Bush_1.prefab
+  artifactKey: Guid(a5be84efc38712c4caf74957cb58d556) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/Prefabs/Bush_1.prefab using Guid(a5be84efc38712c4caf74957cb58d556) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c29a7260dfa11e1de0850ad7039078c') in 0.0274226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Medieval Cute Series/Prefabs/Building_2.prefab
+  artifactKey: Guid(20413bc9968891449aff02bc5721872a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/Prefabs/Building_2.prefab using Guid(20413bc9968891449aff02bc5721872a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5050614f6b13f6e180059465724cb04') in 0.0309191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Medieval Cute Series/3D Models/Fence_2.fbx
+  artifactKey: Guid(8eb076a3f6db07742aad65be8bd7610e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/3D Models/Fence_2.fbx using Guid(8eb076a3f6db07742aad65be8bd7610e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8beb3ee6ce54cb94ebbf608b0b1b896') in 0.0405299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Medieval Cute Series/Materials/water 1.mat
+  artifactKey: Guid(d09b61848d29a1e4393c14486eb0a32a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/Materials/water 1.mat using Guid(d09b61848d29a1e4393c14486eb0a32a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a650fd1ff6adb0d25f253cfa28cd591') in 0.0186675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Medieval Cute Series/Prefabs/Pillar_2.prefab
+  artifactKey: Guid(ad51756c4ff734f419fab032162261b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/Prefabs/Pillar_2.prefab using Guid(ad51756c4ff734f419fab032162261b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33e852ce429add8fa36563e98a63d7cf') in 0.0251229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Medieval Cute Series/3D Models/Stairs Corner.fbx
+  artifactKey: Guid(65b11d93053863e408e658371699c4a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/3D Models/Stairs Corner.fbx using Guid(65b11d93053863e408e658371699c4a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72c6c2364d2ce32137b3d07a56751555') in 0.034059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Medieval Cute Series/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d411fbfe4321323b7ba71599cd44145') in 0.0174901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Medieval Cute Series/Prefabs/Rocks_3.prefab
+  artifactKey: Guid(3307dcfaba8adb74d94e4c427203b126) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Medieval Cute Series/Prefabs/Rocks_3.prefab using Guid(3307dcfaba8adb74d94e4c427203b126) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e491f5cfcc5f6784cf460ba3d1da53a2') in 0.039802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

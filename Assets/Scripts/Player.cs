@@ -3,12 +3,18 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [Header("Component")]
+    private CharacterController cc;
+    private Animator animator;
+
+    [Header("Movement")]
     [SerializeField] private float turnSpeed;
     [SerializeField] private float moveSpeed;
     private float verticalVelocity;
     [SerializeField] private FloatingJoystick joystick;
-    private CharacterController cc;
-    private Animator animator;
+
+    [Header("Recources Actions")]
+    [SerializeField] private float detectRadius;
 
     void Start()
     {
@@ -24,7 +30,8 @@ public class Player : MonoBehaviour
         else
             MoveWithKeyboard();
 
-        AnimateMovement();
+        Animation();
+        Mining();
     }
 
 
@@ -97,17 +104,72 @@ public class Player : MonoBehaviour
 
     //private void AnimateMovement() => animator.SetBool("IsMoving", IsMoving());
 
-    private void AnimateMovement()
+    private void Animation()
     {
-        float xVelocity = Vector3.Dot(cc.velocity.normalized, transform.right);
-        float zVelocity = Vector3.Dot(cc.velocity.normalized, transform.forward);
+        float xVelocity = Vector3.Dot(new Vector3(cc.velocity.x, 0, cc.velocity.z).normalized, transform.right);
+        float zVelocity = Vector3.Dot(new Vector3(cc.velocity.x, 0, cc.velocity.z).normalized, transform.forward);
 
         animator.SetFloat("xVelocity", xVelocity, 0.1f, Time.deltaTime);
         animator.SetFloat("zVelocity", zVelocity, 0.1f, Time.deltaTime);
+
+        animator.SetBool("DoMining", CanInteractWitResource());
+
     }
 
 
 
     #endregion
+
+    private void Mining()
+    {
+        if (NearestRecource() != null && !IsMoving())
+        {
+            // Rotate smoothly toward the closest resource
+            Vector3 direction = (NearestRecource().transform.position - transform.position).normalized;
+            direction.y = 0; // prevent tilting up/down
+
+            Quaternion rot = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.Slerp(transform.rotation, rot, turnSpeed * Time.deltaTime);
+        }
+    }
+   
+
+    private Resource NearestRecource()
+    {
+        Resource nearestRecource = null;
+        float minDist = Mathf.Infinity;
+
+        Collider[] hits = Physics.OverlapSphere(transform.position, detectRadius);
+
+        foreach (Collider hit in hits)
+        {
+            Resource res = hit.GetComponent<Resource>();
+            if (res != null)
+            {
+                float dist = Vector3.Distance(transform.position, res.transform.position);
+
+                if (dist < minDist)
+                {
+                    minDist = dist;
+                    nearestRecource = res;
+                }
+            }
+        }
+
+        return nearestRecource;
+    }
+
+    private bool CanInteractWitResource()
+    {
+        if (NearestRecource() != null && !IsMoving())
+            return true;
+
+        return false;
+
+    }
+    
+
+
+
 
 }
