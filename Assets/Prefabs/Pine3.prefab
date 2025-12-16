@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 8154431852458209284}
   - component: {fileID: 5289019394554423792}
   - component: {fileID: 5619479060577769733}
-  - component: {fileID: 6313735656210548938}
+  - component: {fileID: 6991583556466137502}
   - component: {fileID: 2036761686475884170}
+  - component: {fileID: 714731285364651990}
   m_Layer: 6
   m_Name: Pine3
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8758606752996204462}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.1, y: 0.3763135, z: 5.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -88,7 +89,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &6313735656210548938
+--- !u!114 &6991583556466137502
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -97,9 +98,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8758606752996204462}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 763388908c6a8364a82bedb7d2873c49, type: 3}
+  m_Script: {fileID: 11500000, guid: 0c4a12583e1366c449ee0de79d96cedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resourceType: 1
+  state: 0
+  wood: {fileID: 6945839012768444738, guid: 709e2bdaa0de0b045bf1e6599b057e5c, type: 3}
 --- !u!136 &2036761686475884170
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -119,7 +123,34 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.5236521
+  m_Radius: 0.5141165
   m_Height: 7.810149
   m_Direction: 1
-  m_Center: {x: -0.15163994, y: 3.528761, z: 0.050343037}
+  m_Center: {x: -0.10575223, y: 3.528761, z: 0.050343037}
+--- !u!54 &714731285364651990
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8758606752996204462}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

@@ -146,7 +146,7 @@ public class Player : MonoBehaviour
 
         foreach (Collider hit in hits)
         {
-            Resource res = hit.GetComponent<Resource>();
+            Resource res = hit.GetComponent<Resource>() as Tree;
             if (res != null)
             {
                 float dist = Vector3.Distance(transform.position, res.transform.position);
@@ -171,8 +171,13 @@ public class Player : MonoBehaviour
 
     }
     
-
-
+    public void CollectNearestResource()
+    {
+        if(NearestRecource() != null)
+        {
+            NearestRecource().Interact(this);
+        }
+    }
 
 
 }
