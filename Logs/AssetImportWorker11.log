@@ -1,35 +1,35 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16272 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme" at "2025-12-14T20:18:59.4503659Z"
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'tr' Physical Memory: 32621 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-12-14T20:18:59Z
+Date: 2025-12-15T08:35:16Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Mehmet" at "2025-12-15T08:35:16.1044789Z"
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\6000.0.62f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.0.62f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker11
 -projectPath
-D:/Game Developments/GitHub/Project-Survival
+D:/Github/Project-Survival
 -logFile
 Logs/AssetImportWorker11.log
 -srvPort
-63387
+51519
 -licensingIpc
-LicenseClient-mehme
+LicenseClient-Mehmet
 -job-worker-count
-5
+11
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: D:/Game Developments/GitHub/Project-Survival
-D:/Game Developments/GitHub/Project-Survival
+Successfully changed project path to: D:/Github/Project-Survival
+D:/Github/Project-Survival
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -65,29 +65,27 @@ D:/Game Developments/GitHub/Project-Survival
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19324]  Target information:
+Player connection [34448]  Target information:
 
-Player connection [19324]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 458747641 [EditorId] 458747641 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [34448]  * "[IP] 10.0.1.102 [Port] 0 [Flags] 2 [Guid] 989455563 [EditorId] 989455563 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P02AFH1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19324]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 458747641 [EditorId] 458747641 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [19324] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19324] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 5
+Player connection [34448] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [34448] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 5000, path: "D:/Unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 12252, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              cdaae59ccd4d4857b9002a25352ae325
-  Correlation Id:          6280ac9ad18700acb0d7090296c7bfed
-  External correlation Id: 8136509538467425875
-  Machine Id:              PxHNM7DPPf0IVXSn48G8aClcpaQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mehme" (connect: 0.00s, validation: 0.00s, handshake: 0.08s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme-notifications" at "2025-12-14T20:18:59.5383823Z"
-[Licensing::Module] Licensing Background thread has ended after 0.09s
+  Version:                 1.17.3+a4e98f1
+  Session Id:              d69f009437eb47ae8abdbd0c640f5530
+  Correlation Id:          b780854bcde18a98b8c9fc5011d0894f
+  External correlation Id: 8998221178771356864
+  Machine Id:              zsDTylX/wbsPzAhj9VZkiZ+wIzE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Mehmet" (connect: 0.00s, validation: 0.03s, handshake: 0.07s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Mehmet-notifications" at "2025-12-15T08:35:16.2042342Z"
+[Licensing::Module] Licensing Background thread has ended after 0.10s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -95,59 +93,61 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.62f1 (f99f05b3e950)
-[Subsystems] Discovering subsystems at path D:/Unity/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Game Developments/GitHub/Project-Survival/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Github/Project-Survival/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
     Vendor:   NVIDIA
-    VRAM:     6031 MB
-    Driver:   32.0.15.6603
+    VRAM:     8042 MB
+    Driver:   32.0.15.8157
 Initialize mono
-Mono path[0] = 'D:/Unity/6000.0.62f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003909 seconds.
-- Loaded All Assemblies, in  0.578 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005518 seconds.
+- Loaded All Assemblies, in  0.486 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.523 seconds
-Domain Reload Profiling: 1101ms
-	BeginReloadAssembly (215ms)
+- Finished resetting the current domain, in  0.413 seconds
+Domain Reload Profiling: 897ms
+	BeginReloadAssembly (193ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (231ms)
-		LoadAssemblies (214ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (187ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (227ms)
-			TypeCache.Refresh (225ms)
-				TypeCache.ScanAssembly (203ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (167ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (524ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (413ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (456ms)
+		SetupLoadedEditorAssemblies (358ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (246ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -161,22 +161,47 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: F4-V9PX-B66Y-AC23-KYF9-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
   Id: 18966783445336-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.427 seconds
+- Loaded All Assemblies, in  1.281 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\Github\Project-Survival\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
+  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
+  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00044] in <cd9b23508c04492a9e7051cbb9076578>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@e106d1f78228/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@e106d1f78228/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Project Survivor
@@ -188,573 +213,48 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.468 seconds
-Domain Reload Profiling: 2894ms
-	BeginReloadAssembly (300ms)
+- Finished resetting the current domain, in  1.074 seconds
+Domain Reload Profiling: 2348ms
+	BeginReloadAssembly (204ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (974ms)
-		LoadAssemblies (640ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (973ms)
+		LoadAssemblies (739ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (494ms)
-			TypeCache.Refresh (384ms)
-				TypeCache.ScanAssembly (352ms)
-			BuildScriptInfoCaches (89ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1468ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (271ms)
+				TypeCache.ScanAssembly (251ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1074ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1178ms)
+		SetupLoadedEditorAssemblies (782ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (223ms)
-			ProcessInitializeOnLoadAttributes (849ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (563ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6665 unused Assets / (6.0 MB). Loaded Objects now: 7333.
-Memory consumption went from 142.9 MB to 136.9 MB.
-Total: 24.017700 ms (FindLiveObjects: 1.493200 ms CreateObjectMapping: 2.558300 ms MarkObjects: 14.089700 ms  DeleteObjects: 5.874600 ms)
+Unloading 6665 unused Assets / (4.9 MB). Loaded Objects now: 7333.
+Memory consumption went from 149.0 MB to 144.1 MB.
+Total: 10.983600 ms (FindLiveObjects: 0.711700 ms CreateObjectMapping: 0.464300 ms MarkObjects: 5.966100 ms  DeleteObjects: 3.840400 ms)
 
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.275 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.750 seconds
-Domain Reload Profiling: 3029ms
-	BeginReloadAssembly (346ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (86ms)
-	RebuildCommonClasses (74ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (795ms)
-		LoadAssemblies (545ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (416ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (370ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1751ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1451ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (252ms)
-			ProcessInitializeOnLoadAttributes (1061ms)
-			ProcessInitializeOnLoadMethodAttributes (118ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6663 unused Assets / (4.7 MB). Loaded Objects now: 7350.
-Memory consumption went from 153.9 MB to 149.2 MB.
-Total: 32.608300 ms (FindLiveObjects: 1.862600 ms CreateObjectMapping: 2.359300 ms MarkObjects: 15.116000 ms  DeleteObjects: 13.268600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-V9PX-B66Y-AC23-KYF9-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 18966783445336-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  0.941 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.283 seconds
-Domain Reload Profiling: 2228ms
-	BeginReloadAssembly (254ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (589ms)
-		LoadAssemblies (402ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (301ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (268ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (1284ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1064ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (169ms)
-			ProcessInitializeOnLoadAttributes (795ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6663 unused Assets / (4.6 MB). Loaded Objects now: 7354.
-Memory consumption went from 153.9 MB to 149.3 MB.
-Total: 16.265100 ms (FindLiveObjects: 1.030000 ms CreateObjectMapping: 1.900600 ms MarkObjects: 9.485800 ms  DeleteObjects: 3.847500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-V9PX-B66Y-AC23-KYF9-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 18966783445336-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  0.960 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.293 seconds
-Domain Reload Profiling: 2256ms
-	BeginReloadAssembly (250ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (610ms)
-		LoadAssemblies (410ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (315ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (283ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1294ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1085ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (158ms)
-			ProcessInitializeOnLoadAttributes (820ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6663 unused Assets / (4.9 MB). Loaded Objects now: 7358.
-Memory consumption went from 153.9 MB to 149.1 MB.
-Total: 22.630000 ms (FindLiveObjects: 1.229700 ms CreateObjectMapping: 2.280000 ms MarkObjects: 13.383000 ms  DeleteObjects: 5.735500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-V9PX-B66Y-AC23-KYF9-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 18966783445336-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  0.972 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.269 seconds
-Domain Reload Profiling: 2245ms
-	BeginReloadAssembly (248ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (626ms)
-		LoadAssemblies (398ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (337ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (309ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1270ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1051ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (163ms)
-			ProcessInitializeOnLoadAttributes (793ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6663 unused Assets / (4.9 MB). Loaded Objects now: 7362.
-Memory consumption went from 154.0 MB to 149.0 MB.
-Total: 14.706500 ms (FindLiveObjects: 0.851700 ms CreateObjectMapping: 1.474200 ms MarkObjects: 8.727400 ms  DeleteObjects: 3.652200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 47911.686499 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs
-  artifactKey: Guid(8a7ada547f07ba3468bcf01c1fd5c303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs using Guid(8a7ada547f07ba3468bcf01c1fd5c303) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5abeff5a7d719ae9b586d46eed23a58') in 0.0401709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.982571 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Bench.prefab
-  artifactKey: Guid(ee743d366a1d15f4280fcc33f72891e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Bench.prefab using Guid(ee743d366a1d15f4280fcc33f72891e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16ff39cdb5ea7888c33bc98418913253') in 0.5982415 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.220843 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Mountain_1.prefab
-  artifactKey: Guid(de546e230fe491d46aaca545e62493c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Mountain_1.prefab using Guid(de546e230fe491d46aaca545e62493c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16d4eca433484dd04243e7510aa735c1') in 0.0199586 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.526792 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Mountain_2.prefab
-  artifactKey: Guid(10dda8866777bf44f9ce6862664323b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Mountain_2.prefab using Guid(10dda8866777bf44f9ce6862664323b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1534dd18e5e7a90678694fba8b1cf33f') in 0.0186536 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.382456 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Mountain_3.prefab
-  artifactKey: Guid(713c943ccbfcab0449993d096180948d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Mountain_3.prefab using Guid(713c943ccbfcab0449993d096180948d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91eb8f1f4288348110d405fb7bc29875') in 0.0194066 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.932058 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Mountain_4.prefab
-  artifactKey: Guid(283ec6f0a2b15c34e83fa08ce42cf7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Mountain_4.prefab using Guid(283ec6f0a2b15c34e83fa08ce42cf7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '416cec430e08fb40efbe46c9971e7924') in 0.0184109 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.358440 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_1.prefab
-  artifactKey: Guid(dd76da60b484c7c45a2bdc5c0271808f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_1.prefab using Guid(dd76da60b484c7c45a2bdc5c0271808f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23b4a4e05132c14714257fd905c135db') in 0.0248516 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.482598 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_3.prefab
-  artifactKey: Guid(705b5aa8b3cca7b4b856850fa92e2270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_3.prefab using Guid(705b5aa8b3cca7b4b856850fa92e2270) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '295d6b2e43f9205950373850e9e969b9') in 0.0187852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.294873 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_6.prefab
-  artifactKey: Guid(4b6c823c8250950458397687732387d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_6.prefab using Guid(4b6c823c8250950458397687732387d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ad803cf7838cd03a4da5329b08b9ffa') in 0.0188033 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.369636 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_8.prefab
-  artifactKey: Guid(dfe0ded46da2be248833f5a0eb632767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_8.prefab using Guid(dfe0ded46da2be248833f5a0eb632767) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86e878eff534c943953838ba62e4e4d7') in 0.0240265 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.985572 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Village.prefab
-  artifactKey: Guid(b712f6f8036eeec408a1d060242abb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Village.prefab using Guid(b712f6f8036eeec408a1d060242abb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96a34daf9ed1a36a6cfccbc75249e008') in 0.3215399 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7042
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.367924 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Rock_4.prefab
-  artifactKey: Guid(7ee2debd6ad2dd2498222dd51ab640c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Rock_4.prefab using Guid(7ee2debd6ad2dd2498222dd51ab640c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '285d969b4a24e3ee9272253156433943') in 0.0238654 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.551112 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Rock_2.prefab
-  artifactKey: Guid(4363cc5f6c64c954ba6f12cacb2002f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Rock_2.prefab using Guid(4363cc5f6c64c954ba6f12cacb2002f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2119b2d4e7732d5bcf070161da8845e') in 0.0186644 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.366662 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Rock_1.prefab
-  artifactKey: Guid(ba9fd98bca0027247a64ce4e19eef4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Rock_1.prefab using Guid(ba9fd98bca0027247a64ce4e19eef4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ab7f977e97d836564a79ae85a9d9e2f') in 0.0180277 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.492473 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_5.prefab
-  artifactKey: Guid(9a08f387c56d2e44aa12051243374461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_5.prefab using Guid(9a08f387c56d2e44aa12051243374461) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e63d966c3498d427fafaa63498bf4ee8') in 0.0250696 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.500956 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_4.prefab
-  artifactKey: Guid(e735c04079cd2ec41a27bac1b848bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_4.prefab using Guid(e735c04079cd2ec41a27bac1b848bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd38e40f1563950ebbc86052a0c0917c') in 0.0179489 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.514749 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_3.prefab
-  artifactKey: Guid(6df0c32e24342b845b0ca643604fe0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_3.prefab using Guid(6df0c32e24342b845b0ca643604fe0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c37a20a3919eeb38e308e3ff54cc43b9') in 0.0181302 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.378608 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_2.prefab
-  artifactKey: Guid(b494815f7682f6e4db2ff5cd616e1717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_2.prefab using Guid(b494815f7682f6e4db2ff5cd616e1717) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '043c643eaa7d5fd760c36b6d78e13d83') in 0.0182887 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.444887 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_1.prefab
-  artifactKey: Guid(f30a358b7336975468ee7d12a0aa30c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_1.prefab using Guid(f30a358b7336975468ee7d12a0aa30c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '479df322947d5ef4c67f0bbdee6b2733') in 0.0217879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.786499 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path_2.prefab
-  artifactKey: Guid(54908593d3b9f614b85d81ea61bee672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path_2.prefab using Guid(54908593d3b9f614b85d81ea61bee672) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fba826c44c349ffd8fea5598bef709a7') in 0.0258323 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.516938 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path_1.prefab
-  artifactKey: Guid(2159f826a7fb5944b8baff7839d55f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path_1.prefab using Guid(2159f826a7fb5944b8baff7839d55f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cf67e473b49bcf4d3a89f593cd108a3') in 0.0185494 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.907402 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Flower Pot.prefab
-  artifactKey: Guid(bf1a024e76f38f84cb744d8e9f56b7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Flower Pot.prefab using Guid(bf1a024e76f38f84cb744d8e9f56b7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f847d0a39f860a9293d6d6f4352a28e0') in 0.0183605 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.560635 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Fence.prefab
-  artifactKey: Guid(94f6b81a91774dd40b60e935197c3144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Fence.prefab using Guid(94f6b81a91774dd40b60e935197c3144) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20abc024010ab74b6d6ff892a8473442') in 0.0251511 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.378153 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Crate.prefab
-  artifactKey: Guid(4e08fdf4080c15941b2b10e6aac7bfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Crate.prefab using Guid(4e08fdf4080c15941b2b10e6aac7bfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93924c47f362b6c5fffecfd0b91224b6') in 0.0236286 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.346090 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_6.prefab
-  artifactKey: Guid(f44a5fec597efc8499df8340a7c0c1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_6.prefab using Guid(f44a5fec597efc8499df8340a7c0c1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bb1fc7883590e9d45afc398d8298cc9') in 0.0239024 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.273356 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_3.prefab
-  artifactKey: Guid(f53d43fa45e2a32458980cb12ee76084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_3.prefab using Guid(f53d43fa45e2a32458980cb12ee76084) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3be5944d6e7ae6d94240d81bd35246a1') in 0.0216155 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.087889 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_4.prefab
-  artifactKey: Guid(ad3ff5a98cea060489bf124ad17b4fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_4.prefab using Guid(ad3ff5a98cea060489bf124ad17b4fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7c053a4e407477662e7af48883c278f') in 0.0173034 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.227223 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_1.prefab
-  artifactKey: Guid(1c90b0e142219f043bba4cd103ad74a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_1.prefab using Guid(1c90b0e142219f043bba4cd103ad74a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0677566e7f6ce93ebfc7f7ead4e0d33c') in 0.0207259 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.627525 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Bridge.prefab
-  artifactKey: Guid(d20f7c791b6c5ca459c45f167993e50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Bridge.prefab using Guid(d20f7c791b6c5ca459c45f167993e50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef8429d8852259076e3a72e226328bcd') in 0.0186682 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.534613 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Boat.prefab
-  artifactKey: Guid(7c99531c61bfcb649a63fecaa465073c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Boat.prefab using Guid(7c99531c61bfcb649a63fecaa465073c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9a17347938e12611f3073d3f4268426') in 0.0195533 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.281550 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Bench.prefab
-  artifactKey: Guid(ee743d366a1d15f4280fcc33f72891e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Bench.prefab using Guid(ee743d366a1d15f4280fcc33f72891e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3187d80bc2771b70de01dfdef9e703f0') in 0.0185501 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

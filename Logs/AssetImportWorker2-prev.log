@@ -1,9 +1,9 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme" at "2025-12-14T20:15:56.642835Z"
 Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16272 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-[Licensing::Module] Trying to connect to existing licensing client channel...
-Date: 2025-12-14T17:27:47Z
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme" at "2025-12-14T17:27:47.0189038Z"
+Date: 2025-12-14T20:15:56Z
 
 COMMAND LINE ARGUMENTS:
 D:\Unity\6000.0.62f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ D:/Game Developments/GitHub/Project-Survival
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-49809
+63387
 -licensingIpc
 LicenseClient-mehme
 -job-worker-count
@@ -65,14 +65,14 @@ D:/Game Developments/GitHub/Project-Survival
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1928]  Target information:
+Player connection [12564]  Target information:
 
-Player connection [1928]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 1736972168 [EditorId] 1736972168 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12564]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 3058296774 [EditorId] 3058296774 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [1928]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 1736972168 [EditorId] 1736972168 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12564]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 3058296774 [EditorId] 3058296774 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [1928] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [1928] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12564] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12564] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -81,13 +81,13 @@ Input System module state changed to: Initialized.
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              8237897221754749953031d5e0995fcc
+  Session Id:              dd355444e66e483aa1c6e09b6beefe69
   Correlation Id:          6280ac9ad18700acb0d7090296c7bfed
-  External correlation Id: 5029119354413413352
+  External correlation Id: 2170075994191992373
   Machine Id:              PxHNM7DPPf0IVXSn48G8aClcpaQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mehme" (connect: 0.00s, validation: 0.00s, handshake: 0.07s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme-notifications" at "2025-12-14T17:27:47.0905676Z"
-[Licensing::Module] Licensing Background thread has ended after 0.07s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mehme" (connect: 0.00s, validation: 0.00s, handshake: 0.08s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme-notifications" at "2025-12-14T20:15:56.7282225Z"
+[Licensing::Module] Licensing Background thread has ended after 0.08s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -95,7 +95,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.62f1 (f99f05b3e950)
 [Subsystems] Discovering subsystems at path D:/Unity/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
@@ -111,43 +111,43 @@ Initialize mono
 Mono path[0] = 'D:/Unity/6000.0.62f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003093 seconds.
-- Loaded All Assemblies, in  1.276 seconds
+Registered in 0.004295 seconds.
+- Loaded All Assemblies, in  0.991 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.684 seconds
-Domain Reload Profiling: 1959ms
-	BeginReloadAssembly (190ms)
+- Finished resetting the current domain, in  1.101 seconds
+Domain Reload Profiling: 2091ms
+	BeginReloadAssembly (359ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (951ms)
-		LoadAssemblies (189ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (118ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (376ms)
+		LoadAssemblies (357ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (947ms)
-			TypeCache.Refresh (946ms)
-				TypeCache.ScanAssembly (571ms)
+		AnalyzeDomain (370ms)
+			TypeCache.Refresh (368ms)
+				TypeCache.ScanAssembly (339ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (684ms)
+	FinalizeReload (1102ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (615ms)
+		SetupLoadedEditorAssemblies (983ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (142ms)
-			ProcessInitializeOnLoadAttributes (340ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (630ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -170,11 +170,11 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  2.571 seconds
+- Loaded All Assemblies, in  2.336 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\Game Developments\GitHub\Project-Survival\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
@@ -217,944 +217,345 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.494 seconds
-Domain Reload Profiling: 4065ms
-	BeginReloadAssembly (306ms)
+- Finished resetting the current domain, in  2.544 seconds
+Domain Reload Profiling: 4878ms
+	BeginReloadAssembly (433ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (18ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (2127ms)
-		LoadAssemblies (1884ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (1685ms)
+		LoadAssemblies (983ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (414ms)
-			TypeCache.Refresh (323ms)
-				TypeCache.ScanAssembly (293ms)
-			BuildScriptInfoCaches (75ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1495ms)
+		AnalyzeDomain (940ms)
+			TypeCache.Refresh (755ms)
+				TypeCache.ScanAssembly (704ms)
+			BuildScriptInfoCaches (149ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (2545ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1277ms)
+		SetupLoadedEditorAssemblies (2257ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (256ms)
-			ProcessInitializeOnLoadAttributes (961ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (478ms)
+			ProcessInitializeOnLoadAttributes (1617ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.64 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4608 unused Assets / (1.4 MB). Loaded Objects now: 5095.
-Memory consumption went from 92.5 MB to 91.1 MB.
-Total: 12.336100 ms (FindLiveObjects: 0.749600 ms CreateObjectMapping: 0.816200 ms MarkObjects: 7.843900 ms  DeleteObjects: 2.924900 ms)
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6684 unused Assets / (6.4 MB). Loaded Objects now: 7226.
+Memory consumption went from 139.3 MB to 132.8 MB.
+Total: 23.300800 ms (FindLiveObjects: 1.350100 ms CreateObjectMapping: 2.006900 ms MarkObjects: 13.832900 ms  DeleteObjects: 6.107800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 37034.233064 seconds.
-  path: Assets/Animations/AnimatorControllers/Player_AC 1.controller
-  artifactKey: Guid(60a234a57fd3d1244841e6f07189ef32) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animations/AnimatorControllers/Player_AC 1.controller using Guid(60a234a57fd3d1244841e6f07189ef32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a196c5c358ec92f8f0c5e990b36fe3d') in 0.2750677 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Roads/bridge_small.prefab
-  artifactKey: Guid(f29d7be640856435aac354d716f2764a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Roads/bridge_small.prefab using Guid(f29d7be640856435aac354d716f2764a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f8228c916202fe1df0c9838a2901233') in 0.0815033 seconds
+  Time since last request: 47126.158915 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_3.prefab
+  artifactKey: Guid(939a4fc1efac26f4f8e18ebebacf94e1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_3.prefab using Guid(939a4fc1efac26f4f8e18ebebacf94e1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3f4d15c12038e2bd446b98447e48c38d') in 14.5164143 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Roads/grass_with_soil_area.fbx
-  artifactKey: Guid(a47324393d38c409ead6a5966058893a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Roads/grass_with_soil_area.fbx using Guid(a47324393d38c409ead6a5966058893a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a5fd19c34f2c81d8fc471de15f8fbac') in 0.093915 seconds
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/Mountain1.fbx
+  artifactKey: Guid(13db60c7bb269834ba0e60509f52bdca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/Mountain1.fbx using Guid(13db60c7bb269834ba0e60509f52bdca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15e28d060588567ff6dae9daacba2a5b') in 0.2686774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013037 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_3.prefab
+  artifactKey: Guid(f53d43fa45e2a32458980cb12ee76084) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_3.prefab using Guid(f53d43fa45e2a32458980cb12ee76084) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0a98e9ada54dca229890a9876e8d1d05') in 0.0637204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013348 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/pine tree5.fbx
+  artifactKey: Guid(a2040ece5d031b843b3deb3877d3f3d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/pine tree5.fbx using Guid(a2040ece5d031b843b3deb3877d3f3d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ad7973c38184413f7d6c206c7a49f96') in 0.0548059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001811 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_7.prefab
+  artifactKey: Guid(d29bb6c6b354875488667cc20a2817df) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_7.prefab using Guid(d29bb6c6b354875488667cc20a2817df) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '5ee6b7034cbfa8918a07152c1428ebfd') in 0.0443563 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Stones/stone_2.fbx
-  artifactKey: Guid(45b0c145f23c944c5931f32009a3a94b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Stones/stone_2.fbx using Guid(45b0c145f23c944c5931f32009a3a94b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f7fce4218b416ba741aa18d1bfd08fa') in 0.0310393 seconds
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_1.prefab
+  artifactKey: Guid(dd76da60b484c7c45a2bdc5c0271808f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_1.prefab using Guid(dd76da60b484c7c45a2bdc5c0271808f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84db62d3260f4b6e91d5ae332bc9b92e') in 0.0663711 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.842561 seconds.
-  path: Assets/Models/Mixamo/Character@Breathing Idle.fbx
-  artifactKey: Guid(b438e030273bae3439ef31ed11fa1c96) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Mixamo/Character@Breathing Idle.fbx using Guid(b438e030273bae3439ef31ed11fa1c96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '505fef1243324983091fc97d6c910672') in 0.1274164 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 93
-
-========================================================================
-Received Import Request.
-  Time since last request: 151.077801 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Rocks_4.prefab
-  artifactKey: Guid(433f95ebbfa48a144b39bf4ed6323489) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Rocks_4.prefab using Guid(433f95ebbfa48a144b39bf4ed6323489) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de98d016c6d7349e82ce05fae1f40dea') in 0.0384086 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Platform_W_1.prefab
-  artifactKey: Guid(ad0cda88057082f4392ceb18c70ddb55) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Platform_W_1.prefab using Guid(ad0cda88057082f4392ceb18c70ddb55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6df1917f9adfb1cd44b550dc356c81ef') in 0.0321964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Island_1.prefab
-  artifactKey: Guid(33d8598367f51694abf403c858ed7629) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Island_1.prefab using Guid(33d8598367f51694abf403c858ed7629) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f626c673f932e41c392c7c9099681b5d') in 0.0399624 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Medieval Cute Series/Materials/Rocks 2.mat
-  artifactKey: Guid(04380e05e7c4ee0409492c479b66bde0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Materials/Rocks 2.mat using Guid(04380e05e7c4ee0409492c479b66bde0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10127a61f28a3a2f3855af21a0a7d459') in 0.0302183 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Medieval Cute Series/Textures/Sky Map.png
-  artifactKey: Guid(8d19f52f726d3c54eaef8b1a7b7af48d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Textures/Sky Map.png using Guid(8d19f52f726d3c54eaef8b1a7b7af48d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28e2907209a0d8cd20869ce205254ac4') in 0.1459449 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Tower_1.fbx
-  artifactKey: Guid(48da39cb17988ab45b6575bebb39718c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Tower_1.fbx using Guid(48da39cb17988ab45b6575bebb39718c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86ebc413d023249072060264e3b21037') in 0.0464323 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Barier_2.prefab
-  artifactKey: Guid(8a189a4d3a7c0bc478acd0cca5e69d12) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Barier_2.prefab using Guid(8a189a4d3a7c0bc478acd0cca5e69d12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '093a293ec9e7d5fd8b3c8e28f2f56e29') in 0.0268267 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Clif_1.prefab
-  artifactKey: Guid(abb5ba2b41f3a524bbaaff201c2eb889) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Clif_1.prefab using Guid(abb5ba2b41f3a524bbaaff201c2eb889) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b39fd8303aa6f90d01b753997d62bd4') in 0.019851 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Bridge_1.prefab
-  artifactKey: Guid(760a2b4c91f2b454c9ba637d89f4a53c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Bridge_1.prefab using Guid(760a2b4c91f2b454c9ba637d89f4a53c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f2a94cc69ec7a684e7c074d86fcae7a') in 0.0218703 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Medieval Cute Series/Settings
-  artifactKey: Guid(3b596698889ecb54391df27a7a62b230) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Settings using Guid(3b596698889ecb54391df27a7a62b230) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1c4adcdaacb8fe3ce302aa22a5b4182') in 0.0156295 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Bush_2.fbx
-  artifactKey: Guid(5bf04b8f6af6e9448874866b7ffe8040) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Bush_2.fbx using Guid(5bf04b8f6af6e9448874866b7ffe8040) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb86b77b3d42de784236c73780ed4346') in 0.0304295 seconds
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_3.prefab
+  artifactKey: Guid(705b5aa8b3cca7b4b856850fa92e2270) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_3.prefab using Guid(705b5aa8b3cca7b4b856850fa92e2270) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '9e245982b2db9fa53614852fa8421e43') in 0.0356724 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Medieval Cute Series/Materials/Stylized Water.shadergraph
-  artifactKey: Guid(2cddbde10dbb33c49a06746ef46a8773) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Materials/Stylized Water.shadergraph using Guid(2cddbde10dbb33c49a06746ef46a8773) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'adf50b5abfd0ea43a321a29dac40a64c') in 0.0140365 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_3.prefab
+  artifactKey: Guid(6df0c32e24342b845b0ca643604fe0ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_3.prefab using Guid(6df0c32e24342b845b0ca643604fe0ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e764f5dfd35431867ce58d631d8a87c5') in 0.0602712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Wall_3.prefab
-  artifactKey: Guid(c1f03d5849c6ab745aa77d106bc29fc3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Wall_3.prefab using Guid(c1f03d5849c6ab745aa77d106bc29fc3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '937966bec3e67c1e1a9ed6df2e6ef019') in 0.0205425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_4.prefab
+  artifactKey: Guid(e735c04079cd2ec41a27bac1b848bfc0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_4.prefab using Guid(e735c04079cd2ec41a27bac1b848bfc0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5730bcced825817fd3c403f232722044') in 0.0539113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Medieval Cute Series/Materials/Wave Brown.mat
-  artifactKey: Guid(d605b35fadc16f440ba27bcdb720b507) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Materials/Wave Brown.mat using Guid(d605b35fadc16f440ba27bcdb720b507) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '733da5bfb67079c44541faf868bb9f0c') in 0.0163293 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Tent_1.prefab
-  artifactKey: Guid(1750fd3f03bcc4d4bbb5c8bec13f8504) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Tent_1.prefab using Guid(1750fd3f03bcc4d4bbb5c8bec13f8504) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef4879feb5fa598efa679fda21df4556') in 0.0251976 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Medieval Cute Series/Materials/Stylized Refracted UV.shadersubgraph
-  artifactKey: Guid(09c0a705fa4e4f44b927b4c2739b3eaf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Materials/Stylized Refracted UV.shadersubgraph using Guid(09c0a705fa4e4f44b927b4c2739b3eaf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e619c399188cb38684b17ce0c7bf80f') in 0.0126317 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Medieval Cute Series/Settings/URP-HighFidelity-Renderer.asset
-  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '861712e5f4de4d8c67a3737410656bbd') in 0.0162837 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Tower_2.prefab
-  artifactKey: Guid(554356dc95bb5e341ad07d30b140efef) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Tower_2.prefab using Guid(554356dc95bb5e341ad07d30b140efef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '360a940c5fc2a35e22e22e087c8046be') in 0.0324428 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Sword_1.fbx
-  artifactKey: Guid(e46a3ea6b4653144d814463c3d06bb1f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Sword_1.fbx using Guid(e46a3ea6b4653144d814463c3d06bb1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '516cb9a1d413b89028c3f919c44b01c3') in 0.031798 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_5.prefab
+  artifactKey: Guid(7e525c8d5ef27724c957da5dfce8be70) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_5.prefab using Guid(7e525c8d5ef27724c957da5dfce8be70) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0030b7bc6a0a995e20f6c80c13abd14a') in 0.0353005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/GrassPlane_2.prefab
-  artifactKey: Guid(342c6b85dcd1dd94f9d5be82fbb5f656) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/GrassPlane_2.prefab using Guid(342c6b85dcd1dd94f9d5be82fbb5f656) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c07a515b297b847107f40c985beac1c2') in 0.0242044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Fence_2.prefab
-  artifactKey: Guid(cfda3d499c3cbe0428a2553a05da3bf3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Fence_2.prefab using Guid(cfda3d499c3cbe0428a2553a05da3bf3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b145b689b3708d26e54466791fb38508') in 0.0276116 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/GrassPlane_1.prefab
-  artifactKey: Guid(960c509a0ba33ca4cad26404e56fc4d5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/GrassPlane_1.prefab using Guid(960c509a0ba33ca4cad26404e56fc4d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75a485d1ab4e274fa24ce4789dc77be8') in 0.0254729 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Platform_W_2.prefab
-  artifactKey: Guid(697df22b95c3f5d418ec7c395b3c12b8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Platform_W_2.prefab using Guid(697df22b95c3f5d418ec7c395b3c12b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4faad7228298e1c240b20d5483859334') in 0.026319 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Hill_4.fbx
-  artifactKey: Guid(216faa67db4a80d4bbc5309279d7dc11) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Hill_4.fbx using Guid(216faa67db4a80d4bbc5309279d7dc11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b10f6927d7ff2d7def999d3eb3ba297') in 0.0409838 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_2.prefab
+  artifactKey: Guid(f2c96353dc943e34bb0245e8155922fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_2.prefab using Guid(f2c96353dc943e34bb0245e8155922fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37a8b24dda75f654957b8ee76078b2a3') in 0.0491569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Rocks_1.fbx
-  artifactKey: Guid(9aaa633ac03087647bd6b35cac30456c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Rocks_1.fbx using Guid(9aaa633ac03087647bd6b35cac30456c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d6904cd2829c473f5f4e107ee2b92b8') in 0.0457427 seconds
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/House3.fbx
+  artifactKey: Guid(3af70586e5916e445a0c195d4f1b6b3b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/House3.fbx using Guid(3af70586e5916e445a0c195d4f1b6b3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60ce7a8835c79ff8311dd24f08c34f73') in 0.0232677 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Fence_1.fbx
-  artifactKey: Guid(2cd53e0a863bbc140b1fb508583fdc17) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Fence_1.fbx using Guid(2cd53e0a863bbc140b1fb508583fdc17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7746c9e7d4df5a65d2df0bf40a2d202') in 0.0409508 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Island_1.fbx
-  artifactKey: Guid(cb8438f09d937ed469c09e2d34b42444) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Island_1.fbx using Guid(cb8438f09d937ed469c09e2d34b42444) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a3e8d2df006d63c5401afbbe24c44b2') in 0.0462717 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Rocks_1_2.fbx
-  artifactKey: Guid(cf37cd465559fae4a9606af88d928d97) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Rocks_1_2.fbx using Guid(cf37cd465559fae4a9606af88d928d97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb06caa69990f8d9f842247a78f0e296') in 0.0430685 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Bridge_1.fbx
-  artifactKey: Guid(26fc3597e70b2c44bb4850f1e148f11d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Bridge_1.fbx using Guid(26fc3597e70b2c44bb4850f1e148f11d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97d38e17e8b9cae48dd93c3ab95f8079') in 0.0383297 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Archer Shield 1.prefab
-  artifactKey: Guid(891ac91ec462c694ea0e971f547ed0bc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Archer Shield 1.prefab using Guid(891ac91ec462c694ea0e971f547ed0bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd7095be5b489ed8fcc6f092a60f1321') in 0.0268062 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Building 3.prefab
-  artifactKey: Guid(90de1a95e3342a741bd160b7c0b09d02) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Building 3.prefab using Guid(90de1a95e3342a741bd160b7c0b09d02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80575d8cee8f2b22c7483de2c3715496') in 0.0364343 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Medieval Cute Series
-  artifactKey: Guid(ad543b577c8c597489bb3500faa62173) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series using Guid(ad543b577c8c597489bb3500faa62173) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a9005e52dc59cff66d2aae4b90955fb') in 0.0180469 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Medieval Cute Series/Materials
-  artifactKey: Guid(ff02d9d6be6e47140a1ee77dd01cc69a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Materials using Guid(ff02d9d6be6e47140a1ee77dd01cc69a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '861e8d7d4b9005ffbcb4c4109e49b6bf') in 0.0181864 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Cloud_1.prefab
-  artifactKey: Guid(481827ab7422074469ecde997c96d701) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Cloud_1.prefab using Guid(481827ab7422074469ecde997c96d701) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7b1626b18e996403467df7fd0fd4934') in 0.0283989 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Hill_4.prefab
-  artifactKey: Guid(33bdca709c18ae24799bcc1ffec8d81b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Hill_4.prefab using Guid(33bdca709c18ae24799bcc1ffec8d81b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d552ce3ccc5e4eda60507c9902e821d') in 0.0280819 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Wall_3.fbx
-  artifactKey: Guid(d570d5a7912c94b4389f74380785af9e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Wall_3.fbx using Guid(d570d5a7912c94b4389f74380785af9e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54bfdffd6a99ee4bda59719275bb873a') in 0.038294 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Pal_2.fbx
-  artifactKey: Guid(e03ae7bd95f5e2a4db2a4a612597b241) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Pal_2.fbx using Guid(e03ae7bd95f5e2a4db2a4a612597b241) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65450fcd3e2a5006abb1aefceac0407a') in 0.0354945 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Platform_F_2.fbx
-  artifactKey: Guid(c419449e79532274381fe3939353513d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Platform_F_2.fbx using Guid(c419449e79532274381fe3939353513d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31ff543d5ef0e45bb1a6be61fa09058c') in 0.0295296 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Pal_2.prefab
-  artifactKey: Guid(da598b2688d153b4fb7038b45fab7364) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Pal_2.prefab using Guid(da598b2688d153b4fb7038b45fab7364) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7043a33e80a64f8bc97c09370f2834c') in 0.0279544 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Wall_2.prefab
-  artifactKey: Guid(f1a1ae97339552c4c9c015fae45a824e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Wall_2.prefab using Guid(f1a1ae97339552c4c9c015fae45a824e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f4b74103d3c5d3d9a48ce71aeeef80f') in 0.0303756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Bush_1.prefab
-  artifactKey: Guid(a5be84efc38712c4caf74957cb58d556) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Bush_1.prefab using Guid(a5be84efc38712c4caf74957cb58d556) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0971d2f52d0e89339ca6b139048df6cc') in 0.0245714 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Medieval Cute Series/Prefabs
-  artifactKey: Guid(dde9af18e3ddc394585e5e10de85265b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs using Guid(dde9af18e3ddc394585e5e10de85265b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10556235c601acc39fd97cfbebc8ff67') in 0.0171825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Wall_1.prefab
-  artifactKey: Guid(4e85008a8b775be418c6805c3e05890e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Wall_1.prefab using Guid(4e85008a8b775be418c6805c3e05890e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4c6f1116bbc23f18f533533b8ecc669') in 0.0310344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Medieval Cute Series/Settings/URP-Balanced.asset
-  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'addd509a13ad8e2c332951c3b4cece3b') in 0.0182455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Medieval Cute Series/Materials/Concrate 1.mat
-  artifactKey: Guid(b9fcc96b16d941943968594a0387349a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Materials/Concrate 1.mat using Guid(b9fcc96b16d941943968594a0387349a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64043e7d03e3841459df569dea231635') in 0.0197867 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Medieval Cute Series/Materials/Grass 3.mat
-  artifactKey: Guid(67b4d7f1a7c3fbd42976b278c0152c8e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Materials/Grass 3.mat using Guid(67b4d7f1a7c3fbd42976b278c0152c8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29d32cab4cf45e5cd0a5f110dfb79343') in 0.0207592 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Medieval Cute Series/Materials/Ground 1.mat
-  artifactKey: Guid(90de9a6704b09f44ca57256a6e7cf534) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Materials/Ground 1.mat using Guid(90de9a6704b09f44ca57256a6e7cf534) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70c326887f257603df9e048d68872a68') in 0.023121 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Rocks_1.prefab
-  artifactKey: Guid(2072b47f0f47fb24680e190c42d5f7e2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Rocks_1.prefab using Guid(2072b47f0f47fb24680e190c42d5f7e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f300256781ffe35de36086c1db95a841') in 0.0311196 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Stairs Corner.prefab
-  artifactKey: Guid(e7653a4ac3a3179458511dfa5500caa7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Stairs Corner.prefab using Guid(e7653a4ac3a3179458511dfa5500caa7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcc0aa65c0e8f4b4c7a9c34717260b54') in 0.02973 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Pal_1.fbx
-  artifactKey: Guid(b61c39b22d34fec4a896289bbc847e07) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Pal_1.fbx using Guid(b61c39b22d34fec4a896289bbc847e07) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e261cf10dde65d483f1a75337f07ae7b') in 0.0397653 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Tent 2.fbx
-  artifactKey: Guid(c62548a98c2ef094b9cdc5bf6de657bb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Tent 2.fbx using Guid(c62548a98c2ef094b9cdc5bf6de657bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b3d4bb82eb971970a056df1677c56cd') in 0.0355076 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Medieval Cute Series/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80aa1fd342f2f23c4ec87b6d246f6c1a') in 0.0689694 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Medieval Cute Series/Materials/Concrate 2.mat
-  artifactKey: Guid(3d1bbc3343a34b6468e5ab1c871a8bd6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Materials/Concrate 2.mat using Guid(3d1bbc3343a34b6468e5ab1c871a8bd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5284c05b849365b6fd4cd6a2ee6cc64') in 0.0199076 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Pal_1.prefab
-  artifactKey: Guid(f00c8761c7b2f0e4ab8433f1ec80f808) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Pal_1.prefab using Guid(f00c8761c7b2f0e4ab8433f1ec80f808) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db0879b03d6bd6b896f191f581f79cc4') in 0.0217741 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Tree_1.fbx
-  artifactKey: Guid(8ec48fd7056d29f4181ad94a0de2bbda) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Tree_1.fbx using Guid(8ec48fd7056d29f4181ad94a0de2bbda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cab831542f93a0c810f6860aeb64c8cf') in 0.0329117 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Pillar_2.fbx
-  artifactKey: Guid(2c57ff0868549354bbb76ce0b2d6a553) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Pillar_2.fbx using Guid(2c57ff0868549354bbb76ce0b2d6a553) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96c4195076780c050b43f8e083043381') in 0.0326709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Grass 1.fbx
-  artifactKey: Guid(a88b3a39f77abfa4c847f52bf0edff8a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Grass 1.fbx using Guid(a88b3a39f77abfa4c847f52bf0edff8a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '536092e0cdc7444d9ac8b23e351a1506') in 0.0329853 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Rocks_3.fbx
-  artifactKey: Guid(812f17e5216a4174987a67721f1976c2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Rocks_3.fbx using Guid(812f17e5216a4174987a67721f1976c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '810619979fed9ffd1129f0761c8f4961') in 0.0360138 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Rocks_2.fbx
-  artifactKey: Guid(c638670c58abe8641bcb630ecdd2f899) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Rocks_2.fbx using Guid(c638670c58abe8641bcb630ecdd2f899) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1386b88273d51d397b53379bce0360c8') in 0.0359361 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Hill_2.prefab
-  artifactKey: Guid(e9955c83737550c4cafee69abb75bd13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Hill_2.prefab using Guid(e9955c83737550c4cafee69abb75bd13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd21cbc545910008020c6e09fa555639') in 0.026519 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Building 3.fbx
-  artifactKey: Guid(ee07a42e67cf378428d6a8ee02575483) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Building 3.fbx using Guid(ee07a42e67cf378428d6a8ee02575483) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a69a9216528edc3ee952c3f40bd8b75f') in 0.0490532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Medieval Cute Series/Materials/Red.mat
-  artifactKey: Guid(009083a5a6927654fb7a3527ffaca9a2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Materials/Red.mat using Guid(009083a5a6927654fb7a3527ffaca9a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e4b6af510bc86c6cf8affed10550b5e') in 0.0231516 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Medieval Cute Series/3D Models/TowerStairs_1.fbx
-  artifactKey: Guid(65eddac12340a8f44897e092bc2212a8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/TowerStairs_1.fbx using Guid(65eddac12340a8f44897e092bc2212a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bb97b074bffccd8699fc1b559aa71dd') in 0.0423999 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000524 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Platform_W_1.fbx
-  artifactKey: Guid(202a66d847bc13e4ca3a834704c30a73) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Platform_W_1.fbx using Guid(202a66d847bc13e4ca3a834704c30a73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9037b534e04eb1e42e6ff1a70432477f') in 0.0443604 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Medieval Cute Series/Materials/water 1.mat
-  artifactKey: Guid(d09b61848d29a1e4393c14486eb0a32a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Materials/water 1.mat using Guid(d09b61848d29a1e4393c14486eb0a32a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0e08f1af47fefb34f2ccb4af9c775ab') in 0.0275541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Tree 3.fbx
-  artifactKey: Guid(2891e19cb0a55b547a49361777495da3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Tree 3.fbx using Guid(2891e19cb0a55b547a49361777495da3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2981fcde50ce20c159dfe3bfeb317356') in 0.0570781 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Medieval Cute Series/Materials/Grass 2.mat
-  artifactKey: Guid(c55838b623244b042a9f0efec77f9c28) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Materials/Grass 2.mat using Guid(c55838b623244b042a9f0efec77f9c28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c4d73c52365bfa3182220b02970787b') in 0.0266363 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Stairs Corner.fbx
-  artifactKey: Guid(65b11d93053863e408e658371699c4a5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Stairs Corner.fbx using Guid(65b11d93053863e408e658371699c4a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0f82023199a652341fc9b8b86b7f5ff') in 0.0515235 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Barier_2.fbx
-  artifactKey: Guid(10a7c0e793173fb43b2c48e150564ac8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Barier_2.fbx using Guid(10a7c0e793173fb43b2c48e150564ac8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b224ac55241f16c54fe37c7ebb875075') in 0.0404702 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Medieval Cute Series/3D Models/Sztandar.fbx
-  artifactKey: Guid(e9702c776421ec24b96210a5febb3112) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/Sztandar.fbx using Guid(e9702c776421ec24b96210a5febb3112) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12b3a6f1a4720e710b138be856ef948c') in 0.0514988 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Medieval Cute Series/Settings/URP-Performant.asset
-  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7b152599282718cbda070d9502f21c1') in 0.0245169 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Medieval Cute Series/3D Models/GrassPlane_1.fbx
-  artifactKey: Guid(6037661319652e640980d4c4e7446b68) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/3D Models/GrassPlane_1.fbx using Guid(6037661319652e640980d4c4e7446b68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d7c4407e46f247469b57245eb2811c0') in 0.0534701 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Medieval Cute Series/Prefabs/Rocks_3.prefab
-  artifactKey: Guid(3307dcfaba8adb74d94e4c427203b126) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Prefabs/Rocks_3.prefab using Guid(3307dcfaba8adb74d94e4c427203b126) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb7aaffaea01b089c4456318ab2e7de5') in 0.0366666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Medieval Cute Series/Textures/Grass_2.png
-  artifactKey: Guid(c5d0933bfc4ec9e49954ed581125b5ba) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Medieval Cute Series/Textures/Grass_2.png using Guid(c5d0933bfc4ec9e49954ed581125b5ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c2ba1917e5d0f41cacffb8e632e1c5f') in 0.065725 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.721775 seconds.
-  path: Assets/Models/Medieval Cute Series/Scenes
-  artifactKey: Guid(32d230821f703524ea2d9983f8f9aa57) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Scenes using Guid(32d230821f703524ea2d9983f8f9aa57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a640fd24d06511627fd0ffc16caff87') in 0.0149682 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Models/Medieval Cute Series/Prefabs/Platform_W_1.prefab
-  artifactKey: Guid(ad0cda88057082f4392ceb18c70ddb55) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Prefabs/Platform_W_1.prefab using Guid(ad0cda88057082f4392ceb18c70ddb55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a399831e82729c6ce9d8155ca6852e2c') in 0.0272325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Models/Medieval Cute Series/Prefabs/Island_1.prefab
-  artifactKey: Guid(33d8598367f51694abf403c858ed7629) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Prefabs/Island_1.prefab using Guid(33d8598367f51694abf403c858ed7629) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2799eff4d07ac2b24a8dbd5eb9bb2ad') in 0.0241453 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Models/Medieval Cute Series/Materials/Rocks 2.mat
-  artifactKey: Guid(04380e05e7c4ee0409492c479b66bde0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Materials/Rocks 2.mat using Guid(04380e05e7c4ee0409492c479b66bde0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa75a46bafba703f7f2adad04da3ed13') in 0.020862 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Models/Medieval Cute Series/Prefabs/Grass 1.prefab
-  artifactKey: Guid(be92ab67e523a55428b649a10b3010b5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Prefabs/Grass 1.prefab using Guid(be92ab67e523a55428b649a10b3010b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9cac42e9ed609e75f47a485736c4adb') in 0.0259954 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Models/Medieval Cute Series/3D Models/Field_1.fbx
-  artifactKey: Guid(afe582e826a42ea468b49a432b430509) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/3D Models/Field_1.fbx using Guid(afe582e826a42ea468b49a432b430509) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c047da62d0c60ddf30de4a7109167385') in 0.0350824 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Models/Medieval Cute Series/Prefabs/Bush_2.prefab
-  artifactKey: Guid(3a75be238ffcf7a4992e0d50ba95f91f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Prefabs/Bush_2.prefab using Guid(3a75be238ffcf7a4992e0d50ba95f91f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ec9ba95c90904593f2a3555c3266813') in 0.027288 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Models/Medieval Cute Series/Materials/Stylized Water.shadergraph
-  artifactKey: Guid(2cddbde10dbb33c49a06746ef46a8773) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Materials/Stylized Water.shadergraph using Guid(2cddbde10dbb33c49a06746ef46a8773) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5a11c7c45c92998bb1075067a9c5e93') in 0.0172496 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/package.json
+  artifactKey: Guid(389cbde61d7f02d4a94412ee7d35f1cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/package.json using Guid(389cbde61d7f02d4a94412ee7d35f1cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7342ce595bcd20b249d99ff6ca5c819a') in 0.0837531 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000069 seconds.
-  path: Assets/Models/Medieval Cute Series/Prefabs/Fence_2.prefab
-  artifactKey: Guid(cfda3d499c3cbe0428a2553a05da3bf3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Prefabs/Fence_2.prefab using Guid(cfda3d499c3cbe0428a2553a05da3bf3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8114e629f5d00cb779d3a210516672cd') in 0.0238425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Materials/Color.mat
+  artifactKey: Guid(11783c05facd0c149ad53d328816c467) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Materials/Color.mat using Guid(11783c05facd0c149ad53d328816c467) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8909b704f9bac49aa3a3a95f199de29a') in 0.0737403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Models/Medieval Cute Series/Materials/Siano.mat
-  artifactKey: Guid(b5e8e85357e62074caccd7560e7d3c95) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Materials/Siano.mat using Guid(b5e8e85357e62074caccd7560e7d3c95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53468bdadb57c926ac627f497c448715') in 0.0175957 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Materials/Light.mat
+  artifactKey: Guid(99e448bcb4ca7fc4d9e9e20d6abe2cd5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Materials/Light.mat using Guid(99e448bcb4ca7fc4d9e9e20d6abe2cd5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ac17fa1429e8a0179bfb9a341f5d7ae') in 0.0265807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_16.prefab
+  artifactKey: Guid(f44ca4be62ad14344bdc20781a8d333c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_16.prefab using Guid(f44ca4be62ad14344bdc20781a8d333c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1183cda8ed77ff5b228bf1bd1023c758') in 0.022794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/path1.fbx
+  artifactKey: Guid(b7a1cc784c812e8498994b483f7b5220) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/path1.fbx using Guid(b7a1cc784c812e8498994b483f7b5220) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ad7ea2e6de968d9f1643c6c13f100dc') in 0.0581598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/README.md
+  artifactKey: Guid(506bfa23120a1f74d92bf80a9a62f4bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/README.md using Guid(506bfa23120a1f74d92bf80a9a62f4bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82aa80723182a57950cc0a40bceac3b7') in 0.0351533 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Models/Medieval Cute Series/Materials/White.mat
-  artifactKey: Guid(72fd7639c02dab44c95f18498d078736) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Materials/White.mat using Guid(72fd7639c02dab44c95f18498d078736) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b06190944c4272ac1b2d10fe7798bdb4') in 0.0218982 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Models/Medieval Cute Series/3D Models/Hill_3.fbx
-  artifactKey: Guid(1a6a72a3e3ede8046a96432f1eca9f0a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/3D Models/Hill_3.fbx using Guid(1a6a72a3e3ede8046a96432f1eca9f0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a4d7c67562b95a95d77c4bfdadaaed0') in 0.0367381 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Models/Medieval Cute Series/Prefabs/Field_1.prefab
-  artifactKey: Guid(0829edb0e03d688429682ad3bf7d4834) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Prefabs/Field_1.prefab using Guid(0829edb0e03d688429682ad3bf7d4834) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b218a98d9ef32d98a1eaf98b1c3838d2') in 0.0274435 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Models/Medieval Cute Series/3D Models/Wall_3.fbx
-  artifactKey: Guid(d570d5a7912c94b4389f74380785af9e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/3D Models/Wall_3.fbx using Guid(d570d5a7912c94b4389f74380785af9e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e908b4193ed399dac972e36e67cf7633') in 0.0332077 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Models/Medieval Cute Series/3D Models/Cloud_1.fbx
-  artifactKey: Guid(f2fb58a8827db6c4497abc73f6328075) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/3D Models/Cloud_1.fbx using Guid(f2fb58a8827db6c4497abc73f6328075) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c3d8fed4208e94f18a515c04e66115d') in 0.0320019 seconds
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Flower_5.prefab
+  artifactKey: Guid(ac9e976c13c875648856e6486297ee60) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Flower_5.prefab using Guid(ac9e976c13c875648856e6486297ee60) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd2436ca40da77347a053a8284f0881ac') in 0.0462444 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Models/Medieval Cute Series/3D Models/Bush_3.fbx
-  artifactKey: Guid(3ef340b03905048428776e9c8ec0a24c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/3D Models/Bush_3.fbx using Guid(3ef340b03905048428776e9c8ec0a24c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a991b5baf524013bf7fe91e7e6f3e4a2') in 0.0369648 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_1.prefab
+  artifactKey: Guid(f30a358b7336975468ee7d12a0aa30c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_1.prefab using Guid(f30a358b7336975468ee7d12a0aa30c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b76688879427a6dac946d4597d7047fc') in 0.0673179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/Medieval Cute Series/Materials/Walls 1.mat
-  artifactKey: Guid(e79a27b49cf23fb449e7fb994d680ad0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Materials/Walls 1.mat using Guid(e79a27b49cf23fb449e7fb994d680ad0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a078e06402f435c99c5d650ae6369a7') in 0.0202298 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Models/Medieval Cute Series/Settings/Medieval Cute PPV.asset
-  artifactKey: Guid(76b5d298f73ed8c4d9b6c07f587b83f4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Settings/Medieval Cute PPV.asset using Guid(76b5d298f73ed8c4d9b6c07f587b83f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b711c3bf9ecf1589150d7e5e247ca8b') in 0.0184904 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Models/Medieval Cute Series/Prefabs/Rocks_2.prefab
-  artifactKey: Guid(71a176993b3e290449e6f26ee1aacec1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Prefabs/Rocks_2.prefab using Guid(71a176993b3e290449e6f26ee1aacec1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42aac0e6c92823e94aaa27c6ef52bbb4') in 0.0290749 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Rock_3.prefab
+  artifactKey: Guid(56b09d1d274377d4e90681b48d25c7a6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Rock_3.prefab using Guid(56b09d1d274377d4e90681b48d25c7a6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '517620291cf5852657e8a1232aed053c') in 0.0295906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Models/Medieval Cute Series/3D Models/Grass 1.fbx
-  artifactKey: Guid(a88b3a39f77abfa4c847f52bf0edff8a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/3D Models/Grass 1.fbx using Guid(a88b3a39f77abfa4c847f52bf0edff8a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd45709daa8e9cdb09afb75ab973feb74') in 0.031198 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models/Medieval Cute Series/Textures/Sky Map.png
-  artifactKey: Guid(8d19f52f726d3c54eaef8b1a7b7af48d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Textures/Sky Map.png using Guid(8d19f52f726d3c54eaef8b1a7b7af48d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '981c9b5c8807f70c9dac969ef26b858e') in 0.0295205 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Models/Medieval Cute Series/Prefabs/Clif_1.prefab
-  artifactKey: Guid(abb5ba2b41f3a524bbaaff201c2eb889) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Prefabs/Clif_1.prefab using Guid(abb5ba2b41f3a524bbaaff201c2eb889) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c76248f427ce27c9d531934f62082b33') in 0.0293055 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Models/Medieval Cute Series/Materials/Wave Brown.mat
-  artifactKey: Guid(d605b35fadc16f440ba27bcdb720b507) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Materials/Wave Brown.mat using Guid(d605b35fadc16f440ba27bcdb720b507) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22d2abe86edc4fabcea442a8b866a380') in 0.0160092 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models/Medieval Cute Series/Prefabs/GrassPlane_1.prefab
-  artifactKey: Guid(960c509a0ba33ca4cad26404e56fc4d5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Prefabs/GrassPlane_1.prefab using Guid(960c509a0ba33ca4cad26404e56fc4d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fceb4048c09ed3edf8e6c7eab9d8144c') in 0.0268687 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Models/Medieval Cute Series/Materials/Grass4.mat
-  artifactKey: Guid(81aa00cd6ce712545abe632107edec76) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Materials/Grass4.mat using Guid(81aa00cd6ce712545abe632107edec76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a1e7f61cc1ba52e1b2b502c66f58a0c') in 0.0196982 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Models/Medieval Cute Series/3D Models/Platform_F_2.fbx
-  artifactKey: Guid(c419449e79532274381fe3939353513d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/3D Models/Platform_F_2.fbx using Guid(c419449e79532274381fe3939353513d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee7277a943be8e1c28d510b6f4699747') in 0.034108 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/Medieval Cute Series/3D Models/Tent 2.fbx
-  artifactKey: Guid(c62548a98c2ef094b9cdc5bf6de657bb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/3D Models/Tent 2.fbx using Guid(c62548a98c2ef094b9cdc5bf6de657bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bdfac1ff5370be16f9b3d8fb89702ab') in 0.0294147 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Models/Medieval Cute Series/3D Models/Pillar_1.fbx
-  artifactKey: Guid(67a6187dd79d6764f8e6592523850765) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/3D Models/Pillar_1.fbx using Guid(67a6187dd79d6764f8e6592523850765) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9ac05e02f2b37a3044011036c578376') in 0.0348417 seconds
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_3.prefab
+  artifactKey: Guid(6df0c32e24342b845b0ca643604fe0ef) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_3.prefab using Guid(6df0c32e24342b845b0ca643604fe0ef) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'dd7ccecf4dca3bef33fdb272267f9bcb') in 0.0228122 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models/Medieval Cute Series/3D Models/TowerStairs_1.fbx
-  artifactKey: Guid(65eddac12340a8f44897e092bc2212a8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/3D Models/TowerStairs_1.fbx using Guid(65eddac12340a8f44897e092bc2212a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e219190673b6de1755b51da773f88073') in 0.0315227 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/House_2.prefab
+  artifactKey: Guid(17baadd2d44e62d4e8a91e885ce4144e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/House_2.prefab using Guid(17baadd2d44e62d4e8a91e885ce4144e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a89ceca2a0af10d94284579e8c78236c') in 0.0202689 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Models/Medieval Cute Series/Materials/Roof 1.mat
-  artifactKey: Guid(168e1bc7f8e234d4d93f51a00aebd3b7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Materials/Roof 1.mat using Guid(168e1bc7f8e234d4d93f51a00aebd3b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b296bfc82f87639da009c3fffcd7ac22') in 0.0193415 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_1.prefab
+  artifactKey: Guid(2f1bf4cd7a3cdcd4ea279d67496dfee9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_1.prefab using Guid(2f1bf4cd7a3cdcd4ea279d67496dfee9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '78799bb00d56938f27a399cee0da601a') in 0.024829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/cliff6.fbx
+  artifactKey: Guid(9fef8b4718be0634c96e32bd29825985) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/cliff6.fbx using Guid(9fef8b4718be0634c96e32bd29825985) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f11e48f904ffd995fdfcbecffc8e9854') in 0.0401705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/House1.fbx
+  artifactKey: Guid(76ec6f47491ec9a4f9bea784232e3cdd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/House1.fbx using Guid(76ec6f47491ec9a4f9bea784232e3cdd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '236016635acf885c76b7c5ef89958f68') in 0.0413451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Samples/Demo/Scene
+  artifactKey: Guid(6d8cbdc2683b62449b5ed2a827bfadff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Samples/Demo/Scene using Guid(6d8cbdc2683b62449b5ed2a827bfadff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4604cc36e7247c377c2030ae0a1443cb') in 0.0226627 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Models/Medieval Cute Series/Prefabs/Bush_3.prefab
-  artifactKey: Guid(c73740346d0b5124194768ddffd26857) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Prefabs/Bush_3.prefab using Guid(c73740346d0b5124194768ddffd26857) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '567695467db2ed40259f1d76dedc1dd5') in 0.0284001 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+  Time since last request: 0.000045 seconds.
+  path: Assets/Joystick Pack/Examples/Example Scene.unity
+  artifactKey: Guid(414bddd31c5ea4f4c9f5d1452e5bbb41) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Joystick Pack/Examples/Example Scene.unity using Guid(414bddd31c5ea4f4c9f5d1452e5bbb41) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/Joystick Pack/Examples/Example Scene.unity additively'
+Loaded scene 'Assets/Joystick Pack/Examples/Example Scene.unity'
+	Deserialize:            7123.419 ms
+	Integration:            48.241 ms
+	Integration of assets:  5.249 ms
+	Thread Wait Time:       -4.042 ms
+	Total Operation Time:   7172.868 ms
+ -> (artifact id: 'e3dcbe5a99566ce18f347f4d18289bb2') in 7.2347242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Models/Medieval Cute Series/3D Models/Sztandar.fbx
-  artifactKey: Guid(e9702c776421ec24b96210a5febb3112) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/3D Models/Sztandar.fbx using Guid(e9702c776421ec24b96210a5febb3112) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c12fc2bbd9f19c8644a125c6edad3497') in 0.0438905 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (3.0 MB). Loaded Objects now: 7237.
+Memory consumption went from 133.6 MB to 130.6 MB.
+Total: 14.885800 ms (FindLiveObjects: 0.466200 ms CreateObjectMapping: 0.330300 ms MarkObjects: 12.693400 ms  DeleteObjects: 1.394500 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models/Medieval Cute Series/Materials/Sky Material.mat
-  artifactKey: Guid(e96aa4dc58932844ca8fa14ff5b52627) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Medieval Cute Series/Materials/Sky Material.mat using Guid(e96aa4dc58932844ca8fa14ff5b52627) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27d481a2bce7b6d9c5bd0d472b1e255f') in 0.0311252 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 57.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (1.9 MB). Loaded Objects now: 7357.
+Memory consumption went from 156.1 MB to 154.2 MB.
+Total: 20.013300 ms (FindLiveObjects: 0.742700 ms CreateObjectMapping: 0.801600 ms MarkObjects: 17.820700 ms  DeleteObjects: 0.646500 ms)
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (1.9 MB). Loaded Objects now: 7359.
+Memory consumption went from 147.5 MB to 145.6 MB.
+Total: 81.381400 ms (FindLiveObjects: 0.751300 ms CreateObjectMapping: 0.855700 ms MarkObjects: 79.175800 ms  DeleteObjects: 0.597000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: balancing worker count downwards
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

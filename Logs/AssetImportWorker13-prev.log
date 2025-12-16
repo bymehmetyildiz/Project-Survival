@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme" at "2025-12-14T18:52:23.7143342Z"
 Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16272 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme" at "2025-12-14T20:18:59.476089Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-12-14T18:52:23Z
+Date: 2025-12-14T20:18:59Z
 
 COMMAND LINE ARGUMENTS:
 D:\Unity\6000.0.62f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ D:/Game Developments/GitHub/Project-Survival
 -logFile
 Logs/AssetImportWorker13.log
 -srvPort
-49809
+63387
 -licensingIpc
 LicenseClient-mehme
 -job-worker-count
@@ -65,14 +65,14 @@ D:/Game Developments/GitHub/Project-Survival
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2700]  Target information:
+Player connection [18204]  Target information:
 
-Player connection [2700]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 3887988817 [EditorId] 3887988817 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18204]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 3617262613 [EditorId] 3617262613 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2700]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 3887988817 [EditorId] 3887988817 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18204]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 3617262613 [EditorId] 3617262613 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2700] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [2700] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18204] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18204] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -81,13 +81,13 @@ Input System module state changed to: Initialized.
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              05379bb165c640109617988285dc21de
+  Session Id:              13167f44f9a84678a8b657283b2ac0fe
   Correlation Id:          6280ac9ad18700acb0d7090296c7bfed
-  External correlation Id: 1825875171441442430
+  External correlation Id: 1740446990290325727
   Machine Id:              PxHNM7DPPf0IVXSn48G8aClcpaQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mehme" (connect: 0.00s, validation: 0.00s, handshake: 0.11s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme-notifications" at "2025-12-14T18:52:23.831257Z"
-[Licensing::Module] Licensing Background thread has ended after 0.12s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mehme" (connect: 0.00s, validation: 0.00s, handshake: 0.07s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme-notifications" at "2025-12-14T20:18:59.5467047Z"
+[Licensing::Module] Licensing Background thread has ended after 0.07s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -95,7 +95,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.62f1 (f99f05b3e950)
 [Subsystems] Discovering subsystems at path D:/Unity/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
@@ -111,43 +111,43 @@ Initialize mono
 Mono path[0] = 'D:/Unity/6000.0.62f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006537 seconds.
-- Loaded All Assemblies, in  1.031 seconds
+Registered in 0.005461 seconds.
+- Loaded All Assemblies, in  0.512 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.928 seconds
-Domain Reload Profiling: 1958ms
-	BeginReloadAssembly (315ms)
+- Finished resetting the current domain, in  0.529 seconds
+Domain Reload Profiling: 1041ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (140ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (105ms)
-	LoadAllAssembliesAndSetupDomain (434ms)
-		LoadAssemblies (313ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (216ms)
+		LoadAssemblies (168ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (428ms)
-			TypeCache.Refresh (426ms)
-				TypeCache.ScanAssembly (400ms)
+		AnalyzeDomain (212ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (192ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (929ms)
+	FinalizeReload (530ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (836ms)
+		SetupLoadedEditorAssemblies (463ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (47ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (176ms)
-			ProcessInitializeOnLoadAttributes (477ms)
-			ProcessInitializeOnLoadMethodAttributes (128ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (244ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -170,30 +170,94 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.592 seconds
+- Loaded All Assemblies, in  1.438 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\Game Developments\GitHub\Project-Survival\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Project Survivor
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.454 seconds
+Domain Reload Profiling: 2890ms
+	BeginReloadAssembly (304ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (990ms)
+		LoadAssemblies (643ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (508ms)
+			TypeCache.Refresh (398ms)
+				TypeCache.ScanAssembly (370ms)
+			BuildScriptInfoCaches (87ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1454ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1166ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (211ms)
+			ProcessInitializeOnLoadAttributes (852ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 4.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6665 unused Assets / (5.5 MB). Loaded Objects now: 7333.
+Memory consumption went from 143.1 MB to 137.6 MB.
+Total: 27.544800 ms (FindLiveObjects: 1.570900 ms CreateObjectMapping: 2.856100 ms MarkObjects: 15.998700 ms  DeleteObjects: 7.117300 ms)
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.305 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\Game Developments\GitHub\Project-Survival\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
   at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
-  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
-  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
-  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00044] in <cd9b23508c04492a9e7051cbb9076578>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <cd9b23508c04492a9e7051cbb9076578>:0 
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
 UnityEditor.Tools:OnEnable ()
 UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
 UnityEngine.ScriptableObject:CreateInstance (System.Type)
@@ -208,8 +272,6 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Project Survivor
-Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -217,1503 +279,47 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.579 seconds
-Domain Reload Profiling: 3170ms
-	BeginReloadAssembly (510ms)
+- Finished resetting the current domain, in  1.762 seconds
+Domain Reload Profiling: 3072ms
+	BeginReloadAssembly (359ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (78ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (907ms)
-		LoadAssemblies (562ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (814ms)
+		LoadAssemblies (560ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (521ms)
-			TypeCache.Refresh (431ms)
-				TypeCache.ScanAssembly (408ms)
-			BuildScriptInfoCaches (77ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1580ms)
+		AnalyzeDomain (423ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (384ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1763ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1366ms)
+		SetupLoadedEditorAssemblies (1456ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (197ms)
-			ProcessInitializeOnLoadAttributes (1117ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (260ms)
+			ProcessInitializeOnLoadAttributes (1063ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4608 unused Assets / (1.7 MB). Loaded Objects now: 5095.
-Memory consumption went from 94.5 MB to 92.7 MB.
-Total: 30.894300 ms (FindLiveObjects: 0.779900 ms CreateObjectMapping: 1.082700 ms MarkObjects: 26.881000 ms  DeleteObjects: 2.147300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 42108.244556 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Rock_2_F_Color1.gltf
-  artifactKey: Guid(237b28460ce33434887b6572e47fc5da) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Rock_2_F_Color1.gltf using Guid(237b28460ce33434887b6572e47fc5da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1da37f224551f872b403b3517d06bc7') in 0.1652493 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/forest_texture.png
-  artifactKey: Guid(17710b14b96eb5f46a84066679c2b95b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/forest_texture.png using Guid(17710b14b96eb5f46a84066679c2b95b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47c2304190262dffb6c8e4b692d0192c') in 0.1461008 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_1_I_Color1.obj
-  artifactKey: Guid(31fe05401b4d3a74d9f5ac6d9c47bd3a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_1_I_Color1.obj using Guid(31fe05401b4d3a74d9f5ac6d9c47bd3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76a59e057cdcd794857971aaa9b1cf49') in 0.1157314 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Grass_2_A_Color1.obj
-  artifactKey: Guid(6ab12dafd46b269418a0acd2eaab1826) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Grass_2_A_Color1.obj using Guid(6ab12dafd46b269418a0acd2eaab1826) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94cc1486011af12d2874f4aa49e28f7d') in 0.0331931 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_1_F_Color1.obj
-  artifactKey: Guid(bfaa0506c92ed4b469203e57ac4a18fa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_1_F_Color1.obj using Guid(bfaa0506c92ed4b469203e57ac4a18fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e534008bbcfa94d4a19fe67ee860481') in 0.046826 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Grass_2_C_Singlesided_Color1.bin
-  artifactKey: Guid(e69813b47af2fee44be91cdc24c9316a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Grass_2_C_Singlesided_Color1.bin using Guid(e69813b47af2fee44be91cdc24c9316a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4816513c15bbae336fd4a044dbebe61f') in 0.0136617 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/forest_texture.png
-  artifactKey: Guid(e8b8215edd0b749438315d45877acdef) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/forest_texture.png using Guid(e8b8215edd0b749438315d45877acdef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72970cd3c4c6a50c0d00cf1aff82dcb2') in 0.0249288 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Bush_1_B_Color1.gltf
-  artifactKey: Guid(89aaa9c81393aca4e9c8c34511fdb82a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Bush_1_B_Color1.gltf using Guid(89aaa9c81393aca4e9c8c34511fdb82a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9536626542748ece65f7e0bdcf208d10') in 0.0122383 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Rock_3_O_Color1.bin
-  artifactKey: Guid(7ab0b5b3bb378e441b42ddb443c4a3ba) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Rock_3_O_Color1.bin using Guid(7ab0b5b3bb378e441b42ddb443c4a3ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b02e9b3035caffc90bb8bc991e613dd') in 0.013421 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Rock_3_B_Color1.fbx
-  artifactKey: Guid(792bb5ddf2591394c9311ba95e65debc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Rock_3_B_Color1.fbx using Guid(792bb5ddf2591394c9311ba95e65debc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c7a57d5ff481fe6a7084e9dfe27845b') in 0.0503585 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Bush_3_B_Color1.mtl
-  artifactKey: Guid(8c56adcdd48501f4496b71371c2a7ebc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Bush_3_B_Color1.mtl using Guid(8c56adcdd48501f4496b71371c2a7ebc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e17df9d2e58b657948c3f6852dece1c2') in 0.0140794 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Rock_3_E_Color1.fbx
-  artifactKey: Guid(76f44713d8046e34ea3007303a5a6320) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Rock_3_E_Color1.fbx using Guid(76f44713d8046e34ea3007303a5a6320) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56862236079836a46cd76389ac8b37e4') in 0.0293784 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Grass_2_C_Singlesided_Color1.obj
-  artifactKey: Guid(05cc1090fc1976448bafdad5edc2c2ed) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Grass_2_C_Singlesided_Color1.obj using Guid(05cc1090fc1976448bafdad5edc2c2ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d451d2ad42a9c461ef620c1d30e55c4') in 0.0292874 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Grass_2_SingleSided_Mesh.obj
-  artifactKey: Guid(47cb5d5837562d64ebbce56f69b9379c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Grass_2_SingleSided_Mesh.obj using Guid(47cb5d5837562d64ebbce56f69b9379c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9d3cc26d1ff09a199d568d007f188cc') in 0.0240197 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Rock_1_D_Color1.bin
-  artifactKey: Guid(f78d96f75a0f7314d801c0b4a8e802c7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Rock_1_D_Color1.bin using Guid(f78d96f75a0f7314d801c0b4a8e802c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e3e9eb48b56bb7dc93a69c2c58bf799') in 0.0124456 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Grass_1_B_Color1.fbx
-  artifactKey: Guid(888b6eb3412f00147b088fef516f3c30) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Grass_1_B_Color1.fbx using Guid(888b6eb3412f00147b088fef516f3c30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef3a273b937eb9774afa3e0697779ca5') in 0.0264413 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Grass_1_D_Singlesided_Color1.fbx
-  artifactKey: Guid(d5d448cbe9e8d0041a3950f3063de8b4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Grass_1_D_Singlesided_Color1.fbx using Guid(d5d448cbe9e8d0041a3950f3063de8b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f22cc52e3da3490be71fcd64d030f0e') in 0.0260947 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_2_C_Color1.obj
-  artifactKey: Guid(7b46a5804364fd2479454a2c50a8f0d0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_2_C_Color1.obj using Guid(7b46a5804364fd2479454a2c50a8f0d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91a16f3736d673dd299304c175e6fd0e') in 0.215527 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Bush_1_D_Color1.obj
-  artifactKey: Guid(afc8adea36310734192061a800c5ba9e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Bush_1_D_Color1.obj using Guid(afc8adea36310734192061a800c5ba9e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14497ed8639519fbc704c3052bfc7a9e') in 0.0276609 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Rock_3_P_Color1.fbx
-  artifactKey: Guid(d78de50f408b9c541aeb610017643c1e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Rock_3_P_Color1.fbx using Guid(d78de50f408b9c541aeb610017643c1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '20138ed395fa8d5646d881739039a941') in 0.0355872 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Grass_2_D_Color1.bin
-  artifactKey: Guid(b00a36426631389458699cc01619f72a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Grass_2_D_Color1.bin using Guid(b00a36426631389458699cc01619f72a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c02f4e4fd399efb7c016bd2f5f991a5d') in 0.0163403 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_3_B_Color1.obj
-  artifactKey: Guid(d2895ab434f33db4c85488e937329e01) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_3_B_Color1.obj using Guid(d2895ab434f33db4c85488e937329e01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ac3208443b7be0816c0b143a899c63e') in 0.2041146 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Tree_2_A_Color1.mtl
-  artifactKey: Guid(049507b0f3a50de4d8bb3ddfc1f0a1db) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Tree_2_A_Color1.mtl using Guid(049507b0f3a50de4d8bb3ddfc1f0a1db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28f91073ae03df2e0f61ac0df1949cf8') in 0.0145709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Grass_1_B_Color1.fbx
-  artifactKey: Guid(ec14d380945302143bdbfa74a3541d62) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Grass_1_B_Color1.fbx using Guid(ec14d380945302143bdbfa74a3541d62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9e247b728df795d599c7f99f949b44b') in 0.0314171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Tree_Bare_2_B_Color1.fbx
-  artifactKey: Guid(d791941d132af3d48a5d4ebd8e98f32f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Tree_Bare_2_B_Color1.fbx using Guid(d791941d132af3d48a5d4ebd8e98f32f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22c5c6044eb52a463f2d150584342a0c') in 0.0272752 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Tree_2_B_Color1.fbx
-  artifactKey: Guid(b27a9de0b8a8bc242b9bccb0122a9602) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Tree_2_B_Color1.fbx using Guid(b27a9de0b8a8bc242b9bccb0122a9602) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ee5acd86421c54e93aae6744d9240db') in 0.028045 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Bush_1_C_Color1.fbx
-  artifactKey: Guid(b4e2f3e1f2d8c77408e9899c8a3e6a7a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Bush_1_C_Color1.fbx using Guid(b4e2f3e1f2d8c77408e9899c8a3e6a7a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18571771645730bfcd66210ac4d5127e') in 0.0253776 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Grass_1_B_Singlesided_Color1.mtl
-  artifactKey: Guid(7cd5114fc12355740a21720f1c930e1c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Grass_1_B_Singlesided_Color1.mtl using Guid(7cd5114fc12355740a21720f1c930e1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2b45911a347297882a0ca6143563bb7') in 0.0142232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Grass_2_D_Singlesided_Color1.bin
-  artifactKey: Guid(ac65321bad94f9b4891fb215d1490eae) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Grass_2_D_Singlesided_Color1.bin using Guid(ac65321bad94f9b4891fb215d1490eae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14849f88796d9b23fe54b22c1bcf99bc') in 0.0125691 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Tree_2_E_Color1.bin
-  artifactKey: Guid(e8a0ae5dd093e3548b76bbaa8ade51cc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Tree_2_E_Color1.bin using Guid(e8a0ae5dd093e3548b76bbaa8ade51cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce34021c11e103228df84a2d847e69fe') in 0.0129694 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Bush_1_A_Color1.fbx
-  artifactKey: Guid(34584cae37fdeb24b8a32b88b211e19d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Bush_1_A_Color1.fbx using Guid(34584cae37fdeb24b8a32b88b211e19d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b728525f0837ccf8ff64823fd77f708') in 0.0281291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Bush_4_C_Color1.fbx
-  artifactKey: Guid(46a7ca527e9cb3d4ca962082a5b85362) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Bush_4_C_Color1.fbx using Guid(46a7ca527e9cb3d4ca962082a5b85362) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5bf2885849569a135b899031bd67dd5') in 0.1090134 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Bush_4_B_Color1.obj
-  artifactKey: Guid(5b0722a30b292fc4c9072bd4a967a7fb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Bush_4_B_Color1.obj using Guid(5b0722a30b292fc4c9072bd4a967a7fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4eba8e386f60c723b8373c2f528f294f') in 0.039312 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Bush_2_B_Color1.obj
-  artifactKey: Guid(78e9d6aac7d6aa741897883f5347fd2a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Bush_2_B_Color1.obj using Guid(78e9d6aac7d6aa741897883f5347fd2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3965dc08b00cece36255bcaf843dc60') in 0.033444 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Tree_3_A_Color1.mtl
-  artifactKey: Guid(3443ee6115f96434086801ff1c973c30) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Tree_3_A_Color1.mtl using Guid(3443ee6115f96434086801ff1c973c30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '95e980191c1e8150a44bbe3c6cbce0f4') in 0.0126612 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_2_A_Color1.obj
-  artifactKey: Guid(7d5fbb4cae5b6d94daf6d4e7bc385d39) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_2_A_Color1.obj using Guid(7d5fbb4cae5b6d94daf6d4e7bc385d39) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7e502d99d0a18fadec1078f58dd7868') in 0.0222092 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_1_O_Color1.obj
-  artifactKey: Guid(ddae910ee081a63499a976d77f58b1b4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_1_O_Color1.obj using Guid(ddae910ee081a63499a976d77f58b1b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a1db4eb0f0d777d9ba638aa4f12fe88') in 0.0215481 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Bush_2_D_Color1.gltf
-  artifactKey: Guid(bf0500844dd098047b06e36bf7c2d19e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Bush_2_D_Color1.gltf using Guid(bf0500844dd098047b06e36bf7c2d19e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a77ac540ff41033665924415428cbb88') in 0.0134898 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Bush_3_A_Color1.fbx
-  artifactKey: Guid(cb52c7d59b1a0e8498d85e6aeae69ab4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Bush_3_A_Color1.fbx using Guid(cb52c7d59b1a0e8498d85e6aeae69ab4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08df4c4fa35150ca3ebbae1215e28530') in 0.1995506 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Grass_2_Mesh.gltf
-  artifactKey: Guid(95b41f981d9b9c841b266c08a62aca1b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Grass_2_Mesh.gltf using Guid(95b41f981d9b9c841b266c08a62aca1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb5fd44626899eaf6de206a9eb27a23a') in 0.0127688 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_1_B_Color1.obj
-  artifactKey: Guid(0074fb3fc1accf642b237aa79b15009e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_1_B_Color1.obj using Guid(0074fb3fc1accf642b237aa79b15009e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83e92583216dc09bd7786b172feaa8e5') in 0.0270455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Tree_2_E_Color1.obj
-  artifactKey: Guid(ac3d3e8428fce2c41aa92dc7de0c183e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Tree_2_E_Color1.obj using Guid(ac3d3e8428fce2c41aa92dc7de0c183e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08a333ea611f1c36c9293701f3f59543') in 0.0266209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Rock_1_A_Color1.bin
-  artifactKey: Guid(441ba2da3e59541469a0d7aa788cb52f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Rock_1_A_Color1.bin using Guid(441ba2da3e59541469a0d7aa788cb52f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd45d2d778b4783b6d597d335e2630495') in 0.0344568 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Tree_2_A_Color1.fbx
-  artifactKey: Guid(a375998761e4ffb4694b174851adbd9a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Tree_2_A_Color1.fbx using Guid(a375998761e4ffb4694b174851adbd9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38f95a8d3174c13d61e45f23602b7e2d') in 0.1580127 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Rock_3_D_Color1.gltf
-  artifactKey: Guid(bdbafea8015de484a940c4896f95a5c6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Rock_3_D_Color1.gltf using Guid(bdbafea8015de484a940c4896f95a5c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb09fa728d3ce85c06b2c09eaab153a8') in 0.0288006 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj
-  artifactKey: Guid(1362567fcc8ab654882f73ddb62ebb6c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj using Guid(1362567fcc8ab654882f73ddb62ebb6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d96d93ee2c01399827d9cb8b7c6f3b5') in 0.0402782 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Bush_2_D_Color1.bin
-  artifactKey: Guid(056cf9a32fd751b4889779297f651035) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Bush_2_D_Color1.bin using Guid(056cf9a32fd751b4889779297f651035) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6af001c1a371326d8ec5bc2e9dcbc5a4') in 0.0192071 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_1_E_Color1.mtl
-  artifactKey: Guid(035457c55e0bac44fa2df5f72a5a05f7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_1_E_Color1.mtl using Guid(035457c55e0bac44fa2df5f72a5a05f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '753d949dc015fe37d7aab5fbacf1f6bf') in 0.0205559 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Tree_4_B_Color1.bin
-  artifactKey: Guid(75428c1466e7fe14080f576f214838d0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Tree_4_B_Color1.bin using Guid(75428c1466e7fe14080f576f214838d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a90e0e078151e34dcf1de4bfb791687e') in 0.0675559 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Grass_1_C_Singlesided_Color1.bin
-  artifactKey: Guid(921c31ac35a44324e9be9ae3ab99eb4e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Grass_1_C_Singlesided_Color1.bin using Guid(921c31ac35a44324e9be9ae3ab99eb4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35c07926563245c7b7cd828be8e4d15f') in 0.0212621 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Rock_3_I_Color1.bin
-  artifactKey: Guid(8a7db4fcdbb927847ba83d2b3433c235) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Rock_3_I_Color1.bin using Guid(8a7db4fcdbb927847ba83d2b3433c235) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36918f1f598f87d3f5db8edd59fa626e') in 0.0211709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_2_F_Color1.obj
-  artifactKey: Guid(8d4d0c66c6af2fa408da338cc46a3713) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_2_F_Color1.obj using Guid(8d4d0c66c6af2fa408da338cc46a3713) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee0c0ca23d865b14793ebc411631e4c5') in 0.0411118 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Bush_2_B_Color1.fbx
-  artifactKey: Guid(b0c3265fd46e65e4aa88dac1fab3a644) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Bush_2_B_Color1.fbx using Guid(b0c3265fd46e65e4aa88dac1fab3a644) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa461c87a4b4f7409d422a85e9dccae9') in 0.0428547 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Grass_2_D_Singlesided_Color1.obj
-  artifactKey: Guid(236dbbd76dd72224c9f069c5fdc2890c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Grass_2_D_Singlesided_Color1.obj using Guid(236dbbd76dd72224c9f069c5fdc2890c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4578e07be17a10fadea2bb7581de3a4d') in 0.0402676 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Grass_1_Mesh.gltf
-  artifactKey: Guid(db4806455d93e2a4bb036f644051cc1d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Grass_1_Mesh.gltf using Guid(db4806455d93e2a4bb036f644051cc1d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8d0098ccf5abceaf4174014d29d8794') in 0.0189513 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Tree_2_D_Color1.fbx
-  artifactKey: Guid(b02f76ebe83881041a8097c2d2c0102f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Tree_2_D_Color1.fbx using Guid(b02f76ebe83881041a8097c2d2c0102f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e0ab3d8810aa20dc170b056d9795478') in 0.0403304 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_2_B_Color1.mtl
-  artifactKey: Guid(b0b85ad88870d8b4b9c02bd6d8a7755c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_2_B_Color1.mtl using Guid(b0b85ad88870d8b4b9c02bd6d8a7755c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec8029d69e0042536a80588c5e289141') in 0.0226318 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Grass_1_D_Color1.fbx
-  artifactKey: Guid(03946a89713ee1844916fc879d69116f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Grass_1_D_Color1.fbx using Guid(03946a89713ee1844916fc879d69116f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31464e4a990a36574322e2655e731468') in 0.049133 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_1_M_Color1.obj
-  artifactKey: Guid(c18ba76caa5241d4e870a2b672cad142) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_1_M_Color1.obj using Guid(c18ba76caa5241d4e870a2b672cad142) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e788b49cb09a132e848ae49f36167201') in 0.0401171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Grass_2_A_Singlesided_Color1.fbx
-  artifactKey: Guid(47c30dbf99a636f4c9be951be63b00c0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Grass_2_A_Singlesided_Color1.fbx using Guid(47c30dbf99a636f4c9be951be63b00c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e74c108d8c28e47b3a191f6f2a2c7a07') in 0.2422684 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Tree_4_C_Color1.bin
-  artifactKey: Guid(01efe0f3600f1d7408ccaaa8c07a9a8f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Tree_4_C_Color1.bin using Guid(01efe0f3600f1d7408ccaaa8c07a9a8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e822c45d44375fa9b632c29b33d9bd17') in 0.0223103 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Rock_3_A_Color1.gltf
-  artifactKey: Guid(5b3afe7a317d6ee4e8df70f77918a45d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Rock_3_A_Color1.gltf using Guid(5b3afe7a317d6ee4e8df70f77918a45d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c19abaadda43fc58f712ec5baccef19c') in 0.0228682 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Tree_Bare_1_B_Color1.bin
-  artifactKey: Guid(b2bd26e5e3d3fdb4ca5062e6e919a56c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Tree_Bare_1_B_Color1.bin using Guid(b2bd26e5e3d3fdb4ca5062e6e919a56c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffdf680abc7fc4035e238c68cddf5500') in 0.0232177 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_3_J_Color1.mtl
-  artifactKey: Guid(2316cebcb4fba6746ad2dffd09b7bb1a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_3_J_Color1.mtl using Guid(2316cebcb4fba6746ad2dffd09b7bb1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7acea7e5003a4e3275c9944768e9713') in 0.2644851 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Rock_3_P_Color1.fbx
-  artifactKey: Guid(a70e9daba58010040bc2ed1f1d174bd8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx/Rock_3_P_Color1.fbx using Guid(a70e9daba58010040bc2ed1f1d174bd8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f315ac379729ff282be2e65986771d75') in 0.0560384 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Bush_2_F_Color1.bin
-  artifactKey: Guid(115e310a9fcdbad46a0c5ee0ecc92b21) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Bush_2_F_Color1.bin using Guid(115e310a9fcdbad46a0c5ee0ecc92b21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52c3a59c721f4769afee3cb7bfb46552') in 0.1515663 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Rock_1_H_Color1.fbx
-  artifactKey: Guid(adaf545f27bbd87428c5cc4dbaebc684) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Rock_1_H_Color1.fbx using Guid(adaf545f27bbd87428c5cc4dbaebc684) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3f49eb8e011f4106dd0613df6c654d6') in 0.0494729 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf
-  artifactKey: Guid(c933d19ae79b9944e8ccfb35568657d8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf using Guid(c933d19ae79b9944e8ccfb35568657d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '379baa6711e0d5ad840e6b075f182705') in 0.0238059 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_3_N_Color1.obj
-  artifactKey: Guid(14cb4ece81f8ef14f83f1635521821de) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_3_N_Color1.obj using Guid(14cb4ece81f8ef14f83f1635521821de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fbfeaf94bd00cfd1db58f70a0eb27d7') in 0.1792432 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_1_B_Color1.mtl
-  artifactKey: Guid(36fdc3824c4a06540ab4f08f9fbb527c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/obj/Rock_1_B_Color1.mtl using Guid(36fdc3824c4a06540ab4f08f9fbb527c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b19684239611b40a139163a09ce0e09e') in 0.0156866 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Tree_2_E_Color1.fbx
-  artifactKey: Guid(ab2c575c4817c894ba389820ea08f4de) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Tree_2_E_Color1.fbx using Guid(ab2c575c4817c894ba389820ea08f4de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24da86c632c95a6e31fdeb8efe7b5f0e') in 0.038314 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Rock_1_M_Color1.fbx
-  artifactKey: Guid(4e70b0b8cff0fad43b8cfed0ad1430b3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Rock_1_M_Color1.fbx using Guid(4e70b0b8cff0fad43b8cfed0ad1430b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b6c48aa238f1b4a6a40c25d669914f3') in 0.0453528 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Bush_1_B_Color1.bin
-  artifactKey: Guid(4ebe32b844f10dc47a94bd0ed46e3707) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Bush_1_B_Color1.bin using Guid(4ebe32b844f10dc47a94bd0ed46e3707) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6e96dd4f678f9900224cab3a620a2a3') in 0.0229046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Grass_1_A_Color1.gltf
-  artifactKey: Guid(c844acbc3a9c9ee4d8c6c243f46c0f67) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/Grass_1_A_Color1.gltf using Guid(c844acbc3a9c9ee4d8c6c243f46c0f67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5d7d0ebfd9673b71da85c8e8bd3959a') in 0.0208551 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Bush_3_B_Color1.fbx
-  artifactKey: Guid(1f8045378fd66c7489df07f57cf28491) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/fbx(unity)/Bush_3_B_Color1.fbx using Guid(1f8045378fd66c7489df07f57cf28491) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '559ac65555097ca3a739d921fee01742') in 0.0412466 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.059858 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_1_L_Color1.fbx
-  artifactKey: Guid(b7333b99b237e3543b90557abe1854c3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_1_L_Color1.fbx using Guid(b7333b99b237e3543b90557abe1854c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f79a6e1bfca06bf3ff83a2e69068df1e') in 0.0317586 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Models/KayKit/Nature/Textures
-  artifactKey: Guid(5bcf5529b6bc46f4691e2e2c8db51f81) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Textures using Guid(5bcf5529b6bc46f4691e2e2c8db51f81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e20f96d85848512e54678997914c85b') in 0.017839 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_1_A_Color1.obj
-  artifactKey: Guid(05b5df771dc6a544cbecf2f611c153e8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_1_A_Color1.obj using Guid(05b5df771dc6a544cbecf2f611c153e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0ccfe1221b5773384fb9358864cba51') in 0.0313389 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_P_Color1.fbx
-  artifactKey: Guid(d78de50f408b9c541aeb610017643c1e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_P_Color1.fbx using Guid(d78de50f408b9c541aeb610017643c1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6f750e5f1dbba42c21fb86ef4e18496') in 0.0758844 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_1_K_Color1.obj
-  artifactKey: Guid(abf88757176a94648923aa79a86032ea) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_1_K_Color1.obj using Guid(abf88757176a94648923aa79a86032ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4811bc27b35299df43693d7af82f9a6c') in 0.0393192 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_1_O_Color1.fbx
-  artifactKey: Guid(23ab26c302f97844fba668fd5f73d6f7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_1_O_Color1.fbx using Guid(23ab26c302f97844fba668fd5f73d6f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7dd2afe0063968f4412d545107da89ef') in 0.247149 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Tree_Bare_2_A_Color1.obj
-  artifactKey: Guid(c641e9a79fd52164098c2a2ab08a7a42) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Tree_Bare_2_A_Color1.obj using Guid(c641e9a79fd52164098c2a2ab08a7a42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79175ea543579dce742525a642eb433b') in 0.0249311 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_1_H_Color1.obj
-  artifactKey: Guid(de979d242bb26174d9d490b9050d615e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_1_H_Color1.obj using Guid(de979d242bb26174d9d490b9050d615e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8ff61fc6255683d40ea0692c2c0f460') in 0.0320556 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx/Rock_3_E_Color1.fbx
-  artifactKey: Guid(76f44713d8046e34ea3007303a5a6320) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx/Rock_3_E_Color1.fbx using Guid(76f44713d8046e34ea3007303a5a6320) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c56053797c4d0cdfd73bf02e864b7905') in 0.0261812 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_F_Color1.fbx
-  artifactKey: Guid(3b7e5631de37c1e47b12f7744149cd6c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_F_Color1.fbx using Guid(3b7e5631de37c1e47b12f7744149cd6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2dc7283d20281270590e0ed2637b698') in 0.0297228 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_1_A_Color1.fbx
-  artifactKey: Guid(50fe0b9c99e703f48940d1fa8b2f6862) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_1_A_Color1.fbx using Guid(50fe0b9c99e703f48940d1fa8b2f6862) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7a2b75edbe0251f6702183548e73da3') in 0.2545433 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Bush_1_C_Color1.obj
-  artifactKey: Guid(a620b506abd9da04db55423874693126) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Bush_1_C_Color1.obj using Guid(a620b506abd9da04db55423874693126) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a3d869a1545b858c3a99fa20dbe6ee6') in 0.0289211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Bush_1_D_Color1.fbx
-  artifactKey: Guid(c61b20a53501e324d865d00926c96d3a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Bush_1_D_Color1.fbx using Guid(c61b20a53501e324d865d00926c96d3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf5a6a1bd8f70167d99ede05e660e9b2') in 0.0339964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001391 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Bush_3_A_Color1.fbx
-  artifactKey: Guid(cb52c7d59b1a0e8498d85e6aeae69ab4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Bush_3_A_Color1.fbx using Guid(cb52c7d59b1a0e8498d85e6aeae69ab4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fbd8da04beb28b287af7676f46b9c13e') in 0.0290703 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_3_K_Color1.obj
-  artifactKey: Guid(6f13ec96ec5909f429ff668437513af1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_3_K_Color1.obj using Guid(6f13ec96ec5909f429ff668437513af1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a447672622bc96e5fe850b6b2f1e9fd') in 0.0278437 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx/Rock_1_M_Color1.fbx
-  artifactKey: Guid(2b54e7063b1739c46bb7c18a6841db6a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx/Rock_1_M_Color1.fbx using Guid(2b54e7063b1739c46bb7c18a6841db6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a46d6a43327cf8a8cb209a0751888fa') in 0.0294793 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Bush_2_A_Color1.fbx
-  artifactKey: Guid(13d541154c8320449a297195d10faed4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Bush_2_A_Color1.fbx using Guid(13d541154c8320449a297195d10faed4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9756bc9c18e985f7e5a6224752c4930') in 0.0310095 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_K_Color1.fbx
-  artifactKey: Guid(c380df4efd9e3c549b57d8ae18ceedcc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_K_Color1.fbx using Guid(c380df4efd9e3c549b57d8ae18ceedcc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '533f7a39f40f6d3eacc0becc31bcc00a') in 0.0506622 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx/Bush_1_G_Color1.fbx
-  artifactKey: Guid(3f53ceefe27baca45a93cbbb0a969dbe) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx/Bush_1_G_Color1.fbx using Guid(3f53ceefe27baca45a93cbbb0a969dbe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '905aa66e840b03184268a3ce724fe32c') in 0.0353671 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_1_I_Color1.obj
-  artifactKey: Guid(31fe05401b4d3a74d9f5ac6d9c47bd3a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_1_I_Color1.obj using Guid(31fe05401b4d3a74d9f5ac6d9c47bd3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ad2b9453ecb5637263cb885bfe0d787') in 0.0312439 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Tree_2_C_Color1.obj
-  artifactKey: Guid(4b965d485e77f0d4b8ac7b4a9ee8fe29) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Tree_2_C_Color1.obj using Guid(4b965d485e77f0d4b8ac7b4a9ee8fe29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18a34e40f203c472a3ff5ba92bb3285d') in 0.0297994 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_1_N_Color1.fbx
-  artifactKey: Guid(0a235d6116b01524eb6bcc8c7c37f55b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_1_N_Color1.fbx using Guid(0a235d6116b01524eb6bcc8c7c37f55b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5aada2bb9b0e66f69c2eb3e6104e6c8e') in 0.0336566 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Bush_4_C_Color1.obj
-  artifactKey: Guid(daf5c64cae2f3594b86ca0b07f4bda00) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Bush_4_C_Color1.obj using Guid(daf5c64cae2f3594b86ca0b07f4bda00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '965b11834a5444bf278c570174c3b618') in 0.0315379 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_R_Color1.fbx
-  artifactKey: Guid(731552fc1189a80468636cf0fbd7d9c3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_R_Color1.fbx using Guid(731552fc1189a80468636cf0fbd7d9c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33371b6b76077353db76ef20a6ceb121') in 0.02842 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx/Tree_3_A_Color1.fbx
-  artifactKey: Guid(738d404381ea5374ca7af872bb0ab894) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx/Tree_3_A_Color1.fbx using Guid(738d404381ea5374ca7af872bb0ab894) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2394caa09d15cf21401e4ff7f64f0268') in 0.0267347 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Grass_1_C_Color1.obj
-  artifactKey: Guid(e52e3c31543d739458ead9c75b99a0ee) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Grass_1_C_Color1.obj using Guid(e52e3c31543d739458ead9c75b99a0ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d479048512005b1eb29ab32bd618582') in 0.0224478 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Grass_2_D_Singlesided_Color1.obj
-  artifactKey: Guid(236dbbd76dd72224c9f069c5fdc2890c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Grass_2_D_Singlesided_Color1.obj using Guid(236dbbd76dd72224c9f069c5fdc2890c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47ec55b59531510a308f6987b7090ef3') in 0.021136 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_3_E_Color1.obj
-  artifactKey: Guid(4b3a770958b8cfd4db44580fa0d471df) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_3_E_Color1.obj using Guid(4b3a770958b8cfd4db44580fa0d471df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a88fc2f1e0bd5f5bd4292459493f71dd') in 0.0217823 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx/Grass_1_A_Color1.fbx
-  artifactKey: Guid(1b59c5f1a1f9ced4393cf7ca5e252025) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx/Grass_1_A_Color1.fbx using Guid(1b59c5f1a1f9ced4393cf7ca5e252025) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7fab6d969b799dfd056267b5e1c48ea1') in 0.0248665 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx/Tree_Bare_2_C_Color1.fbx
-  artifactKey: Guid(a84919ef840e22f40872e038f69e690f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx/Tree_Bare_2_C_Color1.fbx using Guid(a84919ef840e22f40872e038f69e690f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2410f43336787a2621af350589b949e7') in 0.0281579 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx/Bush_3_A_Color1.fbx
-  artifactKey: Guid(5944d99e6b42b4340a9c9ada941bb3a0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx/Bush_3_A_Color1.fbx using Guid(5944d99e6b42b4340a9c9ada941bb3a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3914bfa23f96428d0c62db69b8a27169') in 0.0300741 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx/Rock_3_D_Color1.fbx
-  artifactKey: Guid(2704b2608912d204f89656683dc80b0b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx/Rock_3_D_Color1.fbx using Guid(2704b2608912d204f89656683dc80b0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7738552848655a1011b0db6f90cdef00') in 0.144111 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Tree_1_C_Color1.fbx
-  artifactKey: Guid(ad4123d59fe823141b5a99556603e59e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Tree_1_C_Color1.fbx using Guid(ad4123d59fe823141b5a99556603e59e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79b07aa8dc4f2047112f8a6319c78bfe') in 0.0367451 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_A_Color1.fbx
-  artifactKey: Guid(4694f6bcdbed8ff4b9e5bdedc8768e44) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_A_Color1.fbx using Guid(4694f6bcdbed8ff4b9e5bdedc8768e44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a50bb59dfd3bb5c93991efdc00bd9704') in 0.053295 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_1_J_Color1.obj
-  artifactKey: Guid(3351f4b19e8ad6e4f98d3ab4c8f8b5af) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_1_J_Color1.obj using Guid(3351f4b19e8ad6e4f98d3ab4c8f8b5af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff5a2478bbea9dbd702d2ad707e0e3b0') in 0.0319354 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Grass_1_D_Singlesided_Color1.fbx
-  artifactKey: Guid(ffe51c3349ef097498dc9823d368e41e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Grass_1_D_Singlesided_Color1.fbx using Guid(ffe51c3349ef097498dc9823d368e41e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78a54ff6ceab9ee9ca757a2d4d7ca691') in 0.0299006 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx/Grass_1_C_Color1.fbx
-  artifactKey: Guid(c4b61882ddeab5444b73af1c5329c0a3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx/Grass_1_C_Color1.fbx using Guid(c4b61882ddeab5444b73af1c5329c0a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b584fe05cc901fd19fd53287727ec106') in 0.0352512 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_1_F_Color1.fbx
-  artifactKey: Guid(98a699eb60c08274fb299be954b3d5cc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_1_F_Color1.fbx using Guid(98a699eb60c08274fb299be954b3d5cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5e29ca9e9793f8f3a6525381c11f6a6') in 0.028164 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_Q_Color1.fbx
-  artifactKey: Guid(0a631f500dc90f547b66cb4a5d58141d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_Q_Color1.fbx using Guid(0a631f500dc90f547b66cb4a5d58141d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31607e3fa896d3e3aedc3213f5593014') in 0.0272188 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Tree_Bare_2_B_Color1.obj
-  artifactKey: Guid(e7f0c25ec6b353c42849b87282708362) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Tree_Bare_2_B_Color1.obj using Guid(e7f0c25ec6b353c42849b87282708362) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bcfeb0a7cd06b647385bd48315656659') in 0.1754992 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Tree_Bare_1_A_Color1.fbx
-  artifactKey: Guid(6289a3504d0202d4d9cf10ed03fcbd94) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Tree_Bare_1_A_Color1.fbx using Guid(6289a3504d0202d4d9cf10ed03fcbd94) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '926017c0adc85d00ff6dcef5b5fd6cf8') in 0.0289053 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_1_N_Color1.obj
-  artifactKey: Guid(c91662c3d2a758f4881a159524fda13d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_1_N_Color1.obj using Guid(c91662c3d2a758f4881a159524fda13d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72c808894805ac06c86ca499903945dc') in 0.0288092 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Grass_1_C_Singlesided_Color1.fbx
-  artifactKey: Guid(31a81d67244caba4b94c514a5c039465) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Grass_1_C_Singlesided_Color1.fbx using Guid(31a81d67244caba4b94c514a5c039465) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c451e9415e6f67bd7e99bd7e61401d6c') in 0.0415835 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Tree_1_B_Color1.obj
-  artifactKey: Guid(1e26c2ed6a891964bad3dcb855d0d473) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Tree_1_B_Color1.obj using Guid(1e26c2ed6a891964bad3dcb855d0d473) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd51d572d846edd01165654e3b5df3a55') in 0.0280473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_3_P_Color1.obj
-  artifactKey: Guid(983acef66a8fc96418713fc24545e843) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_3_P_Color1.obj using Guid(983acef66a8fc96418713fc24545e843) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3deb16b07e9582b0f3c717b4ed7c5405') in 0.0319137 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Tree_4_A_Color1.obj
-  artifactKey: Guid(bb88e79e6d54663439f610389b1c9ce3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Tree_4_A_Color1.obj using Guid(bb88e79e6d54663439f610389b1c9ce3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1407348a11f4898da1599a4ff8c0ceb8') in 0.1420984 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx/Rock_1_B_Color1.fbx
-  artifactKey: Guid(2237f712ce8042b408cc0260e142df57) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx/Rock_1_B_Color1.fbx using Guid(2237f712ce8042b408cc0260e142df57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd571b1a3dd1d671ea731a0a6aab39ac4') in 0.0312075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_1_K_Color1.fbx
-  artifactKey: Guid(2df2be0191ea5b54cbcd10691dab868c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_1_K_Color1.fbx using Guid(2df2be0191ea5b54cbcd10691dab868c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e6f33213fec4133c5a932a0970987f4') in 0.0398562 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_N_Color1.fbx
-  artifactKey: Guid(556c24a6c4708054d8ca1074cc6bf436) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_N_Color1.fbx using Guid(556c24a6c4708054d8ca1074cc6bf436) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b67776d4c129ed1515a3d80814ac0bfe') in 0.0312324 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx/Bush_1_B_Color1.fbx
-  artifactKey: Guid(4b7411159df9e9b468b8a064a7f55758) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx/Bush_1_B_Color1.fbx using Guid(4b7411159df9e9b468b8a064a7f55758) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3692f62e9636b796a05a83b4c5b22a83') in 0.0351171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx/Rock_3_P_Color1.fbx
-  artifactKey: Guid(a70e9daba58010040bc2ed1f1d174bd8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx/Rock_3_P_Color1.fbx using Guid(a70e9daba58010040bc2ed1f1d174bd8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54efb5dcca81589d2889b8873dcdbd59') in 0.0314933 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx/Tree_2_C_Color1.fbx
-  artifactKey: Guid(5561ed7bdc947f7469d0df48e55c4f0d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx/Tree_2_C_Color1.fbx using Guid(5561ed7bdc947f7469d0df48e55c4f0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5bf66b63adaa2376a5e8190aae6714a') in 0.0315347 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_3_I_Color1.obj
-  artifactKey: Guid(719da654050c46d40bd044864facec51) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_3_I_Color1.obj using Guid(719da654050c46d40bd044864facec51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c3e73d73a6b4ebacf0455956f39e773') in 0.0278219 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_D_Color1.fbx
-  artifactKey: Guid(ab0a99de2324aca458164a986c971cf3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_D_Color1.fbx using Guid(ab0a99de2324aca458164a986c971cf3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '776162e34cfc289cd076c7434bec4626') in 0.0319442 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Models/KayKit/Nature/Assets
-  artifactKey: Guid(07335287e7c197044ac1030169b5bff0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets using Guid(07335287e7c197044ac1030169b5bff0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e01e7765d1aaad5e0bebda517abd38e7') in 0.0138133 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_2_C_Color1.obj
-  artifactKey: Guid(7b46a5804364fd2479454a2c50a8f0d0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_2_C_Color1.obj using Guid(7b46a5804364fd2479454a2c50a8f0d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e952e8d0985197b64214c8ad4cd57708') in 0.0288742 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Tree_4_A_Color1.fbx
-  artifactKey: Guid(f3cd175b02babca42adf555af610a82d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Tree_4_A_Color1.fbx using Guid(f3cd175b02babca42adf555af610a82d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9240256d91bb9f3ccb8a14842259df09') in 0.0298284 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Tree_2_A_Color1.obj
-  artifactKey: Guid(e19f393d1d26f0443b7b202cdacd8425) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Tree_2_A_Color1.obj using Guid(e19f393d1d26f0443b7b202cdacd8425) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a3a517cd58d07ffad304c8478d7b149') in 0.0284372 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_3_R_Color1.obj
-  artifactKey: Guid(95c698c8b415f204ba65261cfcd39ab6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_3_R_Color1.obj using Guid(95c698c8b415f204ba65261cfcd39ab6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1549a2f800b2a32ccbd0b4f4cdc8427b') in 0.0268563 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Bush_2_D_Color1.fbx
-  artifactKey: Guid(1add4ef259193b0488caee3af641149c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Bush_2_D_Color1.fbx using Guid(1add4ef259193b0488caee3af641149c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd328a6524638d8c8e3074491af85724b') in 0.1698077 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Rock_2_E_Color1.gltf
-  artifactKey: Guid(579dd2b27292daa47bf8130aeb53cf03) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Rock_2_E_Color1.gltf using Guid(579dd2b27292daa47bf8130aeb53cf03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d018414c0e94720245279243bbb6326') in 0.0643525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Grass_2_D_Color1.bin
-  artifactKey: Guid(b00a36426631389458699cc01619f72a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Grass_2_D_Color1.bin using Guid(b00a36426631389458699cc01619f72a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6327510ae9213ba96ecdb4d803469128') in 0.0183408 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Grass_1_C_Color1.gltf
-  artifactKey: Guid(b1e1e9d0c7a8e1b49ab610879e2fb3f0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Grass_1_C_Color1.gltf using Guid(b1e1e9d0c7a8e1b49ab610879e2fb3f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f61d01bd61e2edbab4bb41126087899d') in 0.017728 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Grass_1_B_Color1.bin
-  artifactKey: Guid(c3dc2fc214c5b234ba0cc937e3e24a5e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Grass_1_B_Color1.bin using Guid(c3dc2fc214c5b234ba0cc937e3e24a5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0a064da0a0cf30ee800dc7772c956fb') in 0.0169687 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Rock_3_G_Color1.gltf
-  artifactKey: Guid(b81d74d0f677bc9418883ff7b6305f48) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Rock_3_G_Color1.gltf using Guid(b81d74d0f677bc9418883ff7b6305f48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5391921d24ed017299d9d53b09074168') in 0.0123615 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/forest_texture.png
-  artifactKey: Guid(df2473320e562194f8116c57c44872f1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/forest_texture.png using Guid(df2473320e562194f8116c57c44872f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44571b19bc9c1db3f16ab4b83fc3dddf') in 0.0220433 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Bush_4_B_Color1.gltf
-  artifactKey: Guid(790f0bf101892f94f99efc33da8e6b05) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Bush_4_B_Color1.gltf using Guid(790f0bf101892f94f99efc33da8e6b05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '251571eb15f2661e4cf42c0dc4d5da6b') in 0.0128121 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Bush_2_E_Color1.gltf
-  artifactKey: Guid(a78a9550aab13d34b9193e79fdee17c5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Bush_2_E_Color1.gltf using Guid(a78a9550aab13d34b9193e79fdee17c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce5838504977a5e6ddf8fd21b4d25c6d') in 0.0138729 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Bush_1_D_Color1.bin
-  artifactKey: Guid(e39ca371775f9974c8337584231bb587) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Bush_1_D_Color1.bin using Guid(e39ca371775f9974c8337584231bb587) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '635ed2e12e58b0908e070bdb3f1b4ec9') in 0.0129554 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Bush_4_E_Color1.gltf
-  artifactKey: Guid(7fdb8f81284098e43b64cc22b23bf77d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Bush_4_E_Color1.gltf using Guid(7fdb8f81284098e43b64cc22b23bf77d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f4b7a08a352763447bd4928cb80ff7c') in 0.0258448 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Tree_1_A_Color1.mtl
-  artifactKey: Guid(327db3d27a90b9743b5c269e3c653bfb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Tree_1_A_Color1.mtl using Guid(327db3d27a90b9743b5c269e3c653bfb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '293360e5a63443ee4d737cb8b0f5ee40') in 0.0129962 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Tree_Bare_2_C_Color1.bin
-  artifactKey: Guid(038bb751d2e42274a931ebe9fe6799e8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Tree_Bare_2_C_Color1.bin using Guid(038bb751d2e42274a931ebe9fe6799e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa7fb3fadcd543420a36ce63b539b17a') in 0.0151108 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx/Rock_1_E_Color1.fbx
-  artifactKey: Guid(eeed098826e275240b06662901954b76) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx/Rock_1_E_Color1.fbx using Guid(eeed098826e275240b06662901954b76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '892a6604ea249dbf3d3ab3b3cb5a7812') in 0.029894 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_1_O_Color1.obj
-  artifactKey: Guid(ddae910ee081a63499a976d77f58b1b4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_1_O_Color1.obj using Guid(ddae910ee081a63499a976d77f58b1b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a2d823347f035a2bd623d64b0970204') in 0.3005364 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Rock_3_J_Color1.gltf
-  artifactKey: Guid(b303fd06e2291824a9289fdd0a92f996) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Rock_3_J_Color1.gltf using Guid(b303fd06e2291824a9289fdd0a92f996) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '696821169671ece1a455bdebb39eff74') in 0.0156409 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_1_E_Color1.mtl
-  artifactKey: Guid(035457c55e0bac44fa2df5f72a5a05f7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_1_E_Color1.mtl using Guid(035457c55e0bac44fa2df5f72a5a05f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '928924323510bfc5a59399837f565646') in 0.0150701 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_3_B_Color1.mtl
-  artifactKey: Guid(b9927335e57f1654eb5aa1c31d4032b0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_3_B_Color1.mtl using Guid(b9927335e57f1654eb5aa1c31d4032b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3b949ecd923ad0d435b337c4cdc92fe') in 0.0154213 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Tree_2_E_Color1.mtl
-  artifactKey: Guid(2eadc807cd2ca6c41a0a1c62a77d5711) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Tree_2_E_Color1.mtl using Guid(2eadc807cd2ca6c41a0a1c62a77d5711) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a60f242b7745a0409782f9077fac0c1') in 0.0163055 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Tree_4_B_Color1.bin
-  artifactKey: Guid(75428c1466e7fe14080f576f214838d0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Tree_4_B_Color1.bin using Guid(75428c1466e7fe14080f576f214838d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e864137f234ba1e55e07f2b0afe36463') in 0.0193041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Bush_3_A_Color1.mtl
-  artifactKey: Guid(2f2a3254dffc70c4e991ff11d2a12185) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Bush_3_A_Color1.mtl using Guid(2f2a3254dffc70c4e991ff11d2a12185) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0747c74e7d29b24ff59043074846224') in 0.2741255 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_2_D_Color1.mtl
-  artifactKey: Guid(1bc6daf33f9af2e4994bf8b3190d728b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_2_D_Color1.mtl using Guid(1bc6daf33f9af2e4994bf8b3190d728b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0d6f86bb6c6a6294818c026d5feb82c') in 0.218264 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Tree_4_B_Color1.mtl
-  artifactKey: Guid(a546f5dac70ff9d47b04a8912d210f48) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Tree_4_B_Color1.mtl using Guid(a546f5dac70ff9d47b04a8912d210f48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '003fad287300877648fb546d6c5ca3fd') in 0.0970785 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Rock_3_R_Color1.bin
-  artifactKey: Guid(f63c0f4a6eea49e4d93e063a5cf4a867) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Rock_3_R_Color1.bin using Guid(f63c0f4a6eea49e4d93e063a5cf4a867) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da88c16977500ec83b4f3c46d4c56136') in 0.2492916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Bush_4_A_Color1.mtl
-  artifactKey: Guid(3ff6ba6b16ccb6243b1f23df3c5b4253) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Bush_4_A_Color1.mtl using Guid(3ff6ba6b16ccb6243b1f23df3c5b4253) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1599aa2ee59d9b6440f60ddc297edb1') in 0.0213628 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Bush_1_D_Color1.gltf
-  artifactKey: Guid(eb85d9cb2608e574c8f374b6fd33e201) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Bush_1_D_Color1.gltf using Guid(eb85d9cb2608e574c8f374b6fd33e201) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6265d15a030b9040aa0da8f4ec943d26') in 0.0157626 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Rock_1_L_Color1.mtl
-  artifactKey: Guid(5f007e5b455aa5e4493cf7c2f4522272) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Rock_1_L_Color1.mtl using Guid(5f007e5b455aa5e4493cf7c2f4522272) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8442c62fc23b92eb3fc8fd75bf6abe0') in 0.0154148 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Rock_1_L_Color1.bin
-  artifactKey: Guid(516c5ebd503ca1944b7de0f00c32945f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Rock_1_L_Color1.bin using Guid(516c5ebd503ca1944b7de0f00c32945f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0db684e493007dff14a2a34644a7d687') in 0.0161113 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Rock_3_M_Color1.bin
-  artifactKey: Guid(44f148dcd9eb6bc4ca1c7770f9215aa9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Rock_3_M_Color1.bin using Guid(44f148dcd9eb6bc4ca1c7770f9215aa9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7eb6cac0860a0b7fdb77df84769ca001') in 0.0143888 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Bush_4_C_Color1.mtl
-  artifactKey: Guid(cc25d19cd49cf8349a95b4aad6ea3a25) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Bush_4_C_Color1.mtl using Guid(cc25d19cd49cf8349a95b4aad6ea3a25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2b9a83ac7542a92cb56b9e1a07ff771') in 0.0167337 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Grass_1_Mesh.mtl
-  artifactKey: Guid(0622e1bd566eddb4f98a2b485eb813f9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Grass_1_Mesh.mtl using Guid(0622e1bd566eddb4f98a2b485eb813f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b25d558b6a9ee294ead855487e193624') in 0.0137923 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Grass_2_C_Color1.mtl
-  artifactKey: Guid(99aded8ce4d158e4f9bdf2132880766a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Grass_2_C_Color1.mtl using Guid(99aded8ce4d158e4f9bdf2132880766a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98fd896f3376cdd32272c85810b97308') in 0.0138826 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Grass_2_B_Color1.gltf
-  artifactKey: Guid(eeff68dbb8728ed429957f4739ff3723) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Grass_2_B_Color1.gltf using Guid(eeff68dbb8728ed429957f4739ff3723) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e30a3a041f8c1bd3d037d97314655a6') in 0.0140153 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Bush_4_F_Color1.mtl
-  artifactKey: Guid(4e6f45ea118ffb540bcdcc148ce735c0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Bush_4_F_Color1.mtl using Guid(4e6f45ea118ffb540bcdcc148ce735c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '052ab67b8af2d21a7b5729b87a0fd893') in 0.0155684 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Bush_1_A_Color1.bin
-  artifactKey: Guid(ef865c3be6637644789927c1854ae459) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Bush_1_A_Color1.bin using Guid(ef865c3be6637644789927c1854ae459) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '203cb613197624ff810505c9cbde4b3b') in 0.0138678 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Tree_Bare_1_C_Color1.mtl
-  artifactKey: Guid(98cfb1cdb6a888f4f9f054dd06588d89) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Tree_Bare_1_C_Color1.mtl using Guid(98cfb1cdb6a888f4f9f054dd06588d89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b67dfda6fb65a3d7c757c7eeccf62f5d') in 0.0167915 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Grass_2_C_Singlesided_Color1.gltf
-  artifactKey: Guid(b902f22efbf74494c89ec9c7323b184e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Grass_2_C_Singlesided_Color1.gltf using Guid(b902f22efbf74494c89ec9c7323b184e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7ccb46aad0e346d8bf4286024e8cec2') in 0.0145685 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/obj/Tree_Bare_1_B_Color1.mtl
-  artifactKey: Guid(f618fc3cb3172da489e586c209af939a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/obj/Tree_Bare_1_B_Color1.mtl using Guid(f618fc3cb3172da489e586c209af939a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b71cd0e2f8e48b705e464504c9a02eb9') in 0.0204038 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Grass_1_C_Color1.bin
-  artifactKey: Guid(a20bef6dd6d05d34ea412244a894966f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Grass_1_C_Color1.bin using Guid(a20bef6dd6d05d34ea412244a894966f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ee873ba008e3a07aa2d0df59493595a') in 0.0185799 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Rock_1_Q_Color1.gltf
-  artifactKey: Guid(a8dafa09b02c49a4692cd033bce705c6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Rock_1_Q_Color1.gltf using Guid(a8dafa09b02c49a4692cd033bce705c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0c9b6230f2932544350ac8b030b76a0') in 0.1222653 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Grass_1_A_Color1.gltf
-  artifactKey: Guid(c844acbc3a9c9ee4d8c6c243f46c0f67) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Grass_1_A_Color1.gltf using Guid(c844acbc3a9c9ee4d8c6c243f46c0f67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe7ba92f959a481387716684e7bace77') in 0.0137852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Tree_Bare_1_A_Color1.bin
-  artifactKey: Guid(89cf086dab3f69c4aa6c6ffa9717294a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Tree_Bare_1_A_Color1.bin using Guid(89cf086dab3f69c4aa6c6ffa9717294a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c78b7908cb8db07a76f2cb328da6e71') in 0.0185171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Rock_3_P_Color1.gltf
-  artifactKey: Guid(b977719100420414d9e20aef26031ce0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Rock_3_P_Color1.gltf using Guid(b977719100420414d9e20aef26031ce0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69100880c1e18fbf64cf258c27afa0e0') in 0.0138236 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Grass_2_C_Singlesided_Color1.fbx
-  artifactKey: Guid(0a65346d4d7ab6941bb6ae6ab48cee4c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Grass_2_C_Singlesided_Color1.fbx using Guid(0a65346d4d7ab6941bb6ae6ab48cee4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76f072a76ba726542a08ca0896c4cac3') in 0.1436087 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Rock_1_F_Color1.bin
-  artifactKey: Guid(33054fce5223a254b87865e6de493704) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Rock_1_F_Color1.bin using Guid(33054fce5223a254b87865e6de493704) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d4a8e2c80b409295265c9039bf18b88') in 0.0131277 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Rock_1_H_Color1.bin
-  artifactKey: Guid(c028357e466886945aede072b5706b47) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Rock_1_H_Color1.bin using Guid(c028357e466886945aede072b5706b47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '941fbb85dd230fa6a2930d23d91edbfe') in 0.0158497 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/fbx/forest_texture.png
-  artifactKey: Guid(e8b8215edd0b749438315d45877acdef) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/fbx/forest_texture.png using Guid(e8b8215edd0b749438315d45877acdef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fab53355a77db3cee60e441a29ee331a') in 0.0268047 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Models/KayKit/Nature/Assets/gltf/Tree_2_C_Color1.bin
-  artifactKey: Guid(12556c49547266c48b6ea459c45dc710) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/KayKit/Nature/Assets/gltf/Tree_2_C_Color1.bin using Guid(12556c49547266c48b6ea459c45dc710) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a14223497794939e49ac7d6f650d8268') in 0.0129441 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6663 unused Assets / (5.5 MB). Loaded Objects now: 7350.
+Memory consumption went from 154.1 MB to 148.6 MB.
+Total: 22.862500 ms (FindLiveObjects: 1.326200 ms CreateObjectMapping: 2.255200 ms MarkObjects: 12.576600 ms  DeleteObjects: 6.703300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

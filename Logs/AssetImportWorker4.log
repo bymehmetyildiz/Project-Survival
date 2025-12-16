@@ -1,35 +1,35 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16272 MB
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'tr' Physical Memory: 32621 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-12-14T20:15:56Z
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme" at "2025-12-14T20:15:56.621604Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Mehmet" at "2025-12-15T08:09:32.5830913Z"
+Date: 2025-12-15T08:09:32Z
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\6000.0.62f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.0.62f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker4
 -projectPath
-D:/Game Developments/GitHub/Project-Survival
+D:/Github/Project-Survival
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-63387
+51519
 -licensingIpc
-LicenseClient-mehme
+LicenseClient-Mehmet
 -job-worker-count
-5
+11
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: D:/Game Developments/GitHub/Project-Survival
-D:/Game Developments/GitHub/Project-Survival
+Successfully changed project path to: D:/Github/Project-Survival
+D:/Github/Project-Survival
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -65,29 +65,27 @@ D:/Game Developments/GitHub/Project-Survival
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19256]  Target information:
+Player connection [4768]  Target information:
 
-Player connection [19256]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 145093732 [EditorId] 145093732 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [4768]  * "[IP] 10.0.1.102 [Port] 0 [Flags] 2 [Guid] 134037192 [EditorId] 134037192 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P02AFH1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19256]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 145093732 [EditorId] 145093732 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [19256] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19256] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 5
+Player connection [4768] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4768] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 5000, path: "D:/Unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 12252, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              28f2667c0b654281bda2d64aa8fd6552
-  Correlation Id:          6280ac9ad18700acb0d7090296c7bfed
-  External correlation Id: 32865326941458276
-  Machine Id:              PxHNM7DPPf0IVXSn48G8aClcpaQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mehme" (connect: 0.00s, validation: 0.00s, handshake: 0.09s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme-notifications" at "2025-12-14T20:15:56.7140861Z"
-[Licensing::Module] Licensing Background thread has ended after 0.09s
+  Version:                 1.17.3+a4e98f1
+  Session Id:              b870511d176e4910acd6fc42689bdefd
+  Correlation Id:          b780854bcde18a98b8c9fc5011d0894f
+  External correlation Id: 7441260564838403290
+  Machine Id:              zsDTylX/wbsPzAhj9VZkiZ+wIzE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Mehmet" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Mehmet-notifications" at "2025-12-15T08:09:32.6194755Z"
+[Licensing::Module] Licensing Background thread has ended after 0.04s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -95,59 +93,61 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.62f1 (f99f05b3e950)
-[Subsystems] Discovering subsystems at path D:/Unity/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Game Developments/GitHub/Project-Survival/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Github/Project-Survival/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
     Vendor:   NVIDIA
-    VRAM:     6031 MB
-    Driver:   32.0.15.6603
+    VRAM:     8042 MB
+    Driver:   32.0.15.8157
 Initialize mono
-Mono path[0] = 'D:/Unity/6000.0.62f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005524 seconds.
-- Loaded All Assemblies, in  0.961 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003592 seconds.
+- Loaded All Assemblies, in  0.312 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.049 seconds
-Domain Reload Profiling: 2009ms
-	BeginReloadAssembly (339ms)
+- Finished resetting the current domain, in  0.264 seconds
+Domain Reload Profiling: 574ms
+	BeginReloadAssembly (110ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (93ms)
-	RebuildNativeTypeToScriptingClass (38ms)
-	initialDomainReloadingComplete (110ms)
-	LoadAllAssembliesAndSetupDomain (379ms)
-		LoadAssemblies (336ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (107ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (373ms)
-			TypeCache.Refresh (370ms)
-				TypeCache.ScanAssembly (341ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (111ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1050ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (264ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (936ms)
+		SetupLoadedEditorAssemblies (239ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (118ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (193ms)
-			ProcessInitializeOnLoadAttributes (492ms)
-			ProcessInitializeOnLoadMethodAttributes (122ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -161,22 +161,47 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: F4-V9PX-B66Y-AC23-KYF9-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
   Id: 18966783445336-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  2.332 seconds
+- Loaded All Assemblies, in  0.658 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\Github\Project-Survival\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <cd9b23508c04492a9e7051cbb9076578>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@e106d1f78228/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@e106d1f78228/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Project Survivor
@@ -188,306 +213,56 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.610 seconds
-Domain Reload Profiling: 4940ms
-	BeginReloadAssembly (416ms)
+- Finished resetting the current domain, in  0.698 seconds
+Domain Reload Profiling: 1354ms
+	BeginReloadAssembly (154ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (97ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (85ms)
-	LoadAllAssembliesAndSetupDomain (1700ms)
-		LoadAssemblies (991ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (425ms)
+		LoadAssemblies (307ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (943ms)
-			TypeCache.Refresh (719ms)
-				TypeCache.ScanAssembly (678ms)
-			BuildScriptInfoCaches (188ms)
-			ResolveRequiredComponents (30ms)
-	FinalizeReload (2611ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (141ms)
+			BuildScriptInfoCaches (38ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (698ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2336ms)
+		SetupLoadedEditorAssemblies (568ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (406ms)
-			ProcessInitializeOnLoadAttributes (1699ms)
-			ProcessInitializeOnLoadMethodAttributes (211ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (446ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.64 seconds
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6684 unused Assets / (9.5 MB). Loaded Objects now: 7226.
-Memory consumption went from 137.4 MB to 127.9 MB.
-Total: 50.258200 ms (FindLiveObjects: 1.339400 ms CreateObjectMapping: 2.387100 ms MarkObjects: 13.113400 ms  DeleteObjects: 33.416300 ms)
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6665 unused Assets / (4.6 MB). Loaded Objects now: 7333.
+Memory consumption went from 145.6 MB to 141.0 MB.
+Total: 10.007600 ms (FindLiveObjects: 0.830900 ms CreateObjectMapping: 0.608900 ms MarkObjects: 5.597600 ms  DeleteObjects: 2.968900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 47125.939863 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/flower2.fbx
-  artifactKey: Guid(787f5a2659394654b868476b88e71a26) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/flower2.fbx using Guid(787f5a2659394654b868476b88e71a26) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd811274f0baab49a392cf32961987935') in 13.7729963 seconds
+  Time since last request: 12523.038363 seconds.
+  path: Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_N_Color1.fbx
+  artifactKey: Guid(556c24a6c4708054d8ca1074cc6bf436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KayKit/Nature/Assets/fbx(unity)/Rock_3_N_Color1.fbx using Guid(556c24a6c4708054d8ca1074cc6bf436) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bad794016d09b1a0c609623ae4f90e63') in 0.4114923 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/cliff5.fbx
-  artifactKey: Guid(085faf995583bd44faf5c8247b3a9ad8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/cliff5.fbx using Guid(085faf995583bd44faf5c8247b3a9ad8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae0719fdb299dc672e16f94df7c5554d') in 0.0341487 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/House_2.prefab
-  artifactKey: Guid(17baadd2d44e62d4e8a91e885ce4144e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/House_2.prefab using Guid(17baadd2d44e62d4e8a91e885ce4144e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d1bdc3ad6cfbf9c97c738e41c681173') in 0.6784989 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_8.prefab
-  artifactKey: Guid(7e2f34d5420d6d04db0afd91534305d5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_8.prefab using Guid(7e2f34d5420d6d04db0afd91534305d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b078331aaf00266db73f3088561c7e5') in 0.2610644 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Joystick Pack/Prefabs/Dynamic Joystick.prefab
-  artifactKey: Guid(56fae09712773584fb63896d473a98ee) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Joystick Pack/Prefabs/Dynamic Joystick.prefab using Guid(56fae09712773584fb63896d473a98ee) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7ca0a8203ef4b98be6884468dfcc16c0') in 0.1278453 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010330 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/cliff4.fbx
-  artifactKey: Guid(a378badebae204b4bb7c1fc73e4bc68f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/cliff4.fbx using Guid(a378badebae204b4bb7c1fc73e4bc68f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '127d02a2ddfb8206e75f4eccda8c8b77') in 0.0636921 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013936 seconds.
-  path: Assets/DefaultVolumeProfile.asset
-  artifactKey: Guid(a5ce473cfbd646443998390e48a5a5fa) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/DefaultVolumeProfile.asset using Guid(a5ce473cfbd646443998390e48a5a5fa) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ab8a7fe8d34ad8d9f63c81276300ba3a') in 0.02836 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005875 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/bench.fbx
-  artifactKey: Guid(20b9a52b1e7741449a1948864cea4741) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/bench.fbx using Guid(20b9a52b1e7741449a1948864cea4741) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c141337a3253c33826d356e27d5be1e') in 0.0500588 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003551 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_6.prefab
-  artifactKey: Guid(f44a5fec597efc8499df8340a7c0c1f3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_6.prefab using Guid(f44a5fec597efc8499df8340a7c0c1f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5105cd898f7a909160379e012d5067a1') in 0.0718108 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Rock_3.prefab
-  artifactKey: Guid(56b09d1d274377d4e90681b48d25c7a6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Rock_3.prefab using Guid(56b09d1d274377d4e90681b48d25c7a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '297df74bbc66b7f8341a22805b19692c') in 0.0682101 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Textures/Gradient.png
-  artifactKey: Guid(16d4849426307834cb206c391da7cefa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Textures/Gradient.png using Guid(16d4849426307834cb206c391da7cefa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6574669a3b7116c9419cbc1210bdafce') in 0.1114774 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_2.prefab
-  artifactKey: Guid(1dff1b6d41153f04b89191ef1a82f20c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Cliff_2.prefab using Guid(1dff1b6d41153f04b89191ef1a82f20c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e9a933dc83c1e729851e41d92462704') in 0.0523755 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Crate.prefab
-  artifactKey: Guid(4e08fdf4080c15941b2b10e6aac7bfa6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Crate.prefab using Guid(4e08fdf4080c15941b2b10e6aac7bfa6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd3f12ebc1c31a8b4c9312131917deb95') in 0.023182 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_14.prefab
-  artifactKey: Guid(ff9484291d45f334ea3494be35725dd7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_14.prefab using Guid(ff9484291d45f334ea3494be35725dd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a32ef8fca3135dc2c772e0682340fe1') in 0.1666198 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_11.prefab
-  artifactKey: Guid(da4e44539ce2b46479c43db56633d9cd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_11.prefab using Guid(da4e44539ce2b46479c43db56633d9cd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'dedccdbaaf9d7e996a4ade82673cc955') in 0.0274806 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_4.prefab
-  artifactKey: Guid(8ea8ed222037d5c43947916767330d3d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_4.prefab using Guid(8ea8ed222037d5c43947916767330d3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33fed371d5e5f404210efc535ef0f54f') in 0.0616223 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/flower4.fbx
-  artifactKey: Guid(4b3ed61ce70cd3c48b748f1c5581ec4f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/flower4.fbx using Guid(4b3ed61ce70cd3c48b748f1c5581ec4f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '146b5c0ba020303d5cf261a235def884') in 0.038914 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/flower1.fbx
-  artifactKey: Guid(24dacd336cb4ef64b9e773a51f9edc98) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/flower1.fbx using Guid(24dacd336cb4ef64b9e773a51f9edc98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf041896c542e7045bca4383661af62a') in 0.0381674 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Samples/Demo
-  artifactKey: Guid(52dfdfa72220ad740896ddd251870e2c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Samples/Demo using Guid(52dfdfa72220ad740896ddd251870e2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43e24e80c76559c7d1b461f14dfc64db') in 0.7358627 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Samples
-  artifactKey: Guid(8f64e357a3e20484d9db3f03e0e93cdc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Samples using Guid(8f64e357a3e20484d9db3f03e0e93cdc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb69a308da46a8f10c5c54c3f7b424a8') in 0.0184478 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fbc8ca4dd82552d36337117b01acc85d') in 0.0276823 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_3.prefab
-  artifactKey: Guid(705b5aa8b3cca7b4b856850fa92e2270) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_3.prefab using Guid(705b5aa8b3cca7b4b856850fa92e2270) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6f77ca9d7c81a4ad4395fe0c5154af3') in 0.0492814 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_7.prefab
-  artifactKey: Guid(d29bb6c6b354875488667cc20a2817df) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_7.prefab using Guid(d29bb6c6b354875488667cc20a2817df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0339f6e99be7e73686ec8a8e19f252e') in 0.047948 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_5.prefab
-  artifactKey: Guid(9a08f387c56d2e44aa12051243374461) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_5.prefab using Guid(9a08f387c56d2e44aa12051243374461) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '23e1a6d8192111d6ca6c7303251763d5') in 0.0227059 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (3.0 MB). Loaded Objects now: 7229.
-Memory consumption went from 131.1 MB to 128.1 MB.
-Total: 15.544400 ms (FindLiveObjects: 0.656800 ms CreateObjectMapping: 0.710500 ms MarkObjects: 13.015000 ms  DeleteObjects: 1.159700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 112 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (1.9 MB). Loaded Objects now: 7349.
-Memory consumption went from 153.7 MB to 151.8 MB.
-Total: 15.028100 ms (FindLiveObjects: 0.688600 ms CreateObjectMapping: 0.720100 ms MarkObjects: 12.975500 ms  DeleteObjects: 0.641500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (1.9 MB). Loaded Objects now: 7351.
-Memory consumption went from 145.1 MB to 143.2 MB.
-Total: 15.761600 ms (FindLiveObjects: 0.730400 ms CreateObjectMapping: 1.113400 ms MarkObjects: 13.332400 ms  DeleteObjects: 0.583700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-Editor requested this worker to shutdown with reason: balancing worker count downwards
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

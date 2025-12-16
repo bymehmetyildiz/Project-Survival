@@ -16,6 +16,9 @@ public class Player : MonoBehaviour
     [Header("Recources Actions")]
     [SerializeField] private float detectRadius;
 
+
+    
+
     void Start()
     {
         cc = GetComponent<CharacterController>();

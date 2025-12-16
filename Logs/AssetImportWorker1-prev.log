@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16272 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme" at "2025-12-14T17:27:45.3175313Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme" at "2025-12-14T20:15:56.6064621Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-12-14T17:27:45Z
+Date: 2025-12-14T20:15:56Z
 
 COMMAND LINE ARGUMENTS:
 D:\Unity\6000.0.62f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ D:/Game Developments/GitHub/Project-Survival
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49809
+63387
 -licensingIpc
 LicenseClient-mehme
 -job-worker-count
@@ -65,14 +65,14 @@ D:/Game Developments/GitHub/Project-Survival
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19756]  Target information:
+Player connection [17924]  Target information:
 
-Player connection [19756]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 2315092681 [EditorId] 2315092681 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17924]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 1789817384 [EditorId] 1789817384 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19756]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 2315092681 [EditorId] 2315092681 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17924]  * "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 1789817384 [EditorId] 1789817384 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DEP4F1H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19756] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19756] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17924] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17924] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -81,13 +81,13 @@ Input System module state changed to: Initialized.
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              4e640dff0e1b40aaa97114282a680c19
+  Session Id:              6c997deb7b52451a8a8dfd542cd176a8
   Correlation Id:          6280ac9ad18700acb0d7090296c7bfed
-  External correlation Id: 7233419259972576747
+  External correlation Id: 6537236589367795603
   Machine Id:              PxHNM7DPPf0IVXSn48G8aClcpaQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mehme" (connect: 0.00s, validation: 0.00s, handshake: 0.13s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme-notifications" at "2025-12-14T17:27:45.4529809Z"
-[Licensing::Module] Licensing Background thread has ended after 0.13s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mehme" (connect: 0.00s, validation: 0.00s, handshake: 0.09s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mehme-notifications" at "2025-12-14T20:15:56.6999758Z"
+[Licensing::Module] Licensing Background thread has ended after 0.10s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -95,7 +95,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 139.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.62f1 (f99f05b3e950)
 [Subsystems] Discovering subsystems at path D:/Unity/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
@@ -111,43 +111,43 @@ Initialize mono
 Mono path[0] = 'D:/Unity/6000.0.62f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004258 seconds.
-- Loaded All Assemblies, in  2.393 seconds
+Registered in 0.004756 seconds.
+- Loaded All Assemblies, in  0.987 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.678 seconds
-Domain Reload Profiling: 3071ms
-	BeginReloadAssembly (584ms)
+- Finished resetting the current domain, in  1.016 seconds
+Domain Reload Profiling: 2003ms
+	BeginReloadAssembly (349ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (406ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (1314ms)
-		LoadAssemblies (583ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (120ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (378ms)
+		LoadAssemblies (346ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1310ms)
-			TypeCache.Refresh (1308ms)
-				TypeCache.ScanAssembly (934ms)
+		AnalyzeDomain (372ms)
+			TypeCache.Refresh (370ms)
+				TypeCache.ScanAssembly (340ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (679ms)
+	FinalizeReload (1017ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (618ms)
+		SetupLoadedEditorAssemblies (845ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (147ms)
-			ProcessInitializeOnLoadAttributes (342ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (518ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -170,11 +170,11 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  2.566 seconds
+- Loaded All Assemblies, in  2.399 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 [MODES] ModeService[none].Initialize
@@ -188,128 +188,299 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.457 seconds
-Domain Reload Profiling: 4022ms
-	BeginReloadAssembly (321ms)
+- Finished resetting the current domain, in  2.570 seconds
+Domain Reload Profiling: 4967ms
+	BeginReloadAssembly (451ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (18ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (73ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (2084ms)
-		LoadAssemblies (1818ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (102ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (1731ms)
+		LoadAssemblies (979ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (436ms)
-			TypeCache.Refresh (346ms)
-				TypeCache.ScanAssembly (319ms)
-			BuildScriptInfoCaches (72ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1458ms)
+		AnalyzeDomain (996ms)
+			TypeCache.Refresh (810ms)
+				TypeCache.ScanAssembly (758ms)
+			BuildScriptInfoCaches (146ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (2571ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1253ms)
+		SetupLoadedEditorAssemblies (2288ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (244ms)
-			ProcessInitializeOnLoadAttributes (944ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (364ms)
+			ProcessInitializeOnLoadAttributes (1705ms)
+			ProcessInitializeOnLoadMethodAttributes (184ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.64 seconds
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4608 unused Assets / (1.5 MB). Loaded Objects now: 5095.
-Memory consumption went from 92.3 MB to 90.8 MB.
-Total: 13.431700 ms (FindLiveObjects: 0.981000 ms CreateObjectMapping: 1.221800 ms MarkObjects: 8.358100 ms  DeleteObjects: 2.869400 ms)
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6684 unused Assets / (7.0 MB). Loaded Objects now: 7226.
+Memory consumption went from 139.2 MB to 132.2 MB.
+Total: 75.455300 ms (FindLiveObjects: 1.217900 ms CreateObjectMapping: 2.298900 ms MarkObjects: 64.694500 ms  DeleteObjects: 7.241500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 37034.233473 seconds.
-  path: Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Transport/car_blue.prefab
-  artifactKey: Guid(683c15f9e972f4655b2620101423b704) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Transport/car_blue.prefab using Guid(683c15f9e972f4655b2620101423b704) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be1a5ca698f71a6724e21601d4eec255') in 0.1457972 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+  Time since last request: 47125.856612 seconds.
+  path: Assets/Joystick Pack/Prefabs/Variable Joystick.prefab
+  artifactKey: Guid(ec536a7718376554185e4a856d5ae230) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Joystick Pack/Prefabs/Variable Joystick.prefab using Guid(ec536a7718376554185e4a856d5ae230) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e40d8647c412b2388458b1e3d8202e58') in 14.7901164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/guideline.pdf
-  artifactKey: Guid(ce575bb4a510c474aaddb57274b3fd0c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/guideline.pdf using Guid(ce575bb4a510c474aaddb57274b3fd0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '070b00863709141f7fdd09d1654a0fce') in 0.0147286 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Trees/oval_tree.fbx
-  artifactKey: Guid(1102944e755964a89b625903b7469c21) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Trees/oval_tree.fbx using Guid(1102944e755964a89b625903b7469c21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43717bc6ee0ad018a05d84d28ab4ceed') in 0.1078921 seconds
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/House2.fbx
+  artifactKey: Guid(c2b0727e081c5834dbff60cb0a47daab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/House2.fbx using Guid(c2b0727e081c5834dbff60cb0a47daab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28d28e5828d88f4fc5715ccf5a25a484') in 0.2664435 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Stones/stone_1.prefab
-  artifactKey: Guid(6729c2d78ee9040829d69b1c626b3903) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Stones/stone_1.prefab using Guid(6729c2d78ee9040829d69b1c626b3903) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e415f5268edbb148d4083f2dadade3ce') in 0.0260674 seconds
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Flower_2.prefab
+  artifactKey: Guid(58777b70911a0084593f6197c89476aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Flower_2.prefab using Guid(58777b70911a0084593f6197c89476aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab662a25fce0748e7552153c5e9eb6bb') in 0.1198091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_1.prefab
+  artifactKey: Guid(f30a358b7336975468ee7d12a0aa30c7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_1.prefab using Guid(f30a358b7336975468ee7d12a0aa30c7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7b3e13da0672a8bc704ad63862b71431') in 0.0562221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001058 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/flower3.fbx
+  artifactKey: Guid(4f5c49cd0093d3341ba69e0cd6d6359f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/flower3.fbx using Guid(4f5c49cd0093d3341ba69e0cd6d6359f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b295df55c3e3e6936d8c42f07dc31e1d') in 0.0551794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_2.prefab
+  artifactKey: Guid(b494815f7682f6e4db2ff5cd616e1717) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Pine Tree_2.prefab using Guid(b494815f7682f6e4db2ff5cd616e1717) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe0a7769b02be1a1351c878aabfbc1ae') in 0.0655689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/boat.fbx
+  artifactKey: Guid(ecf3d43b6381c9d48957d438a5549048) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/boat.fbx using Guid(ecf3d43b6381c9d48957d438a5549048) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04b1cc114e2b8b24256237b533ed6ebf') in 0.0443469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/Rock1.fbx
+  artifactKey: Guid(48d7550e3e89e43468ad91e4903ca408) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/Rock1.fbx using Guid(48d7550e3e89e43468ad91e4903ca408) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bf03df86d630ff6506d6573afbed6c3') in 0.0350237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Lantern.prefab
+  artifactKey: Guid(cfd9e31c880414441aa66f70b40e16db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Lantern.prefab using Guid(cfd9e31c880414441aa66f70b40e16db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8bc0b182ff4029c6dbb5135b1bf329b') in 0.3131195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path_2.prefab
+  artifactKey: Guid(54908593d3b9f614b85d81ea61bee672) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path_2.prefab using Guid(54908593d3b9f614b85d81ea61bee672) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2304fe4f2c675962aeef885ae836abf5') in 0.0682105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/crate.fbx
+  artifactKey: Guid(32d8b971395bff244964222d2c4300a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/crate.fbx using Guid(32d8b971395bff244964222d2c4300a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4017c446552493634f3fffc771185092') in 0.0449176 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Textures/texture_main.png
-  artifactKey: Guid(e628b13ca0611477f9514df086914c41) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Textures/texture_main.png using Guid(e628b13ca0611477f9514df086914c41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5378ee8e6b49681052bd2cc5691ba75') in 0.0665351 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Trees/oval_tree.prefab
-  artifactKey: Guid(3dd5ac78e5f8a442c94ffa793d1b7ff1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Trees/oval_tree.prefab using Guid(3dd5ac78e5f8a442c94ffa793d1b7ff1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30a3fd27c84d3541ffccf85df86c2d44') in 0.024035 seconds
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Flower Pot.prefab
+  artifactKey: Guid(bf1a024e76f38f84cb744d8e9f56b7ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Flower Pot.prefab using Guid(bf1a024e76f38f84cb744d8e9f56b7ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a82ef61e1a297691c47cb74653143cb4') in 0.1176366 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Roads/paved_road_markings_straight_area_1.fbx
-  artifactKey: Guid(196411f154adf44d88668eb81907ffb2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Roads/paved_road_markings_straight_area_1.fbx using Guid(196411f154adf44d88668eb81907ffb2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '274efc2531a44097ff719db666503575') in 0.0322568 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Mountain_3.prefab
+  artifactKey: Guid(713c943ccbfcab0449993d096180948d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Mountain_3.prefab using Guid(713c943ccbfcab0449993d096180948d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd003fb05d2dbe7b81ec06cbb9ef9ec42') in 0.0540443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_1.prefab
+  artifactKey: Guid(dd76da60b484c7c45a2bdc5c0271808f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_1.prefab using Guid(dd76da60b484c7c45a2bdc5c0271808f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'eee86912644ba44e938b46f8dc0fcc15') in 0.0233538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Bridge.prefab
+  artifactKey: Guid(d20f7c791b6c5ca459c45f167993e50d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Bridge.prefab using Guid(d20f7c791b6c5ca459c45f167993e50d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ec16fb388aafab4289ac809d25e68ff') in 0.1722486 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Roads/grass_with_soil_area.prefab
-  artifactKey: Guid(fc958925259a74dbd9512eda4f8ded4a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Roads/grass_with_soil_area.prefab using Guid(fc958925259a74dbd9512eda4f8ded4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a75ee430f5978ac7fb09faaad13b5319') in 0.0223217 seconds
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_5.prefab
+  artifactKey: Guid(d2067771ddca27f4492d2ac7e25569fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_5.prefab using Guid(d2067771ddca27f4492d2ac7e25569fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b49222566daff9c964c9b6535ac8c68') in 0.0499144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Mountain_1.prefab
+  artifactKey: Guid(de546e230fe491d46aaca545e62493c5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Mountain_1.prefab using Guid(de546e230fe491d46aaca545e62493c5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd29b75f22fbec36ae097d3f351aef56c') in 0.0231791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/cliff8.fbx
+  artifactKey: Guid(115dcfdca5cb1f7428517df9ffce214f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/cliff8.fbx using Guid(115dcfdca5cb1f7428517df9ffce214f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5a3333c6f4441fb8a2b97c8e0505471') in 0.1756295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Rock_2.prefab
+  artifactKey: Guid(4363cc5f6c64c954ba6f12cacb2002f9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Rock_2.prefab using Guid(4363cc5f6c64c954ba6f12cacb2002f9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '83c87395cff5223017a46b7e755c4217') in 0.0928625 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Houses/house_small.fbx
-  artifactKey: Guid(e3221a030c87c48a19a6d00f6a8997ad) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Houses/house_small.fbx using Guid(e3221a030c87c48a19a6d00f6a8997ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d9b5f90eba6012bebb977ec4e9cfe0f') in 0.0404485 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_3.prefab
+  artifactKey: Guid(939a4fc1efac26f4f8e18ebebacf94e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_3.prefab using Guid(939a4fc1efac26f4f8e18ebebacf94e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1c2046cf0dd314127f6de06f795884f') in 0.0548336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.841385 seconds.
-  path: Assets/Models/Mixamo/tripo_convert_9d79b687-9a1a-4bca-a5aa-7f730f15eb15.mtl
-  artifactKey: Guid(24030f2787a95404fbe4c7983e29c235) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Mixamo/tripo_convert_9d79b687-9a1a-4bca-a5aa-7f730f15eb15.mtl using Guid(24030f2787a95404fbe4c7983e29c235) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8e1238f72a8ceaade757e5a48616cf0') in 0.0176776 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_4.prefab
+  artifactKey: Guid(8ea8ed222037d5c43947916767330d3d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Path Piece_4.prefab using Guid(8ea8ed222037d5c43947916767330d3d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'bca9d5714229b0e159ef1a477f62e616') in 0.0220638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/pine tree2.fbx
+  artifactKey: Guid(1ff44ae190cd6924c820598cffe6adb1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Meshes/pine tree2.fbx using Guid(1ff44ae190cd6924c820598cffe6adb1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f024a1aaa518ef5ed7fab47fa4f35de1') in 0.0387332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_4.prefab
+  artifactKey: Guid(53b8853b27b8eb54e96ce5b072c47164) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Models/OccaSoftware/Low Poly Fantasy Village/Prefabs/Tree_4.prefab using Guid(53b8853b27b8eb54e96ce5b072c47164) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '40bfa336fba7235b7a9d3192bbf72927') in 0.0326385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (3.0 MB). Loaded Objects now: 7229.
+Memory consumption went from 132.8 MB to 129.9 MB.
+Total: 15.236700 ms (FindLiveObjects: 0.658500 ms CreateObjectMapping: 0.659300 ms MarkObjects: 12.880300 ms  DeleteObjects: 1.036400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 8.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (1.9 MB). Loaded Objects now: 7349.
+Memory consumption went from 155.4 MB to 153.5 MB.
+Total: 24.868500 ms (FindLiveObjects: 0.741600 ms CreateObjectMapping: 0.701500 ms MarkObjects: 22.761300 ms  DeleteObjects: 0.662100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (1.9 MB). Loaded Objects now: 7351.
+Memory consumption went from 146.8 MB to 145.0 MB.
+Total: 80.869800 ms (FindLiveObjects: 0.641900 ms CreateObjectMapping: 0.660000 ms MarkObjects: 78.850200 ms  DeleteObjects: 0.715900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

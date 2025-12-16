@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Game Developments\\GitHub\\Project-Survival\\",
+  "WorkspaceRootPath": "D:\\Github\\Project-Survival\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|d:\\game developments\\github\\project-survival\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|d:\\github\\project-survival\\assets\\scripts\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\cameraocclusionfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameraocclusionfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,85 +29,54 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CameraOcclusionFade.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\CameraOcclusionFade.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraOcclusionFade.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\CameraOcclusionFade.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraOcclusionFade.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:19:18.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\GameManager.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T17:56:01.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Resource.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Resource.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Resource.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Resource.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Resource.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T22:33:49.766Z"
+              "WhenOpened": "2025-12-14T17:56:01.954Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAwwK8AAAAAAAAAAAAAAA==",
+              "Title": "Resource.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Resource.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Resource.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Resource.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Resource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T10:12:34.968Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 165,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 142,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "WhenOpened": "2025-12-12T22:33:49.766Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T10:12:34.968Z",
+              "EditorCaption": ""
             }
           ]
         }
