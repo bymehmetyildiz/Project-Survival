@@ -11,7 +11,7 @@ public class Tree : Resource
     private Rigidbody rb;
     public TreeState state;
     [SerializeField] private GameObject wood;
-    [SerializeField] private LayerMask groundLayer;
+  
 
     void Start()
     {
@@ -34,8 +34,12 @@ public class Tree : Resource
             if (hitCount < necessaryHitCount)
             {
                 hitCount++;
-                transform.DOPunchRotation(new Vector3(0, 0, 10), 0.25f, 8, 1f);
-                transform.DOScale(0.95f, 0.1f).SetLoops(2, LoopType.Yoyo);
+                transform.DOPunchScale(
+                   Vector3.one * -0.2f, // shrink
+                   0.25f,               // duration
+                   5,                   // vibrato
+                   0.9f                 // elasticity
+               );
             }
             else
             {
