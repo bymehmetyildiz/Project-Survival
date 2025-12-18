@@ -146,7 +146,7 @@ public class Player : MonoBehaviour
 
         foreach (Collider hit in hits)
         {
-            Resource res = hit.GetComponent<Resource>() as Tree;
+            Resource res = hit.GetComponent<Resource>();
             if (res != null)
             {
                 float dist = Vector3.Distance(transform.position, res.transform.position);
