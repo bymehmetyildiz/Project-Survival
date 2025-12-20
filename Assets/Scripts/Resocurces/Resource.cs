@@ -4,16 +4,18 @@ using Unity.VisualScripting;
 
 public class Resource : MonoBehaviour
 {
-    public ResourceType resourceType;
+    public ResourceStatus resourceType;
     public virtual void Interact(Player player)
     {
 
     }
 
+
 }
 
-public enum ResourceType
+public enum ResourceStatus
 {
     Collectible,
     Interactible,
 }
+

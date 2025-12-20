@@ -15,14 +15,16 @@ public class Player : MonoBehaviour
 
     [Header("Recources Actions")]
     [SerializeField] private float detectRadius;
+    public int carryCapacity = 1;
+    public bool isBusyCarrying;
 
 
-    
 
     void Start()
     {
         cc = GetComponent<CharacterController>();
         animator = GetComponentInChildren<Animator>();
+        isBusyCarrying = false;
     }
 
     
@@ -164,14 +166,15 @@ public class Player : MonoBehaviour
 
     private bool CanInteractWitResource()
     {
-        if (NearestRecource() != null && !IsMoving())
+        if (NearestRecource() != null 
+            && !IsMoving())
             return true;
 
         return false;
 
     }
     
-    public void CollectNearestResource()
+    public void InteractNearestResource()
     {
         if(NearestRecource() != null)
         {

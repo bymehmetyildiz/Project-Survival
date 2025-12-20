@@ -15,5 +15,5 @@ public class AnimatorManager : MonoBehaviour
         
     }
 
-    public void CollectNearestResource() => player.CollectNearestResource();
+    public void CollectNearestResource() => player.InteractNearestResource();
 }
