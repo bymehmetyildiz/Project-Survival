@@ -34,12 +34,12 @@ public class Tree : Resource
             if (hitCount < necessaryHitCount)
             {
                 hitCount++;
-                transform.DOPunchScale(
-                   Vector3.one * -0.2f, // shrink
-                   0.25f,               // duration
-                   5,                   // vibrato
-                   0.9f                 // elasticity
-               );
+                transform.DOPunchRotation(
+                    new Vector3(0f, 0f, 10f), // rotation punch (Z works well for trees)
+                    0.3f,                     // duration
+                    10,                       // vibrato (how shaky)
+                    1f                        // elasticity (bounce back)
+                );
             }
             else
             {
@@ -51,7 +51,8 @@ public class Tree : Resource
         }
 
         else if (state == TreeState.Fallen)
-        {
+        {            
+
             if (hitCount < necessaryHitCount)
             {
                 hitCount++;

@@ -13,4 +13,9 @@ public class Collectible : MonoBehaviour
     {
         
     }
+
+    public virtual void OnTriggerEnter(Collider other)
+    {
+        
+    }
 }

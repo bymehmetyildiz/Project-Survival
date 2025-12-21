@@ -2,7 +2,12 @@ using UnityEngine;
 
 public class Wood : Collectible
 {
-    public int amount = 3;
+    private int amount;
+
+    public Wood(int amount)
+    {
+        this.amount = amount;
+    }
 
     public override void Start()
     {
@@ -10,15 +15,16 @@ public class Wood : Collectible
        transform.position = hit.point + Vector3.down * 0.01f;
     }
 
-    public void OnTriggerEnter(Collider other)
+    public override void OnTriggerEnter(Collider other)
     {
         Player player = other.GetComponent<Player>();
 
         if (player != null)
         {
-            if (player.carryCapacity < amount)
+            if (player.carryCapacity < amount && player.isBusyCarrying == false)
             {
                 amount -= player.carryCapacity;
+                player.isBusyCarrying = true;
             }
 
         }
