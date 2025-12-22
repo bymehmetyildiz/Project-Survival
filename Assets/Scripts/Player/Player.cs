@@ -155,9 +155,10 @@ public class Player : MonoBehaviour
         if(NearestRecource() != null)
         {
             NearestRecource().Interact(this);
+            workState.UnTriggerAnimation();
         }
     }
 
-    public void TriggerCalled() => workState.AnimationTrigger();
+    public void TriggerCalled() => workState.TriggerAnimation();
 
 }

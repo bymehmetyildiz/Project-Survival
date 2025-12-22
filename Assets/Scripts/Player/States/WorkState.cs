@@ -15,7 +15,6 @@ public class WorkState : PlayerState
             player.animator.SetInteger("ChopType", 1);
 
         player.woodAxe.SetActive(true);
-       
     }
 
     public override void Exit()
@@ -38,15 +37,24 @@ public class WorkState : PlayerState
             Quaternion rot = Quaternion.LookRotation(direction);
             player.transform.rotation = Quaternion.Slerp(player.transform.rotation, rot, player.turnSpeed * Time.deltaTime);
 
-            player.transform.position = player.transform.position + direction * 1.2f;
+            // Move smoothly toward the closest resource
+            if ((player.NearestRecource().transform.position - player.transform.position).magnitude < 1.5f)
+            {
+                player.cc.Move(-direction * Time.deltaTime * player.moveSpeed);
+            }
+
+           
         }
 
 
         player.ApplyGravity();
 
-        if (!player.CanInteractWitResource() && triggerCalled)
-            stateMachine.ChangeState(player.idleState);
-        else if(player.IsMoving())
-            stateMachine.ChangeState(player.moveState);
+        if (triggerCalled)
+        {
+            if (!player.CanInteractWitResource())
+                stateMachine.ChangeState(player.idleState);
+            else if (player.IsMoving())
+                stateMachine.ChangeState(player.moveState);
+        }
     }
 }

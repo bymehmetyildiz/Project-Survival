@@ -38,8 +38,9 @@ public class PlayerState
         player.animator.SetBool(animBoolName, false);
     }
 
-    public virtual void AnimationTrigger()
-    {
-        triggerCalled = true;
-    }
+    public virtual void TriggerAnimation() => triggerCalled = true;
+    
+
+    public virtual void UnTriggerAnimation() => triggerCalled = false;
+    
 }
