@@ -42,19 +42,13 @@ public class WorkState : PlayerState
             {
                 player.cc.Move(-direction * Time.deltaTime * player.moveSpeed);
             }
-
-           
         }
-
 
         player.ApplyGravity();
 
-        if (triggerCalled)
-        {
-            if (!player.CanInteractWitResource())
-                stateMachine.ChangeState(player.idleState);
-            else if (player.IsMoving())
-                stateMachine.ChangeState(player.moveState);
-        }
+        if (!player.CanInteractWitResource() && triggerCalled)
+            stateMachine.ChangeState(player.idleState);
+        else if (player.IsMoving())
+            stateMachine.ChangeState(player.moveState);
     }
 }

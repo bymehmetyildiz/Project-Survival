@@ -10,6 +10,10 @@ public class Player : MonoBehaviour
     public IdleState idleState { get; private set; }
     public MoveState moveState { get; private set; }
     public WorkState workState { get; private set; }
+    public PickUpState pickUpState { get; private set; }
+    public PutDownState putDownState { get; private set; }
+    public CarryIdleState carryIdleState { get; private set; }
+    public CarryWalkState carryWalkState { get; private set; }
 
     [Header("Component")]
     public CharacterController cc;
@@ -25,13 +29,9 @@ public class Player : MonoBehaviour
     [SerializeField] private float detectRadius;    
     public int carryCapacity = 1;
     public bool isBusyCarrying;
-   
 
     [Header("Tools")]
     public GameObject woodAxe;
-
-
-
 
     private void Awake()
     {
@@ -60,7 +60,6 @@ public class Player : MonoBehaviour
     {
         stateMachine.currentState.Update();
     }
-
 
     #region Movement
 
@@ -111,9 +110,8 @@ public class Player : MonoBehaviour
                Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0;        
     }
     #endregion
-   
-   
 
+    //Nearest Resource Detection
     public Resource NearestRecource()
     {
         Resource nearestRecource = null;
@@ -135,7 +133,6 @@ public class Player : MonoBehaviour
                 }
             }
         }
-
         return nearestRecource;
     }
 
@@ -146,9 +143,41 @@ public class Player : MonoBehaviour
             return true;
 
         return false;
-
     }
-    
+
+    /*
+    //Nearest Collectible Resource Detection
+    public Collectible NearestCollectibleResource()
+    {
+        Collectible nearestCollectible = null;
+        float minDist = Mathf.Infinity;
+        Collider[] hits = Physics.OverlapSphere(transform.position, detectRadius);
+        foreach (Collider hit in hits)
+        {
+            Collectible col = hit.GetComponent<Collectible>();
+            if (col != null)
+            {
+                float dist = Vector3.Distance(transform.position, col.transform.position);
+                if (dist < minDist)
+                {
+                    minDist = dist;
+                    nearestCollectible = col;
+                }
+            }
+        }
+        return nearestCollectible;
+    }
+
+    public bool CanCollectResource()
+    {
+        if (NearestCollectibleResource() != null
+            && !IsMoving()
+            && !isBusyCarrying)
+            return true;
+        return false;
+    }
+    */
+
     //Animation Events
     public void InteractNearestResource()
     {

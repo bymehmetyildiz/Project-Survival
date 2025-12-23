@@ -2,32 +2,55 @@ using UnityEngine;
 
 public class Wood : Collectible
 {
-    private int amount;
+    private Canvas woodCanvas;  
+    private Camera mainCamera;
+    public Vector3 offset;
 
-    public Wood(int amount)
-    {
-        this.amount = amount;
-    }
 
     public override void Start()
     {
-       Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, 10f);
-       transform.position = hit.point + Vector3.down * 0.01f;
+        Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, 10f);
+        transform.position = hit.point + Vector3.down * 0.01f;
+        
+        woodCanvas = GetComponentInChildren<Canvas>();
+        mainCamera = Camera.main;
     }
 
-    public override void OnTriggerEnter(Collider other)
+    public override void Update()
     {
-        Player player = other.GetComponent<Player>();
+        base.Update();
 
-        if (player != null)
+        if(IsPlayerNearby())
         {
-            if (player.carryCapacity < amount && player.isBusyCarrying == false)
-            {
-                amount -= player.carryCapacity;
-                player.isBusyCarrying = true;
-            }
-
+            woodCanvas.enabled = true;
+        }
+        else
+        {
+            woodCanvas.enabled = false;
         }
     }
+
+    public override void LateUpdate()
+    {
+        base.LateUpdate();
+
+        // Face camera
+        Vector3 dir = woodCanvas.transform.position - mainCamera.transform.position;        
+        woodCanvas.transform.rotation = Quaternion.LookRotation(dir);
+
+        // Local offset above the wood
+        woodCanvas.transform.localPosition = offset;
+    }
+
+    private bool IsPlayerNearby()
+    {
+        Vector3 dist = Player.Instance.transform.position - transform.position;
+
+        if(dist.magnitude <= 2)
+            return true;
+        else
+            return false;
+    }
+
 
 }

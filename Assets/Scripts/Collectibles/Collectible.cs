@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     public virtual void Start()
     {
         
@@ -14,7 +13,7 @@ public class Collectible : MonoBehaviour
         
     }
 
-    public virtual void OnTriggerEnter(Collider other)
+    public virtual void LateUpdate()
     {
         
     }
