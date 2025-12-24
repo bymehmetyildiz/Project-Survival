@@ -1,7 +1,7 @@
 using UnityEngine;
 
 public class StateMachine
-{ 
+{
     public PlayerState currentState { get; private set; }
 
     public void Initialize(PlayerState startState)

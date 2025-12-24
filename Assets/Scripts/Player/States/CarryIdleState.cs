@@ -19,5 +19,11 @@ public class CarryIdleState : PlayerState
     public override void Update()
     {
         base.Update();
+
+        player.ApplyGravity();
+
+        if (player.IsMoving())
+            stateMachine.ChangeState(player.carryWalkState);
+
     }
 }

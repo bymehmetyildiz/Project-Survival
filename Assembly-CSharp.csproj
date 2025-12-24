@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Resocurces\Tree.cs" />
     <Compile Include="Assets\Scripts\Player\States\PutDownState.cs" />
     <Compile Include="Assets\Scripts\Resocurces\Resource.cs" />
+    <Compile Include="Assets\Scripts\Building.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Scripts\CameraOcclusionFade.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />

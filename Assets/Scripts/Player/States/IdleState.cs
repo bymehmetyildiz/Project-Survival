@@ -22,13 +22,12 @@ public class IdleState : PlayerState
         base.Update();
 
         player.ApplyGravity();
-        
 
         if(player.IsMoving())        
             stateMachine.ChangeState(player.moveState);
         else if (player.CanInteractWitResource())
             stateMachine.ChangeState(player.workState);
-        
-
+        else if(player.CanCollectResource())
+            stateMachine.ChangeState(player.pickUpState);
     }
 }

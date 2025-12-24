@@ -19,5 +19,10 @@ public class CarryWalkState : PlayerState
     public override void Update()
     {
         base.Update();
+
+        player.cc.Move(player.Movement() * Time.deltaTime);
+
+        if (player.IsMoving() == false && player.isBusyCarrying)
+            stateMachine.ChangeState(player.carryIdleState);
     }
 }

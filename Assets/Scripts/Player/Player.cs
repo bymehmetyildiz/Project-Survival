@@ -1,5 +1,7 @@
 using System;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.Animations.Rigging;
 
 public class Player : MonoBehaviour
 {
@@ -26,9 +28,14 @@ public class Player : MonoBehaviour
     [SerializeField] private FloatingJoystick joystick;
 
     [Header("Recources Actions")]
-    [SerializeField] private float detectRadius;    
-    public int carryCapacity = 1;
+    [SerializeField] private float detectRadius;
+
+    [Header("Carry Actions")]
     public bool isBusyCarrying;
+    public Transform CarryPos;
+    public Rig carryRig;
+    public Collectible currentCollectible;
+
 
     [Header("Tools")]
     public GameObject woodAxe;
@@ -46,13 +53,17 @@ public class Player : MonoBehaviour
         idleState = new IdleState(stateMachine, "Idle", cc, this);
         moveState = new MoveState(stateMachine, "Move", cc, this);
         workState = new WorkState(stateMachine, "Work", cc, this);
+        pickUpState = new PickUpState(stateMachine, "PickUp", cc, this);
+        putDownState = new PutDownState(stateMachine, "PutDown", cc, this);
+        carryIdleState = new CarryIdleState(stateMachine, "CarryIdle", cc, this);
+        carryWalkState = new CarryWalkState(stateMachine, "CarryWalk", cc, this);
     }
 
     void Start()
     {
         stateMachine.Initialize(idleState);
-
         woodAxe.SetActive(false);
+        carryRig.weight = 0f;
     }
 
     
@@ -144,14 +155,13 @@ public class Player : MonoBehaviour
 
         return false;
     }
-
-    /*
+    
     //Nearest Collectible Resource Detection
     public Collectible NearestCollectibleResource()
     {
         Collectible nearestCollectible = null;
         float minDist = Mathf.Infinity;
-        Collider[] hits = Physics.OverlapSphere(transform.position, detectRadius);
+        Collider[] hits = Physics.OverlapSphere(transform.position, (detectRadius * 0.75f));
         foreach (Collider hit in hits)
         {
             Collectible col = hit.GetComponent<Collectible>();
@@ -176,7 +186,52 @@ public class Player : MonoBehaviour
             return true;
         return false;
     }
-    */
+
+    public void CollectCollectible()
+    {
+        isBusyCarrying = true;
+        currentCollectible = NearestCollectibleResource();
+
+        currentCollectible.GetComponent<Collider>().enabled = false;
+        currentCollectible.transform.SetParent(CarryPos);
+        currentCollectible.transform.localPosition = Vector3.zero;
+        currentCollectible.transform.localRotation = Quaternion.identity;
+
+        StopAllCoroutines();
+        StartCoroutine(BlendCarryRig(1f));
+    }
+
+    public IEnumerator BlendCarryRig(float target)
+    {
+        if(target > carryRig.weight)
+        {
+            while (carryRig.weight < target)
+            {
+                carryRig.weight += Time.deltaTime * 2f;
+                yield return null; // wait next frame
+            }
+        }
+        else
+        {
+            while (carryRig.weight > target)
+            {
+                carryRig.weight -= Time.deltaTime * 2f;
+                yield return null; // wait next frame
+            }
+        }
+
+        carryRig.weight = target;
+    }
+
+    public void DropCollectible()
+    {        
+        isBusyCarrying = false;
+        currentCollectible.transform.SetParent(null);
+        Destroy(currentCollectible.gameObject);
+        currentCollectible = null;
+        StopAllCoroutines();
+    }
+
 
     //Animation Events
     public void InteractNearestResource()
@@ -184,10 +239,10 @@ public class Player : MonoBehaviour
         if(NearestRecource() != null)
         {
             NearestRecource().Interact(this);
-            workState.UnTriggerAnimation();
+            stateMachine.currentState.UnTriggerAnimation();
         }
     }
 
-    public void TriggerCalled() => workState.TriggerAnimation();
+    public void TriggerCalled() => stateMachine.currentState.TriggerAnimation();
 
 }

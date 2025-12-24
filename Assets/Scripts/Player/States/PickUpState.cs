@@ -9,15 +9,20 @@ public class PickUpState : PlayerState
     public override void Enter()
     {
         base.Enter();
+        
     }
 
     public override void Exit()
     {
-        base.Exit();
+        base.Exit();        
     }
 
     public override void Update()
     {
         base.Update();
+        player.ApplyGravity();
+
+        if (triggerCalled)
+            stateMachine.ChangeState(player.carryIdleState);
     }
 }

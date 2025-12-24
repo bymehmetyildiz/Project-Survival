@@ -9,15 +9,20 @@ public class PutDownState : PlayerState
     public override void Enter()
     {
         base.Enter();
+        player.StartCoroutine(player.BlendCarryRig(0f));
     }
 
     public override void Exit()
     {
         base.Exit();
+        
     }
 
     public override void Update()
     {
         base.Update();
+
+        if(triggerCalled)
+            stateMachine.ChangeState(player.idleState);
     }
 }
