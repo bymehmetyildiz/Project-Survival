@@ -15,6 +15,7 @@ public class WorkState : PlayerState
             player.animator.SetInteger("ChopType", 1);
 
         player.woodAxe.SetActive(true);
+        player.animator.applyRootMotion = true;
     }
 
     public override void Exit()
@@ -22,6 +23,7 @@ public class WorkState : PlayerState
         base.Exit();
 
         player.woodAxe.SetActive(false);
+        player.animator.applyRootMotion = false;
     }
 
     public override void Update()

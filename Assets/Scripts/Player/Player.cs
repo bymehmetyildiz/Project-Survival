@@ -161,7 +161,7 @@ public class Player : MonoBehaviour
     {
         Collectible nearestCollectible = null;
         float minDist = Mathf.Infinity;
-        Collider[] hits = Physics.OverlapSphere(transform.position, (detectRadius * 0.75f));
+        Collider[] hits = Physics.OverlapSphere(transform.position, detectRadius * 1.5f);
         foreach (Collider hit in hits)
         {
             Collectible col = hit.GetComponent<Collectible>();
@@ -215,7 +215,7 @@ public class Player : MonoBehaviour
         {
             while (carryRig.weight > target)
             {
-                carryRig.weight -= Time.deltaTime * 2f;
+                carryRig.weight -= Time.deltaTime;
                 yield return null; // wait next frame
             }
         }
@@ -230,6 +230,12 @@ public class Player : MonoBehaviour
         Destroy(currentCollectible.gameObject);
         currentCollectible = null;
         StopAllCoroutines();
+    }
+
+    public void PickUpState()
+    {
+        if(CanCollectResource())
+            stateMachine.ChangeState(pickUpState);
     }
 
 

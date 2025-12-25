@@ -9,18 +9,29 @@ public class PickUpState : PlayerState
     public override void Enter()
     {
         base.Enter();
-        
+        player.animator.applyRootMotion = true;
     }
 
     public override void Exit()
     {
-        base.Exit();        
+        base.Exit();
+        player.animator.applyRootMotion = false;
     }
 
     public override void Update()
     {
         base.Update();
         player.ApplyGravity();
+
+        if (player.NearestCollectibleResource() != null && !player.IsMoving())
+        {
+            // Rotate smoothly toward the closest resource
+            Vector3 direction = (player.NearestCollectibleResource().transform.position - player.transform.position).normalized;
+            direction.y = 0; // prevent tilting up/down
+
+            Quaternion rot = Quaternion.LookRotation(direction);
+            player.transform.rotation = Quaternion.Slerp(player.transform.rotation, rot, player.turnSpeed * Time.deltaTime);
+        }
 
         if (triggerCalled)
             stateMachine.ChangeState(player.carryIdleState);

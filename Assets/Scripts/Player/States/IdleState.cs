@@ -27,7 +27,6 @@ public class IdleState : PlayerState
             stateMachine.ChangeState(player.moveState);
         else if (player.CanInteractWitResource())
             stateMachine.ChangeState(player.workState);
-        else if(player.CanCollectResource())
-            stateMachine.ChangeState(player.pickUpState);
+        
     }
 }

@@ -43,3 +43,11 @@ The following packages were updated:
   com.unity.timeline from version 1.8.6 to 1.8.9
   com.unity.visualscripting from version 1.9.2 to 1.9.7
   com.unity.inputsystem from version 1.12.0 to 1.14.2
+
+=== Thu Dec 25 13:13:48 2025
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.2d.sprite@1.0.0
