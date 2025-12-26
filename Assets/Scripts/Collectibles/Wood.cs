@@ -19,9 +19,4 @@ public class Wood : Collectible
     {
         base.Update();
     }
-
-    public override void GetCollected()
-    {
-        base.GetCollected();
-    }
 }
