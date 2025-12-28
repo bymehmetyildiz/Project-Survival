@@ -9,12 +9,20 @@ public class WorkState : PlayerState
     public override void Enter()
     {
         base.Enter();
-        if (player.NearestRecource().GetComponent<Tree>().state == TreeState.Standing)
-            player.animator.SetInteger("ChopType", 0);
-        else
-            player.animator.SetInteger("ChopType", 1);
+        if (player.NearestRecource().GetComponent<Tree>() != null)
+        {
+            if (player.NearestRecource().GetComponent<Tree>().state == TreeState.Standing)
+                player.animator.SetInteger("ChopType", 0);
+            else
+                player.animator.SetInteger("ChopType", 1);
 
-        player.woodAxe.SetActive(true);
+            player.woodAxe.SetActive(true);
+        }
+        else if (player.NearestRecource().GetComponent<Stone>() != null)
+        {
+            player.pickAxe.SetActive(true);
+            player.animator.SetInteger("ChopType", 1);
+        }
         player.animator.applyRootMotion = true;
     }
 
@@ -23,6 +31,7 @@ public class WorkState : PlayerState
         base.Exit();
 
         player.woodAxe.SetActive(false);
+        player.pickAxe.SetActive(false);
         player.animator.applyRootMotion = false;
     }
 

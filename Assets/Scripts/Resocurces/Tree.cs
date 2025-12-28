@@ -6,11 +6,11 @@ using static UnityEngine.UI.Image;
 
 public class Tree : Resource
 {
-    private int hitCount;
-    private int necessaryHitCount = 3;
+
     private Rigidbody rb;
     public TreeState state;
     [SerializeField] private GameObject wood;
+    [SerializeField] private GameObject poofParticle;
   
 
     void Start()
@@ -65,8 +65,7 @@ public class Tree : Resource
             }
             else
             {
-                Instantiate(wood, transform.position + transform.up, Quaternion.identity);
-                Destroy(gameObject);
+                StartCoroutine(CreateCollectible(poofParticle, wood, this.gameObject, this));
             }
         }
             

@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
 
     [Header("Tools")]
     public GameObject woodAxe;
+    public GameObject pickAxe;
 
     private void Awake()
     {
@@ -62,8 +63,10 @@ public class Player : MonoBehaviour
     void Start()
     {
         stateMachine.Initialize(idleState);
-        woodAxe.SetActive(false);
         carryRig.weight = 0f;
+
+        woodAxe.SetActive(false);
+        pickAxe.SetActive(false);
     }
 
     

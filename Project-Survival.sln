@@ -5,7 +5,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRRuntime", "CFXRRuntime.csproj", "{EE0ADEBE-C5C1-9CB6-0546-7E170EDBDF13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRDemo", "CFXRDemo.csproj", "{D55D2EDC-2469-13E8-7C30-2FF49BC0D7E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXREditor", "CFXREditor.csproj", "{D31846B2-26DF-19C1-3A8C-BD807CE26276}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{7E5B5AA8-6707-3F45-1E3A-BB20A062D940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinoBloom.Runtime", "KinoBloom.Runtime.csproj", "{DE197A96-E821-744A-A813-23DA28BE2E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXR.WelcomeScreen", "CFXR.WelcomeScreen.csproj", "{4FB5EF40-B3BF-74A8-A1EA-6EB222B78E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToonyColorsPro.Demo.Editor", "ToonyColorsPro.Demo.Editor.csproj", "{904BB9DD-08C0-CE2F-48B1-283DF673C418}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +33,34 @@ Global
 		{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE0ADEBE-C5C1-9CB6-0546-7E170EDBDF13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0ADEBE-C5C1-9CB6-0546-7E170EDBDF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0ADEBE-C5C1-9CB6-0546-7E170EDBDF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0ADEBE-C5C1-9CB6-0546-7E170EDBDF13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55D2EDC-2469-13E8-7C30-2FF49BC0D7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55D2EDC-2469-13E8-7C30-2FF49BC0D7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55D2EDC-2469-13E8-7C30-2FF49BC0D7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55D2EDC-2469-13E8-7C30-2FF49BC0D7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31846B2-26DF-19C1-3A8C-BD807CE26276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31846B2-26DF-19C1-3A8C-BD807CE26276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31846B2-26DF-19C1-3A8C-BD807CE26276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31846B2-26DF-19C1-3A8C-BD807CE26276}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7E5B5AA8-6707-3F45-1E3A-BB20A062D940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7E5B5AA8-6707-3F45-1E3A-BB20A062D940}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E5B5AA8-6707-3F45-1E3A-BB20A062D940}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E5B5AA8-6707-3F45-1E3A-BB20A062D940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE197A96-E821-744A-A813-23DA28BE2E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE197A96-E821-744A-A813-23DA28BE2E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE197A96-E821-744A-A813-23DA28BE2E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE197A96-E821-744A-A813-23DA28BE2E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB5EF40-B3BF-74A8-A1EA-6EB222B78E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB5EF40-B3BF-74A8-A1EA-6EB222B78E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB5EF40-B3BF-74A8-A1EA-6EB222B78E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB5EF40-B3BF-74A8-A1EA-6EB222B78E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{904BB9DD-08C0-CE2F-48B1-283DF673C418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904BB9DD-08C0-CE2F-48B1-283DF673C418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904BB9DD-08C0-CE2F-48B1-283DF673C418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904BB9DD-08C0-CE2F-48B1-283DF673C418}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
