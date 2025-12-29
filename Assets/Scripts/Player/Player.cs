@@ -36,7 +36,6 @@ public class Player : MonoBehaviour
     public Rig carryRig;
     public Collectible currentCollectible;
 
-
     [Header("Tools")]
     public GameObject woodAxe;
     public GameObject pickAxe;

@@ -2,9 +2,14 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
+    public int amount;
     public virtual void Start()
     {
-        
+        Physics.Raycast(transform.position, Vector3.down, out RaycastHit hitInfo, Mathf.Infinity);
+        if (hitInfo.collider != null)
+        {
+            transform.position = hitInfo.point;
+        }
     }
 
     // Update is called once per frame
@@ -19,4 +24,10 @@ public class Collectible : MonoBehaviour
             return true;
         return false;
     }
+}
+
+public enum CollectibleType
+{
+    Wood,
+    Stone
 }
