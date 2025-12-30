@@ -90,15 +90,17 @@ public class Building : MonoBehaviour
 
                 stoneProgressBar.fillAmount = (float)currentStone / requiredStone;
             }
-        } 
-        
+        }
+
+        yield return new WaitForSeconds(0.5f);
+
         if(currentWood >= requiredWood && currentStone >= requiredStone)
         {
             Instantiate(buildEffect, transform.position, Quaternion.identity);
             yield return new WaitForSeconds(0.5f);
             isBuilt = true;
             buildingModel.SetActive(true);
-            buildingModel.transform.DOScale(Vector3.one, 1f).SetEase(Ease.OutBack);
+            buildingModel.transform.DOScale(Vector3.one * 0.75f, 1f).SetEase(Ease.OutBack);
             UIProgress.SetActive(false);
         }
     }
