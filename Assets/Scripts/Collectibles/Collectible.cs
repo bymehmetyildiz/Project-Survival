@@ -5,6 +5,11 @@ public class Collectible : MonoBehaviour
     public int amount;
     public virtual void Start()
     {
+        PlaceOnGround();
+    }
+
+    public void PlaceOnGround()
+    {
         Physics.Raycast(transform.position, Vector3.down, out RaycastHit hitInfo, Mathf.Infinity);
         if (hitInfo.collider != null)
         {

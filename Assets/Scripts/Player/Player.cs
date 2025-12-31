@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     public MoveState moveState { get; private set; }
     public WorkState workState { get; private set; }
     public PickUpState pickUpState { get; private set; }
+    public DeliverState deliverState { get; private set; }
     public PutDownState putDownState { get; private set; }
     public CarryIdleState carryIdleState { get; private set; }
     public CarryWalkState carryWalkState { get; private set; }
@@ -54,7 +55,8 @@ public class Player : MonoBehaviour
         moveState = new MoveState(stateMachine, "Move", cc, this);
         workState = new WorkState(stateMachine, "Work", cc, this);
         pickUpState = new PickUpState(stateMachine, "PickUp", cc, this);
-        putDownState = new PutDownState(stateMachine, "PutDown", cc, this);
+        deliverState = new DeliverState(stateMachine, "Deliver", cc, this);
+        putDownState = new PutDownState(stateMachine,"PutDown", cc, this);
         carryIdleState = new CarryIdleState(stateMachine, "CarryIdle", cc, this);
         carryWalkState = new CarryWalkState(stateMachine, "CarryWalk", cc, this);
     }
@@ -72,6 +74,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         stateMachine.currentState.Update();
+
     }
 
     #region Movement
@@ -209,7 +212,7 @@ public class Player : MonoBehaviour
         {
             while (carryRig.weight < target)
             {
-                carryRig.weight += Time.deltaTime * 2f;
+                carryRig.weight += Time.deltaTime * 4f;
                 yield return null; // wait next frame
             }
         }
@@ -225,7 +228,7 @@ public class Player : MonoBehaviour
         carryRig.weight = target;
     }
 
-    public void DropCollectible()
+    public void DeliverCollectible()
     {        
         isBusyCarrying = false;
         currentCollectible.transform.SetParent(null);
@@ -239,6 +242,24 @@ public class Player : MonoBehaviour
         if(CanCollectResource())
             stateMachine.ChangeState(pickUpState);
     }
+
+    //Putdown Collectible
+    public void PutDownCollectible()
+    {
+        if (currentCollectible != null)
+            stateMachine.ChangeState(putDownState);
+    }
+
+    public void DropCollectible()
+    {
+        isBusyCarrying = false;
+        currentCollectible.transform.SetParent(null);
+        currentCollectible.PlaceOnGround();
+        currentCollectible.GetComponent<Collider>().enabled = true;
+        currentCollectible = null;
+        StopAllCoroutines();
+    }
+
 
 
     //Animation Events

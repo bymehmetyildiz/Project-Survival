@@ -42,7 +42,7 @@ public class Building : MonoBehaviour
         if (player != null && player.isBusyCarrying)
         {
             StartCoroutine(UpdateResources(player));
-            player.stateMachine.ChangeState(player.putDownState);
+            player.stateMachine.ChangeState(player.deliverState);
 
         }
     }

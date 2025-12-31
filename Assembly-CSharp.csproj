@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Resocurces\Tree.cs" />
+    <Compile Include="Assets\Scripts\Player\States\DeliverState.cs" />
     <Compile Include="Assets\Scripts\Player\States\PutDownState.cs" />
     <Compile Include="Assets\Scripts\Resocurces\Resource.cs" />
     <Compile Include="Assets\Scripts\Building.cs" />
