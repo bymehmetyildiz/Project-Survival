@@ -22,6 +22,11 @@ public class PickUpState : PlayerState
     {
         base.Update();
         player.ApplyGravity();
+        if (triggerCalled)
+            stateMachine.ChangeState(player.carryIdleState);
+
+        if (player.currentCollectible != null)
+            return;
 
         if (player.NearestCollectibleResource() != null && !player.IsMoving())
         {
@@ -33,7 +38,6 @@ public class PickUpState : PlayerState
             player.transform.rotation = Quaternion.Slerp(player.transform.rotation, rot, player.turnSpeed * Time.deltaTime);
         }
 
-        if (triggerCalled)
-            stateMachine.ChangeState(player.carryIdleState);
+        
     }
 }

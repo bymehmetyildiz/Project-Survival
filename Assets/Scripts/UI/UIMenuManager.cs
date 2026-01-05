@@ -38,10 +38,9 @@ public class UIMenuManager : MonoBehaviour
             localPos.y += 100f;
             interactBtn.localPosition = localPos;
 
-            if (Input.GetKeyDown(KeyCode.E))
-            {
+            if (Input.GetKeyDown(KeyCode.E))            
                 CollectMaterial();
-            }
+            
         }
         else if(currentCollectible != null)
         {
@@ -61,6 +60,10 @@ public class UIMenuManager : MonoBehaviour
 
             localPos.y += 150f;
             interactBtn.localPosition = localPos;
+
+            if (Input.GetKeyDown(KeyCode.E))            
+                CollectMaterial();
+            
         }
         else
         {
