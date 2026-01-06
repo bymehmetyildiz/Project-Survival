@@ -18,6 +18,7 @@ public class Building : MonoBehaviour
 
     public Image woodProgressBar;
     public Image stoneProgressBar;
+    public float growRatio;
 
     void Start()
     {
@@ -100,7 +101,7 @@ public class Building : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
             isBuilt = true;
             buildingModel.SetActive(true);
-            buildingModel.transform.DOScale(Vector3.one * 0.75f, 1f).SetEase(Ease.OutBack);
+            buildingModel.transform.DOScale(Vector3.one * growRatio, 1f).SetEase(Ease.OutBack);
             UIProgress.SetActive(false);
         }
     }
