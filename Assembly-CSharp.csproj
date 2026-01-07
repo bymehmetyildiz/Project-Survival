@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Resocurces\Tree.cs" />
     <Compile Include="Assets\Scripts\Player\States\DeliverState.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Human Animations\Unity Demo Scenes\Human Soldier Animations\Scripts\HumanSoldierController.cs" />
     <Compile Include="Assets\Scripts\Player\States\PutDownState.cs" />
     <Compile Include="Assets\Scripts\Resocurces\Resource.cs" />
     <Compile Include="Assets\Scripts\Building.cs" />
@@ -78,10 +79,12 @@
     <Compile Include="Assets\UI\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\UI\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerState.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Human Animations\Unity Demo Scenes\Human Soldier Animations\Scripts\HumanSoldierChangeWeaponSMB.cs" />
     <Compile Include="Assets\Scripts\Collectibles\Brick.cs" />
     <Compile Include="Assets\Scripts\Player\StateMachine.cs" />
     <Compile Include="Assets\Animations\Crafting\Code\SmoothFollow.cs" />
     <Compile Include="Assets\Animations\Crafting\Code\CrafterControllerFREE.cs" />
+    <Compile Include="Assets\Kevin Iglesias\Human Animations\Scripts\SpineProxy.cs" />
     <Compile Include="Assets\Scripts\Player\States\IdleState.cs" />
     <Compile Include="Assets\UI\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\UI\Joystick Pack\Scripts\Base\Joystick.cs" />
