@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 11575
+  controlID: 7142
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 11576
+  controlID: 7089
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 11577
+  controlID: 7090
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -243,10 +243,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 154}
-      m_SelectedIDs: 14f8feff
-      m_LastClickedID: -67564
-      m_ExpandedIDs: 14f8feff26eeffffb0eeffff1cfbffff36b7000040b80000a2b80000ecba00006abb0000d8bc000026c9000034d300006cd30000a4e60000bce6000040e70000a2e70000eae9000066ea0000d4eb000018ef000086ef0000e4f20000a0f4000008f80000aa0101000c02010044020100
+      scrollPos: {x: 0, y: 26}
+      m_SelectedIDs: e8b60000
+      m_LastClickedID: 46824
+      m_ExpandedIDs: 78faffffe8b6000050b70000b2b70000fab9000076ba0000e4bb000028bf000018c800004cd2000084d20000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -298,7 +298,7 @@ MonoBehaviour:
   - {fileID: 2}
   - {fileID: 9}
   m_Selected: 1
-  m_LastSelected: 0
+  m_LastSelected: 2
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -836,9 +836,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 14.338023, y: 1.6036749, z: 25.166298}
+    m_Target: {x: 13.616992, y: 1.5013367, z: 24.143648}
     speed: 2
-    m_Value: {x: 14.338023, y: 1.6036749, z: 25.166298}
+    m_Value: {x: 13.616992, y: 1.5013367, z: 24.143648}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -884,13 +884,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.18775693, y: 0.64177823, z: -0.16624993, w: -0.72468424}
+    m_Target: {x: 0.029973945, y: -0.95630574, z: 0.27084398, w: 0.105699174}
     speed: 2
-    m_Value: {x: -0.18910024, y: 0.6404606, z: -0.16693403, w: -0.7253856}
+    m_Value: {x: 0.029974727, y: -0.9563307, z: 0.27085105, w: 0.10570193}
   m_Size:
-    m_Target: 0.9340659
+    m_Target: 1.1400315
     speed: 2
-    m_Value: 0.9340659
+    m_Value: 1.1400315
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -966,14 +966,14 @@ MonoBehaviour:
     - {fileID: -6452668862709787937, guid: 60a234a57fd3d1244841e6f07189ef32, type: 2}
     - {fileID: -9099754029695230055, guid: ba2bb834e3a49c948a7e14fbec9ef28f, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.86990386
+    - e00: 0.60247785
       e01: 0
       e02: 0
-      e03: -135.17377
+      e03: 20.345612
       e10: 0
-      e11: 0.86990386
+      e11: 0.60247785
       e12: 0
-      e13: 104.414505
+      e13: 118.574554
       e20: 0
       e21: 0
       e22: 1
@@ -1040,7 +1040,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -1049,15 +1049,15 @@ MonoBehaviour:
     y: 629
     width: 1345
     height: 304
-  m_MinSize: {x: 231, y: 276}
-  m_MaxSize: {x: 10001, y: 10026}
-  m_ActualView: {fileID: 11}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 11}
   - {fileID: 12}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 2
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1105,7 +1105,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Models/Low Poly Weapons VOL.1/Prefabs
+    - Assets/Scripts/Player/States
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1115,16 +1115,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Models/Low Poly Weapons VOL.1/Prefabs
+  - Assets/Scripts/Player/States
   m_LastFoldersGridSize: 96
   m_LastProjectPath: D:\Github\Project-Survival
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 606}
-    m_SelectedIDs: 00070100
-    m_LastClickedID: 67328
-    m_ExpandedIDs: 0000000090dc000092dc000094dc000096dc000098dc00009adc00009cdc00001add000020dd000026dd0000e206010044910100909101000a9201001c92010014070200800e0200900e020000ca9a3b
+    scrollPos: {x: 0, y: 814}
+    m_SelectedIDs: 04dc0000
+    m_LastClickedID: 56324
+    m_ExpandedIDs: 0000000020db000022db000024db000026db000028db00002adb00002cdb00002edb000030db000032db000034db000036db000038db00003adb00003cdb00003edb000040db000042db000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1153,7 +1153,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000090dc000092dc000094dc000096dc000098dc00009adc00009cdc00001add000020dd000026dd0000e206010044910100909101000a9201001c92010014070200800e0200900e020000ca9a3b
+    m_ExpandedIDs: 0000000020db000022db000024db000026db000028db00002adb00002cdb00002edb000030db000032db000034db000036db000038db00003adb00003cdb00003edb000040db000042db000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1179,10 +1179,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 14f8feff
-    m_LastClickedInstanceID: -67564
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000b0300500b83005008c360100da0006007a000600b60006008e34010092340100be3c01000ad8000068db000084db00005cdf000050df000030e2000036e200002ee4000034e4000028e400004a490100dc4201006a400100f01a0300c43f0100c66f06000e70060080710600fc790000f87600004c790000647a000006d80000aed8000094d8000032d9000038d70000c4550100c4f70200fa900300
+    m_SelectedInstanceIDs: 8c3e0000
+    m_LastClickedInstanceID: 16012
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000b0300500b83005008c360100da0006007a000600b60006008e34010092340100be3c01000ad8000068db000084db00005cdf000050df000030e2000036e200002ee4000034e4000028e400004a490100dc4201006a400100f01a0300c43f0100c66f06000e70060080710600fc790000f87600004c790000647a000006d80000aed8000094d8000032d9000038d70000c4550100c4f70200fa90030030dc0000ea030100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1285,7 +1285,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -67564
+  m_LastSelectedObjectID: 46824
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52

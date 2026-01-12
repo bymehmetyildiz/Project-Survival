@@ -17,6 +17,9 @@ public class Player : MonoBehaviour
     public PutDownState putDownState { get; private set; }
     public CarryIdleState carryIdleState { get; private set; }
     public CarryWalkState carryWalkState { get; private set; }
+    public ArmedMove armedMoveState { get; private set; }
+    public AimState aimState { get; private set; }
+
 
     [Header("Component")]
     public CharacterController cc;
@@ -40,6 +43,7 @@ public class Player : MonoBehaviour
     [Header("Tools")]
     public GameObject woodAxe;
     public GameObject pickAxe;
+    public GameObject weapon;
 
     private void Awake()
     {
@@ -59,6 +63,8 @@ public class Player : MonoBehaviour
         putDownState = new PutDownState(stateMachine,"PutDown", cc, this);
         carryIdleState = new CarryIdleState(stateMachine, "CarryIdle", cc, this);
         carryWalkState = new CarryWalkState(stateMachine, "CarryWalk", cc, this);
+        aimState = new AimState(stateMachine, "AimIdle", cc, this);
+        armedMoveState = new ArmedMove(stateMachine, "ArmedMove", cc, this);
     }
 
     void Start()
@@ -68,12 +74,18 @@ public class Player : MonoBehaviour
 
         woodAxe.SetActive(false);
         pickAxe.SetActive(false);
+        weapon.SetActive(false);
     }
 
     
     void Update()
     {
         stateMachine.currentState.Update();
+
+        if(Input.GetKeyDown(KeyCode.R) && !isBusyCarrying)
+        {
+            stateMachine.ChangeState(aimState);
+        }
 
     }
 
