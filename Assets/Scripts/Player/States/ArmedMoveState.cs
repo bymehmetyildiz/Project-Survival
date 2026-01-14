@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class ArmedMove : PlayerState
+public class ArmedMoveState : PlayerState
 {
-    public ArmedMove(StateMachine stateMachine, string animBoolName, CharacterController controller, Player player) : base(stateMachine, animBoolName, controller, player)
+    public ArmedMoveState(StateMachine stateMachine, string animBoolName, CharacterController controller, Player player) : base(stateMachine, animBoolName, controller, player)
     {
     }
 
@@ -31,6 +31,5 @@ public class ArmedMove : PlayerState
 
         if (player.IsMoving() == false)
             stateMachine.ChangeState(player.aimState);
-        
     }
 }

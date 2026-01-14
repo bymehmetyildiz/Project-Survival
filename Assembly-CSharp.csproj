@@ -68,7 +68,6 @@
     <Compile Include="Assets\Scripts\Resocurces\Resource.cs" />
     <Compile Include="Assets\Scripts\Building.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerResoruces.cs" />
-    <Compile Include="Assets\Scripts\Player\States\ArmedMove.cs" />
     <Compile Include="Assets\Scripts\CameraOcclusionFade.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\UI\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
@@ -98,6 +97,7 @@
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Collectibles\Wood.cs" />
+    <Compile Include="Assets\Scripts\Player\States\ArmedMoveState.cs" />
     <Compile Include="Assets\UI\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
   </ItemGroup>
   <ItemGroup>

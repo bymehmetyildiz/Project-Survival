@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     public PutDownState putDownState { get; private set; }
     public CarryIdleState carryIdleState { get; private set; }
     public CarryWalkState carryWalkState { get; private set; }
-    public ArmedMove armedMoveState { get; private set; }
+    public ArmedMoveState armedMoveState { get; private set; }
     public AimState aimState { get; private set; }
 
 
@@ -64,7 +64,7 @@ public class Player : MonoBehaviour
         carryIdleState = new CarryIdleState(stateMachine, "CarryIdle", cc, this);
         carryWalkState = new CarryWalkState(stateMachine, "CarryWalk", cc, this);
         aimState = new AimState(stateMachine, "AimIdle", cc, this);
-        armedMoveState = new ArmedMove(stateMachine, "ArmedMove", cc, this);
+        armedMoveState = new ArmedMoveState(stateMachine, "ArmedMove", cc, this);
     }
 
     void Start()
