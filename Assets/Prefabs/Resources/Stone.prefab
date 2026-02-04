@@ -14806,7 +14806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resourceType: 1
   hitParticle: {fileID: 1391774339549531218}
-  poofParticle: {fileID: 8835441881500344272, guid: cdb36af143003814bb19ff7d50640e49, type: 3}
+  poofParticle: {fileID: 1510877511672859799, guid: 401cf99029a7ebb49b8f62ca8bdc7b92, type: 3}
   brick: {fileID: 7376953805246364144, guid: d6041a2eaf0fafa47b899cbccff29e0c, type: 3}
 --- !u!135 &1873557812781544773
 SphereCollider:
