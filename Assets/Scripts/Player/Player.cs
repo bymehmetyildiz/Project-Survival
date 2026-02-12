@@ -45,6 +45,10 @@ public class Player : MonoBehaviour
     public GameObject pickAxe;
     public GameObject weapon;
 
+    [Header("Aim")]
+    public int aimIndex;
+ 
+
     private void Awake()
     {
         if (Instance == null)
@@ -83,10 +87,7 @@ public class Player : MonoBehaviour
         stateMachine.currentState.Update();
 
         if(Input.GetKeyDown(KeyCode.R) && !isBusyCarrying)
-        {
             stateMachine.ChangeState(aimState);
-        }
-
     }
 
     #region Movement

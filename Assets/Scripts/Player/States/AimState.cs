@@ -9,7 +9,9 @@ public class AimState : PlayerState
     public override void Enter()
     {
         base.Enter();
-        player.weapon.SetActive(true);
+        player.animator.SetInteger("AimIndex", player.aimIndex);
+        player.weapon.SetActive(true);       
+
     }
 
     public override void Exit()
@@ -21,18 +23,20 @@ public class AimState : PlayerState
     {
         base.Update();
 
-        if(Input.GetKeyDown(KeyCode.X))
+        player.ApplyGravity();
+
+        if (player.IsMoving())
+        {
+            stateMachine.ChangeState(player.armedMoveState);
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.X))
         {
             stateMachine.ChangeState(player.idleState);
             player.weapon.SetActive(false);
             return;
         }
-
-        player.ApplyGravity();
-
-        if (player.IsMoving())
-            stateMachine.ChangeState(player.armedMoveState);
-
 
     }
 }

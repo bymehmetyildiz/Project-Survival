@@ -20,16 +20,9 @@ public class ArmedMoveState : PlayerState
     {
         base.Update();
 
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            stateMachine.ChangeState(player.moveState);
-            player.weapon.SetActive(false);
-            return;
-        }
-
-        player.cc.Move(player.Movement() * Time.deltaTime);
-
         if (player.IsMoving() == false)
             stateMachine.ChangeState(player.aimState);
+
+        player.cc.Move(player.Movement() * Time.deltaTime);
     }
 }
