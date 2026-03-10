@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\Player\StateMachine.cs" />
     <Compile Include="Assets\Animations\Crafting\Code\SmoothFollow.cs" />
     <Compile Include="Assets\Animations\Crafting\Code\CrafterControllerFREE.cs" />
+    <Compile Include="Assets\Scripts\Player\States\DrawWeaponState.cs" />
     <Compile Include="Assets\Kevin Iglesias\Human Animations\Scripts\SpineProxy.cs" />
     <Compile Include="Assets\Scripts\Player\States\IdleState.cs" />
     <Compile Include="Assets\UI\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />

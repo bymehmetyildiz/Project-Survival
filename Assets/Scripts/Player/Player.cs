@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     public PutDownState putDownState { get; private set; }
     public CarryIdleState carryIdleState { get; private set; }
     public CarryWalkState carryWalkState { get; private set; }
+    public DrawWeaponState drawWeaponState { get; private set; }
     public ArmedMoveState armedMoveState { get; private set; }
     public AimState aimState { get; private set; }
 
@@ -43,11 +44,12 @@ public class Player : MonoBehaviour
     [Header("Tools")]
     public GameObject woodAxe;
     public GameObject pickAxe;
-    public GameObject weapon;
+
+    [Header("Weapons")]
+    public GameObject[] weapons; 
 
     [Header("Aim")]
-    public int aimIndex;
- 
+    public float aimIndex;
 
     private void Awake()
     {
@@ -67,7 +69,9 @@ public class Player : MonoBehaviour
         putDownState = new PutDownState(stateMachine,"PutDown", cc, this);
         carryIdleState = new CarryIdleState(stateMachine, "CarryIdle", cc, this);
         carryWalkState = new CarryWalkState(stateMachine, "CarryWalk", cc, this);
-        aimState = new AimState(stateMachine, "AimIdle", cc, this);
+
+        drawWeaponState = new DrawWeaponState(stateMachine, "Draw", cc, this);
+        aimState = new AimState(stateMachine, "Aim", cc, this);
         armedMoveState = new ArmedMoveState(stateMachine, "ArmedMove", cc, this);
     }
 
@@ -78,16 +82,17 @@ public class Player : MonoBehaviour
 
         woodAxe.SetActive(false);
         pickAxe.SetActive(false);
-        weapon.SetActive(false);
+
+        for (int i = 0; i < weapons.Length; i++)
+        {
+            weapons[i].SetActive(false);
+        }
     }
 
     
     void Update()
     {
-        stateMachine.currentState.Update();
-
-        if(Input.GetKeyDown(KeyCode.R) && !isBusyCarrying)
-            stateMachine.ChangeState(aimState);
+        stateMachine.currentState.Update();       
     }
 
     #region Movement
@@ -219,6 +224,7 @@ public class Player : MonoBehaviour
         StartCoroutine(BlendCarryRig(1f));
     }
 
+    // Blend Animations
     public IEnumerator BlendCarryRig(float target)
     {
         if(target > carryRig.weight)

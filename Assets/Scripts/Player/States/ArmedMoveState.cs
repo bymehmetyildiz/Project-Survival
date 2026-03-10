@@ -18,7 +18,7 @@ public class ArmedMoveState : PlayerState
 
     public override void Update()
     {
-        base.Update();
+        base.Update();        
 
         if (player.IsMoving() == false)
             stateMachine.ChangeState(player.aimState);

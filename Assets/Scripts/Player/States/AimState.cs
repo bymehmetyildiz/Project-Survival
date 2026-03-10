@@ -8,10 +8,19 @@ public class AimState : PlayerState
 
     public override void Enter()
     {
-        base.Enter();
-        player.animator.SetInteger("AimIndex", player.aimIndex);
-        player.weapon.SetActive(true);       
+        base.Enter(); 
+        player.animator.SetFloat("AimIndex", player.aimIndex);
 
+        for (int i = 0; i < player.weapons.Length; i++)
+        {
+            player.weapons[i].SetActive(false);
+        }
+        if (player.aimIndex == 0.0f)
+            player.weapons[0].SetActive(true);
+        else if (player.aimIndex == 0.5f)
+            player.weapons[1].SetActive(true);
+        else if (player.aimIndex == 1.0f)
+            player.weapons[2].SetActive(true);
     }
 
     public override void Exit()
@@ -23,7 +32,7 @@ public class AimState : PlayerState
     {
         base.Update();
 
-        player.ApplyGravity();
+        player.ApplyGravity();        
 
         if (player.IsMoving())
         {
@@ -34,8 +43,26 @@ public class AimState : PlayerState
         if (Input.GetKeyDown(KeyCode.X))
         {
             stateMachine.ChangeState(player.idleState);
-            player.weapon.SetActive(false);
+            for (int i = 0; i < player.weapons.Length; i++)
+            {
+                player.weapons[i].SetActive(false);
+            }
             return;
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            player.aimIndex = 0.0f;
+            stateMachine.ChangeState(player.drawWeaponState);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            player.aimIndex = 0.5f;
+            stateMachine.ChangeState(player.drawWeaponState);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            player.aimIndex = 1.0f;
+            stateMachine.ChangeState(player.drawWeaponState);
         }
 
     }
