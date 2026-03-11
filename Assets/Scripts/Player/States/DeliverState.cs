@@ -9,7 +9,7 @@ public class DeliverState : PlayerState
     public override void Enter()
     {
         base.Enter();
-        player.StartCoroutine(player.BlendCarryRig(0f));
+        player.StartCoroutine(player.BlendRig(0f, player.carryRig));
         player.animator.applyRootMotion = true;
     }
 

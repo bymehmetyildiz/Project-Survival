@@ -10,10 +10,7 @@ public class DrawWeaponState : PlayerState
     {
         base.Enter();
 
-        for (int i = 0; i < player.weapons.Length; i++)
-        {
-            player.weapons[i].SetActive(false);
-        }
+        player.ResetActiveWeapons();
     }
 
     public override void Exit()

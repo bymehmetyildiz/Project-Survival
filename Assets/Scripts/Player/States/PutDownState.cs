@@ -10,7 +10,7 @@ public class PutDownState : PlayerState
     {
         base.Enter();
         player.animator.applyRootMotion = true;
-        player.StartCoroutine(player.BlendCarryRig(0f));
+        player.StartCoroutine(player.BlendRig(0f, player.carryRig));
     }
 
     public override void Exit()

@@ -50,6 +50,7 @@ public class Player : MonoBehaviour
 
     [Header("Aim")]
     public float aimIndex;
+    public Rig pistolAimRig;
 
     private void Awake()
     {
@@ -79,17 +80,21 @@ public class Player : MonoBehaviour
     {
         stateMachine.Initialize(idleState);
         carryRig.weight = 0f;
+        pistolAimRig.weight = 0f;
 
         woodAxe.SetActive(false);
         pickAxe.SetActive(false);
+        ResetActiveWeapons();
+    }
 
+    public void ResetActiveWeapons()
+    {
         for (int i = 0; i < weapons.Length; i++)
         {
             weapons[i].SetActive(false);
         }
     }
 
-    
     void Update()
     {
         stateMachine.currentState.Update();       
@@ -221,30 +226,30 @@ public class Player : MonoBehaviour
         currentCollectible.transform.localRotation = Quaternion.identity;
 
         StopAllCoroutines();
-        StartCoroutine(BlendCarryRig(1f));
+        StartCoroutine(BlendRig(1f, carryRig));
     }
 
     // Blend Animations
-    public IEnumerator BlendCarryRig(float target)
+    public IEnumerator BlendRig(float target, Rig rig)
     {
-        if(target > carryRig.weight)
+        if(target > rig.weight)
         {
-            while (carryRig.weight < target)
+            while (rig.weight < target)
             {
-                carryRig.weight += Time.deltaTime * 4f;
+                rig.weight += Time.deltaTime * 4f;
                 yield return null; // wait next frame
             }
         }
         else
         {
-            while (carryRig.weight > target)
+            while (rig.weight > target)
             {
-                carryRig.weight -= Time.deltaTime;
+                rig.weight -= Time.deltaTime;
                 yield return null; // wait next frame
             }
         }
 
-        carryRig.weight = target;
+        rig.weight = target;
     }
 
     public void DeliverCollectible()
