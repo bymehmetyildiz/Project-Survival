@@ -8,9 +8,7 @@ public class DrawWeaponState : PlayerState
 
     public override void Enter()
     {
-        base.Enter();
-
-        player.ResetActiveWeapons();
+        base.Enter();        
     }
 
     public override void Exit()

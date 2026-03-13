@@ -27,12 +27,13 @@ public class IdleState : PlayerState
             stateMachine.ChangeState(player.moveState);
         else if (player.CanInteractWitResource())
             stateMachine.ChangeState(player.workState);
-        else if (Input.GetKeyDown(KeyCode.Alpha1))
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             player.aimIndex = 0.0f;
             stateMachine.ChangeState(player.drawWeaponState);
         }
-        else if(Input.GetKeyDown(KeyCode.Alpha2))
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             player.aimIndex = 0.5f;
             stateMachine.ChangeState(player.drawWeaponState);

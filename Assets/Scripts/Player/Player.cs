@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Animations.Rigging;
 
@@ -8,7 +9,7 @@ public class Player : MonoBehaviour
     public static Player Instance;
     public StateMachine stateMachine { get; private set; }
 
-    //States
+    //Movement States
     public IdleState idleState { get; private set; }
     public MoveState moveState { get; private set; }
     public WorkState workState { get; private set; }
@@ -17,9 +18,12 @@ public class Player : MonoBehaviour
     public PutDownState putDownState { get; private set; }
     public CarryIdleState carryIdleState { get; private set; }
     public CarryWalkState carryWalkState { get; private set; }
+
+    //Combat States
     public DrawWeaponState drawWeaponState { get; private set; }
     public ArmedMoveState armedMoveState { get; private set; }
     public AimState aimState { get; private set; }
+    public ShootState shootState { get; private set; }
 
 
     [Header("Component")]
@@ -46,7 +50,8 @@ public class Player : MonoBehaviour
     public GameObject pickAxe;
 
     [Header("Weapons")]
-    public GameObject[] weapons; 
+    public Weapon[] weapons;
+    public Weapon currentWeapon;
 
     [Header("Aim")]
     public float aimIndex;
@@ -61,7 +66,7 @@ public class Player : MonoBehaviour
 
         stateMachine = new StateMachine();
 
-        //States
+        //Move States
         idleState = new IdleState(stateMachine, "Idle", cc, this);
         moveState = new MoveState(stateMachine, "Move", cc, this);
         workState = new WorkState(stateMachine, "Work", cc, this);
@@ -71,9 +76,11 @@ public class Player : MonoBehaviour
         carryIdleState = new CarryIdleState(stateMachine, "CarryIdle", cc, this);
         carryWalkState = new CarryWalkState(stateMachine, "CarryWalk", cc, this);
 
+        //Combat States
         drawWeaponState = new DrawWeaponState(stateMachine, "Draw", cc, this);
         aimState = new AimState(stateMachine, "Aim", cc, this);
         armedMoveState = new ArmedMoveState(stateMachine, "ArmedMove", cc, this);
+        shootState = new ShootState(stateMachine, "Shoot", cc, this);
     }
 
     void Start()
@@ -83,17 +90,33 @@ public class Player : MonoBehaviour
         pistolAimRig.weight = 0f;
 
         woodAxe.SetActive(false);
-        pickAxe.SetActive(false);
-        ResetActiveWeapons();
+        pickAxe.SetActive(false);   
     }
 
-    public void ResetActiveWeapons()
+    public void UpdateCurrentWeapon()
     {
         for (int i = 0; i < weapons.Length; i++)
         {
-            weapons[i].SetActive(false);
+            weapons[i].gameObject.SetActive(false);
         }
+
+        if(aimIndex == 0.0f)
+        {
+            StartCoroutine(BlendRig(1.0f, pistolAimRig));
+            currentWeapon = weapons[0];
+        }
+        else if(aimIndex == 0.5f)                   
+            currentWeapon = weapons[1];
+        
+        else if(aimIndex == 1.0f)                  
+            currentWeapon = weapons[2];
+        
+
+        currentWeapon.gameObject.SetActive(true);
     }
+
+
+   
 
     void Update()
     {

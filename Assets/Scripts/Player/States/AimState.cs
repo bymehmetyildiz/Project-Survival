@@ -10,18 +10,8 @@ public class AimState : PlayerState
     {
         base.Enter(); 
         player.animator.SetFloat("AimIndex", player.aimIndex);
-
-        player.ResetActiveWeapons();
-
-        if (player.aimIndex == 0.0f)
-        {
-            player.StartCoroutine(player.BlendRig(1.0f, player.pistolAimRig));
-            player.weapons[0].SetActive(true);
-        }
-        else if (player.aimIndex == 0.5f)
-            player.weapons[1].SetActive(true);
-        else if (player.aimIndex == 1.0f)
-            player.weapons[2].SetActive(true);
+        player.UpdateCurrentWeapon();
+        
     }
 
     public override void Exit()
@@ -44,26 +34,27 @@ public class AimState : PlayerState
 
         if (Input.GetKeyDown(KeyCode.X))
         {
-            stateMachine.ChangeState(player.idleState);
-            for (int i = 0; i < player.weapons.Length; i++)
-            {
-                player.weapons[i].SetActive(false);
-            }
-            return;
+            stateMachine.ChangeState(player.idleState);           
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha1))
+        
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            if (player.aimIndex != 0.0f)
+            if(player.aimIndex != 0.0f)
             {
                 player.aimIndex = 0.0f;
+                player.currentWeapon.gameObject.SetActive(false);
+                player.currentWeapon = null;
                 stateMachine.ChangeState(player.drawWeaponState);
-            } 
+            }
+            
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             if (player.aimIndex != 0.5f)
             {
                 player.aimIndex = 0.5f;
+                player.currentWeapon.gameObject.SetActive(false);
+                player.currentWeapon = null;
                 stateMachine.ChangeState(player.drawWeaponState);
             }
         }
@@ -72,9 +63,15 @@ public class AimState : PlayerState
             if (player.aimIndex != 1.0f)
             {
                 player.aimIndex = 1.0f;
+                player.currentWeapon.gameObject.SetActive(false);
+                player.currentWeapon = null;
                 stateMachine.ChangeState(player.drawWeaponState);
             }
         }
+
+        if(Input.GetMouseButtonDown(0))        
+            stateMachine.ChangeState(player.shootState);
+        
 
     }
 }
