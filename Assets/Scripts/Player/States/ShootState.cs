@@ -22,11 +22,30 @@ public class ShootState : PlayerState
     {
         base.Update();
 
-        if (player.currentWeapon.weaponType == WeaponType.RIFLE)
+        if (player.currentWeapon.weaponType == WeaponType.PISTOL)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                triggerCalled = false;
+                player.animator.Play("Shoot", 0, 0f);
+                return;
+            }
+            else if (player.IsMoving())
+            {
+                stateMachine.ChangeState(player.armedMoveState);
+                return;
+            }
+            else if (triggerCalled)
+            {
+                stateMachine.ChangeState(player.aimState);
+            }            
+        }
+        else if (player.currentWeapon.weaponType == WeaponType.RIFLE)
         {
             if (Input.GetMouseButtonUp(0))
                 stateMachine.ChangeState(player.aimState);
         }
+        
         else        
         {
             if (triggerCalled)

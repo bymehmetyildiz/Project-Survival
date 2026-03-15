@@ -319,6 +319,8 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void Shoot() => currentWeapon.Shoot();
+
     public void TriggerCalled() => stateMachine.currentState.TriggerAnimation();
 
 }
