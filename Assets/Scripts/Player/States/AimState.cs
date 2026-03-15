@@ -34,7 +34,9 @@ public class AimState : PlayerState
 
         if (Input.GetKeyDown(KeyCode.X))
         {
-            stateMachine.ChangeState(player.idleState);           
+            stateMachine.ChangeState(player.idleState);
+            player.currentWeapon.gameObject.SetActive(false);
+            player.currentWeapon = null;
         }
         
         if (Input.GetKeyDown(KeyCode.Alpha1))
