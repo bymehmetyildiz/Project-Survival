@@ -71,9 +71,12 @@ public class AimState : PlayerState
             }
         }
 
-        if(Input.GetMouseButtonDown(0))        
+        if(Input.GetMouseButtonDown(0) && player.currentWeapon.currentAmmo > 0)     
             stateMachine.ChangeState(player.shootState);
-        
+
+        if (player.currentWeapon.currentAmmo <= 0 && player.currentWeapon.bulletAmount > 0)
+            stateMachine.ChangeState(player.reloadState);
+
 
     }
 }

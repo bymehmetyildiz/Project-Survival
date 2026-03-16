@@ -26,6 +26,16 @@ public class ShootState : PlayerState
         {
             if (Input.GetMouseButtonDown(0))
             {
+                if(player.currentWeapon.currentAmmo <= 0 && player.currentWeapon.bulletAmount > 0)
+                {
+                    stateMachine.ChangeState(player.reloadState);
+                    return;
+                }
+                else if(player.currentWeapon.currentAmmo <= 0 && player.currentWeapon.bulletAmount <= 0)
+                {
+                    stateMachine.ChangeState(player.aimState);
+                    return;
+                }
                 triggerCalled = false;
                 player.animator.Play("Shoot", 0, 0f);
                 return;
@@ -38,10 +48,21 @@ public class ShootState : PlayerState
             else if (triggerCalled)
             {
                 stateMachine.ChangeState(player.aimState);
-            }            
+            }         
         }
         else if (player.currentWeapon.weaponType == WeaponType.RIFLE)
         {
+            if (player.currentWeapon.currentAmmo <= 0 && player.currentWeapon.bulletAmount > 0)
+            {
+                stateMachine.ChangeState(player.reloadState);
+                return;
+            }
+            else if (player.currentWeapon.currentAmmo <= 0 && player.currentWeapon.bulletAmount <= 0)
+            {
+                stateMachine.ChangeState(player.aimState);
+                return;
+            }
+
             if (Input.GetMouseButtonUp(0))
                 stateMachine.ChangeState(player.aimState);
         }
@@ -51,6 +72,10 @@ public class ShootState : PlayerState
             if (triggerCalled)
                 stateMachine.ChangeState(player.aimState);
         }
+
+        if(player.currentWeapon.currentAmmo <= 0 && player.currentWeapon.bulletAmount > 0)        
+            stateMachine.ChangeState(player.reloadState);
         
+
     }
 }

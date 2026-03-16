@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
     public ArmedMoveState armedMoveState { get; private set; }
     public AimState aimState { get; private set; }
     public ShootState shootState { get; private set; }
+    public ReloadState reloadState { get; private set; }
 
 
     [Header("Component")]
@@ -81,6 +82,7 @@ public class Player : MonoBehaviour
         aimState = new AimState(stateMachine, "Aim", cc, this);
         armedMoveState = new ArmedMoveState(stateMachine, "ArmedMove", cc, this);
         shootState = new ShootState(stateMachine, "Shoot", cc, this);
+        reloadState = new ReloadState(stateMachine, "Reload", cc, this);
     }
 
     void Start()
@@ -320,6 +322,8 @@ public class Player : MonoBehaviour
     }
 
     public void Shoot() => currentWeapon.Shoot();
+
+    public void ReloadRocket() => currentWeapon.rocket.SetActive(true);
 
     public void TriggerCalled() => stateMachine.currentState.TriggerAnimation();
 
