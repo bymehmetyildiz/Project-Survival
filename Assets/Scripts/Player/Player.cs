@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Animations;
 using UnityEngine.Animations.Rigging;
 
 public class Player : MonoBehaviour
@@ -31,6 +32,12 @@ public class Player : MonoBehaviour
     public CharacterController cc;
     public Animator animator;
 
+    [Header("Rigs")]
+    public Rig pistolLHandRig; 
+    public Rig carryRig;
+    public Rig aimRig;
+    
+
     [Header("Movement")]
     public float turnSpeed;
     public float moveSpeed;
@@ -43,7 +50,7 @@ public class Player : MonoBehaviour
     [Header("Carry Actions")]
     public bool isBusyCarrying;
     public Transform CarryPos;
-    public Rig carryRig;
+    
     public Collectible currentCollectible;
 
     [Header("Tools")]
@@ -56,7 +63,8 @@ public class Player : MonoBehaviour
 
     [Header("Aim")]
     public float aimIndex;
-    public Rig pistolAimRig;
+    public float aimTarget;
+    
 
     private void Awake()
     {
@@ -89,10 +97,11 @@ public class Player : MonoBehaviour
     {
         stateMachine.Initialize(idleState);
         carryRig.weight = 0f;
-        pistolAimRig.weight = 0f;
+        pistolLHandRig.weight = 0f;
 
         woodAxe.SetActive(false);
-        pickAxe.SetActive(false);   
+        pickAxe.SetActive(false);
+        
     }
 
     public void UpdateCurrentWeapon()
@@ -104,7 +113,7 @@ public class Player : MonoBehaviour
 
         if(aimIndex == 0.0f)
         {
-            StartCoroutine(BlendRig(1.0f, pistolAimRig));
+            StartCoroutine(BlendRig(1.0f, pistolLHandRig));
             currentWeapon = weapons[0];
         }
         else if(aimIndex == 0.5f)                   
@@ -122,7 +131,12 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        stateMachine.currentState.Update();       
+        stateMachine.currentState.Update();
+
+        Enemy enemy = ClosestEnemy();
+
+       
+
     }
 
     #region Movement
@@ -253,6 +267,32 @@ public class Player : MonoBehaviour
         StopAllCoroutines();
         StartCoroutine(BlendRig(1f, carryRig));
     }
+
+    //Find Close Enemies
+    public Enemy ClosestEnemy()
+    {
+        Collider[] hits = Physics.OverlapSphere(transform.position, 10);
+
+        Enemy closest = null;
+        float minDist = Mathf.Infinity;
+
+        foreach (Collider hit in hits)
+        {
+            if (hit.GetComponent<Enemy>() != null)
+            {
+                float dist = (hit.transform.position - transform.position).sqrMagnitude;
+
+                if (dist < minDist)
+                {
+                    minDist = dist;
+                    closest = hit.GetComponent<Enemy>();
+                }
+            }
+        }
+
+        return closest;
+    }
+   
 
     // Blend Animations
     public IEnumerator BlendRig(float target, Rig rig)

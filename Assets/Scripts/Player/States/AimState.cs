@@ -17,7 +17,7 @@ public class AimState : PlayerState
     public override void Exit()
     {
         base.Exit();
-        player.pistolAimRig.weight = 0.0f;
+        player.pistolLHandRig.weight = 0.0f;
     }
 
     public override void Update()

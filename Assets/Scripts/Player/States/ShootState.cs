@@ -10,7 +10,7 @@ public class ShootState : PlayerState
     {
         base.Enter();
         if (player.aimIndex == 0.0f)
-            player.pistolAimRig.weight = 1.0f;
+            player.pistolLHandRig.weight = 1.0f;
     }
 
     public override void Exit()

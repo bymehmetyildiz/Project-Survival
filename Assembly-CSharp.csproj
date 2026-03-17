@@ -72,7 +72,6 @@
     <Compile Include="Assets\Scripts\Player\States\ReloadState.cs" />
     <Compile Include="Assets\Scripts\CameraOcclusionFade.cs" />
     <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\UI\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Scripts\Player\States\WorkState.cs" />
     <Compile Include="Assets\Scripts\UI\UIMenuManager.cs" />
@@ -86,6 +85,7 @@
     <Compile Include="Assets\Scripts\Collectibles\Brick.cs" />
     <Compile Include="Assets\Scripts\Player\StateMachine.cs" />
     <Compile Include="Assets\Animations\Crafting\Code\SmoothFollow.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\Animations\Crafting\Code\CrafterControllerFREE.cs" />
     <Compile Include="Assets\Scripts\Player\States\DrawWeaponState.cs" />
     <Compile Include="Assets\Kevin Iglesias\Human Animations\Scripts\SpineProxy.cs" />

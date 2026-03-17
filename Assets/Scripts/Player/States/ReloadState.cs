@@ -9,7 +9,7 @@ public class ReloadState : PlayerState
     public override void Enter()
     {
         base.Enter();
-        player.pistolAimRig.weight = 0.0f;
+        player.pistolLHandRig.weight = 0.0f;
     }
 
     public override void Exit()

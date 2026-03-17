@@ -10,7 +10,7 @@ public class ArmedMoveState : PlayerState
     {
         base.Enter();
         player.StopAllCoroutines();
-        player.pistolAimRig.weight = 0.0f;
+        player.pistolLHandRig.weight = 0.0f;
     }
 
     public override void Exit()
