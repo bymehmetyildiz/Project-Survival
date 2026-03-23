@@ -9,15 +9,14 @@ public class DeliverState : PlayerState
     public override void Enter()
     {
         base.Enter();
-        player.StartCoroutine(player.BlendRig(0f, player.carryRig));
-        player.animator.applyRootMotion = true;
+        player.StopAllCoroutines();
+        player.carryRig.weight = 0f;
     }
 
     public override void Exit()
     {
         base.Exit();
-        player.animator.applyRootMotion = false;
-
+        
     }
 
     public override void Update()

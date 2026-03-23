@@ -9,14 +9,14 @@ public class PutDownState : PlayerState
     public override void Enter()
     {
         base.Enter();
-        player.animator.applyRootMotion = true;
-        player.StartCoroutine(player.BlendRig(0f, player.carryRig));
+        player.StopAllCoroutines();
+        player.carryRig.weight = 0f;
     }
 
     public override void Exit()
     {
         base.Exit();
-        player.animator.applyRootMotion = false;
+        
     }
 
     public override void Update()

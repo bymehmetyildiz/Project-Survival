@@ -22,6 +22,15 @@ public class ShootState : PlayerState
     {
         base.Update();
 
+        if (player.ClosestEnemy() != null)
+        {
+            Vector3 direction = (player.ClosestEnemy().transform.position - player.transform.position).normalized;
+            direction.y = 0; // prevent tilting up/down
+
+            Quaternion rot = Quaternion.LookRotation(direction);
+            player.transform.rotation = Quaternion.Slerp(player.transform.rotation, rot, player.turnSpeed * Time.deltaTime);           
+        }
+
         if (player.currentWeapon.weaponType == WeaponType.PISTOL)
         {
             if (Input.GetMouseButtonDown(0))

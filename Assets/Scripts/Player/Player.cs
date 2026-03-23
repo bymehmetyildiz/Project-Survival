@@ -34,9 +34,7 @@ public class Player : MonoBehaviour
 
     [Header("Rigs")]
     public Rig pistolLHandRig; 
-    public Rig carryRig;
-    public Rig aimRig;
-    
+    public Rig carryRig;    
 
     [Header("Movement")]
     public float turnSpeed;
@@ -63,8 +61,6 @@ public class Player : MonoBehaviour
 
     [Header("Aim")]
     public float aimIndex;
-    public float aimTarget;
-    
 
     private void Awake()
     {
@@ -123,7 +119,7 @@ public class Player : MonoBehaviour
             currentWeapon = weapons[2];
         
 
-        currentWeapon.gameObject.SetActive(true);
+        currentWeapon.gameObject.SetActive(true);       
     }
 
 
@@ -132,11 +128,6 @@ public class Player : MonoBehaviour
     void Update()
     {
         stateMachine.currentState.Update();
-
-        Enemy enemy = ClosestEnemy();
-
-       
-
     }
 
     #region Movement

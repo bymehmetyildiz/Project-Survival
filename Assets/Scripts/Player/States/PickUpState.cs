@@ -8,14 +8,12 @@ public class PickUpState : PlayerState
 
     public override void Enter()
     {
-        base.Enter();
-        player.animator.applyRootMotion = true;
+        base.Enter(); 
     }
 
     public override void Exit()
     {
-        base.Exit();
-        player.animator.applyRootMotion = false;
+        base.Exit();        
     }
 
     public override void Update()
