@@ -18,7 +18,7 @@ public class WorkState : PlayerState
 
             player.woodAxe.SetActive(true);
         }
-        else if (player.NearestRecource().GetComponent<Stone>() != null)
+        else 
         {
             player.pickAxe.SetActive(true);
             player.animator.SetInteger("ChopType", 1);
