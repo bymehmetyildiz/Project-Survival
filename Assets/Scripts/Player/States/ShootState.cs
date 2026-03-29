@@ -9,6 +9,9 @@ public class ShootState : PlayerState
     public override void Enter()
     {
         base.Enter();
+
+        triggerCalled = false;
+
         if (player.aimIndex == 0.0f)
             player.pistolLHandRig.weight = 1.0f;
     }
@@ -61,21 +64,32 @@ public class ShootState : PlayerState
         }
         else if (player.currentWeapon.weaponType == WeaponType.RIFLE)
         {
-            if (player.currentWeapon.currentAmmo <= 0 && player.currentWeapon.bulletAmount > 0)
+            if (player.currentWeapon.currentAmmo <= 0)
             {
-                stateMachine.ChangeState(player.reloadState);
-                return;
+                if (player.currentWeapon.bulletAmount > 0)
+                {
+                    stateMachine.ChangeState(player.reloadState);
+                    return;
+                }
+                else
+                {
+                    stateMachine.ChangeState(player.aimState);
+                    return;
+                }
             }
-            else if (player.currentWeapon.currentAmmo <= 0 && player.currentWeapon.bulletAmount <= 0)
+
+            if (triggerCalled && Input.GetMouseButton(0))
             {
-                stateMachine.ChangeState(player.aimState);
-                return;
+                player.animator.Play("Shoot", 0, 0f);
+                triggerCalled = false;
             }
 
             if (Input.GetMouseButtonUp(0))
+            {
                 stateMachine.ChangeState(player.aimState);
+                return;
+            }
         }
-        
         else        
         {
             if (triggerCalled)
@@ -84,7 +98,5 @@ public class ShootState : PlayerState
 
         if(player.currentWeapon.currentAmmo <= 0 && player.currentWeapon.bulletAmount > 0)        
             stateMachine.ChangeState(player.reloadState);
-        
-
     }
 }

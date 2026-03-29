@@ -341,7 +341,6 @@ public class Player : MonoBehaviour
     }
 
 
-
     //Animation Events
     public void InteractNearestResource()
     {
@@ -351,8 +350,19 @@ public class Player : MonoBehaviour
             stateMachine.currentState.UnTriggerAnimation();
         }
     }
+ 
 
-    public void Shoot() => currentWeapon.Shoot();
+    public void OnReloadFinished()
+    {
+        if (stateMachine.currentState == reloadState)
+            reloadState.OnReloadFinished();
+    }
+
+    public void Shoot()
+    {
+        if (stateMachine.currentState == shootState)
+            currentWeapon.Shoot();
+    }
 
     public void ReloadRocket() => currentWeapon.rocket.SetActive(true);
 
