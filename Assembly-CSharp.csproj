@@ -71,7 +71,6 @@
     <Compile Include="Assets\Scripts\Building.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerResoruces.cs" />
     <Compile Include="Assets\Scripts\Player\States\ReloadState.cs" />
-    <Compile Include="Assets\Scripts\CameraOcclusionFade.cs" />
     <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
     <Compile Include="Assets\UI\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Scripts\Player\States\WorkState.cs" />
@@ -92,6 +91,7 @@
     <Compile Include="Assets\Scripts\Player\States\DrawWeaponState.cs" />
     <Compile Include="Assets\Kevin Iglesias\Human Animations\Scripts\SpineProxy.cs" />
     <Compile Include="Assets\Scripts\Player\States\IdleState.cs" />
+    <Compile Include="Assets\Scripts\UI\CameraOcclusionFade.cs" />
     <Compile Include="Assets\UI\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Scripts\Player\States\AimState.cs" />
     <Compile Include="Assets\UI\Joystick Pack\Scripts\Base\Joystick.cs" />

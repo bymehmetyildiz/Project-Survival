@@ -1,129 +1,133 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Game Developments\\GitHub\\Project-Survival\\",
+  "WorkspaceRootPath": "D:\\Github\\Project-Survival\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\player\\states\\reloadstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\states\\reloadstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|d:\\github\\project-survival\\assets\\scripts\\ui\\cameraocclusionfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\cameraocclusionfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\github\\project-survival\\assets\\scripts\\cameraocclusionfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\cameraocclusionfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\player\\states\\aimstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player\\states\\reloadstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\states\\reloadstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player\\states\\aimstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\states\\aimstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\player\\states\\shootstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player\\states\\shootstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\states\\shootstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\collectibles\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\collectibles\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectibles\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\collectibles\\brick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\collectibles\\brick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectibles\\brick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\resocurces\\stone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\resocurces\\stone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resocurces\\stone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\resocurces\\gold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\resocurces\\gold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resocurces\\gold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\collectibles\\goldingot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\collectibles\\goldingot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectibles\\goldingot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|d:\\game developments\\github\\project-survival\\assets\\scripts\\player\\states\\workstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player\\states\\workstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\states\\workstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\resocurces\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\resocurces\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resocurces\\tree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\resocurces\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\resocurces\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resocurces\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\player\\states\\putdownstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player\\states\\putdownstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\states\\putdownstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\player\\states\\deliverstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player\\states\\deliverstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\states\\deliverstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\player\\states\\pickupstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player\\states\\pickupstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\states\\pickupstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\player\\states\\carrywalkstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player\\states\\carrywalkstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\states\\carrywalkstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\player\\states\\carryidlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player\\states\\carryidlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\states\\carryidlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\player\\states\\drawweaponstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player\\states\\drawweaponstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\states\\drawweaponstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\player\\states\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player\\states\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\states\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\weapons\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\weapons\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapons\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\projectile\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\projectile\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\player\\states\\armedmovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player\\states\\armedmovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\states\\armedmovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\ui\\uimenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\ui\\uimenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uimenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\cameraocclusionfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameraocclusionfade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\player\\states\\movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player\\states\\movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\states\\movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\collectibles\\wood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\collectibles\\wood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectibles\\wood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\ui\\joystick pack\\scripts\\joysticks\\floatingjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\ui\\joystick pack\\scripts\\joysticks\\floatingjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\joystick pack\\scripts\\joysticks\\floatingjoystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\player\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Game Developments\\GitHub\\Project-Survival\\assets\\scripts\\player\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|D:\\Github\\Project-Survival\\assets\\scripts\\player\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F1FE7DB-8B97-C9F8-9CA2-995522AF7276}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -134,105 +138,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CameraOcclusionFade.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\UI\\CameraOcclusionFade.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\CameraOcclusionFade.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\UI\\CameraOcclusionFade.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\CameraOcclusionFade.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowE4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T10:48:07.869Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ShootState.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\ShootState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\States\\ShootState.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\ShootState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\States\\ShootState.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAUwGYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T11:42:24.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AimState.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\AimState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\States\\AimState.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\AimState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\States\\AimState.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAUwGMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T08:18:00.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ReloadState.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\ReloadState.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\ReloadState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\States\\ReloadState.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\ReloadState.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\ReloadState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\States\\ReloadState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:13:34.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T11:13:34.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GoldIngot.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Collectibles\\GoldIngot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectibles\\GoldIngot.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Collectibles\\GoldIngot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Collectibles\\GoldIngot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T21:20:16.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Gold.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Resocurces\\Gold.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Resocurces\\Gold.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Resocurces\\Gold.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Resocurces\\Gold.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T21:12:29.08Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "GoldIngot.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Collectibles\\GoldIngot.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectibles\\GoldIngot.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Collectibles\\GoldIngot.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Collectibles\\GoldIngot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T21:20:16.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Gold.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Resocurces\\Gold.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Resocurces\\Gold.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Resocurces\\Gold.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Resocurces\\Gold.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T21:12:29.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Stone.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Resocurces\\Stone.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Resocurces\\Stone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Resocurces\\Stone.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Resocurces\\Stone.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Resocurces\\Stone.cs",
               "RelativeToolTip": "Assets\\Scripts\\Resocurces\\Stone.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T20:21:16.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T20:21:16.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "PutDownState.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\PutDownState.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\PutDownState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\States\\PutDownState.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\PutDownState.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\PutDownState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\States\\PutDownState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -240,11 +215,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Tree.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Resocurces\\Tree.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Resocurces\\Tree.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Resocurces\\Tree.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Resocurces\\Tree.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Resocurces\\Tree.cs",
               "RelativeToolTip": "Assets\\Scripts\\Resocurces\\Tree.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAIA3wBcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -252,63 +227,96 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\Player.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
-              "ViewState": "AgIAAFEBAAAAAAAAAAAYwGABAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEIBAAAAAAAAAAAkwGABAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T11:10:08.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-21T11:10:08.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Brick.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Collectibles\\Brick.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Collectibles\\Brick.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Collectibles\\Brick.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Collectibles\\Brick.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Collectibles\\Brick.cs",
               "RelativeToolTip": "Assets\\Scripts\\Collectibles\\Brick.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T21:03:02.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T21:03:02.921Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "WorkState.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\WorkState.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\WorkState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\States\\WorkState.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\WorkState.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\WorkState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\States\\WorkState.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAswBcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T12:10:56.753Z",
+              "WhenOpened": "2025-12-21T12:10:56.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Collectible.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Collectibles\\Collectible.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectibles\\Collectible.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Collectibles\\Collectible.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Collectibles\\Collectible.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T06:31:01.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CameraOcclusionFade.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\CameraOcclusionFade.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraOcclusionFade.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\CameraOcclusionFade.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraOcclusionFade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:19:18.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Collectible.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Collectibles\\Collectible.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectibles\\Collectible.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Collectibles\\Collectible.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Collectibles\\Collectible.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Title": "AimState.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\AimState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\States\\AimState.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\AimState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\States\\AimState.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAUwGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T06:31:01.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T08:18:00.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
+              "Title": "ShootState.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\ShootState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\States\\ShootState.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\ShootState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\States\\ShootState.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAUwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T11:42:24.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Resource.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Resocurces\\Resource.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Resocurces\\Resource.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Resocurces\\Resource.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Resocurces\\Resource.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Resocurces\\Resource.cs",
               "RelativeToolTip": "Assets\\Scripts\\Resocurces\\Resource.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -316,11 +324,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Weapon.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Weapons\\Weapon.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Weapons\\Weapon.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapons\\Weapon.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Weapons\\Weapon.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Weapons\\Weapon.cs",
               "RelativeToolTip": "Assets\\Scripts\\Weapons\\Weapon.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -328,11 +336,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Building.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Building.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Building.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Building.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Building.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Building.cs",
               "RelativeToolTip": "Assets\\Scripts\\Building.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAIwFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -340,11 +348,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "UIMenuManager.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\UI\\UIMenuManager.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\UI\\UIMenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIMenuManager.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\UI\\UIMenuManager.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\UI\\UIMenuManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\UIMenuManager.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAAACgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -352,11 +360,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "IdleState.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\IdleState.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\IdleState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\States\\IdleState.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\IdleState.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\IdleState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\States\\IdleState.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAUwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -364,11 +372,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "DeliverState.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\DeliverState.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\DeliverState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\States\\DeliverState.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\DeliverState.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\DeliverState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\States\\DeliverState.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAA6wBIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -376,11 +384,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "CarryIdleState.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\CarryIdleState.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\CarryIdleState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\States\\CarryIdleState.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\CarryIdleState.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\CarryIdleState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\States\\CarryIdleState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -388,11 +396,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "CarryWalkState.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\CarryWalkState.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\CarryWalkState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\States\\CarryWalkState.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\CarryWalkState.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\CarryWalkState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\States\\CarryWalkState.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAqwBAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -400,11 +408,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "PickUpState.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\PickUpState.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\PickUpState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\States\\PickUpState.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\PickUpState.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\PickUpState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\States\\PickUpState.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAswAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -412,11 +420,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "DrawWeaponState.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\DrawWeaponState.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\DrawWeaponState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\States\\DrawWeaponState.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\DrawWeaponState.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\DrawWeaponState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\States\\DrawWeaponState.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAcwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -424,11 +432,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Projectile.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Projectile\\Projectile.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Projectile\\Projectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Projectile\\Projectile.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Projectile\\Projectile.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Projectile\\Projectile.cs",
               "RelativeToolTip": "Assets\\Scripts\\Projectile\\Projectile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -436,11 +444,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ArmedMoveState.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\ArmedMoveState.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\ArmedMoveState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\States\\ArmedMoveState.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\ArmedMoveState.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\ArmedMoveState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\States\\ArmedMoveState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -448,23 +456,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CameraOcclusionFade.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\CameraOcclusionFade.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraOcclusionFade.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\CameraOcclusionFade.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraOcclusionFade.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T11:19:18.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Wood.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Collectibles\\Wood.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Collectibles\\Wood.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Collectibles\\Wood.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Collectibles\\Wood.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Collectibles\\Wood.cs",
               "RelativeToolTip": "Assets\\Scripts\\Collectibles\\Wood.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -472,11 +468,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "MoveState.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\MoveState.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\MoveState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\States\\MoveState.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\States\\MoveState.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\States\\MoveState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\States\\MoveState.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwBsAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -484,11 +480,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "FloatingJoystick.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\UI\\Joystick Pack\\Scripts\\Joysticks\\FloatingJoystick.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\UI\\Joystick Pack\\Scripts\\Joysticks\\FloatingJoystick.cs",
               "RelativeDocumentMoniker": "Assets\\UI\\Joystick Pack\\Scripts\\Joysticks\\FloatingJoystick.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\UI\\Joystick Pack\\Scripts\\Joysticks\\FloatingJoystick.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\UI\\Joystick Pack\\Scripts\\Joysticks\\FloatingJoystick.cs",
               "RelativeToolTip": "Assets\\UI\\Joystick Pack\\Scripts\\Joysticks\\FloatingJoystick.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAiwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -496,11 +492,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\GameManager.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -508,11 +504,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "StateMachine.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\StateMachine.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\StateMachine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\StateMachine.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\StateMachine.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\StateMachine.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\StateMachine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -520,47 +516,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "PlayerState.cs",
-              "DocumentMoniker": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\PlayerState.cs",
+              "DocumentMoniker": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\PlayerState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState.cs",
-              "ToolTip": "D:\\Game Developments\\GitHub\\Project-Survival\\Assets\\Scripts\\Player\\PlayerState.cs",
+              "ToolTip": "D:\\Github\\Project-Survival\\Assets\\Scripts\\Player\\PlayerState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAowCwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-21T10:51:29.865Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 165,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 142,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             }
           ]
         }
